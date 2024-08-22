@@ -1,0 +1,30 @@
+{
+  "en": {
+    "Beverage": [
+      {
+        "PeachGreenTeaHeading": "Peach Green Tea 340ml",
+        "LemonGreenTeaHeading": "Lemon Green Tea 340ml",
+        "GrapeGreenTeaHeading": "Grape Green Tea 340ml",
+        "AppleMangoTeaHeading": "Apple Mango 340ml",
+        "PlumGreenTeaHeading": "Plum Green Tea 340ml",
+        
+        "PeachGreenTeaSubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea",
+        "LemonGreenTeaSubHeading": "Best seller product of first Sweet Café brand product of Wellgreen. Taste collaboration of sour-and-fresh lemon and green tea",
+        "GrapeGreenTeaSubHeading": "Taste collaboration of green tea and sweet-and-sour Green Grape from Jeju island",
+        "AppleMangoTeaSubHeading": "Trendy tropical fruit is collaborated with WELLgreen’s skilled process 2019 new launching item",
+        "PlumGreenTeaSubHeading": "Deeper scent of plum, Launched the first large sized item"
+      }
+    ],
+
+    "Food": [
+      {
+        "SoftGorgonzolaHeading": "Soft Gorgonzola Cheese Flavored Corn, 50g",
+		"Soft GorgonzolaSubHeading": "Best seller product of Sweet Café brand of Wellgreen.Taste combination of fresh peach and green tea"
+      }
+    ],
+    "Chips": {}
+  },
+  
+
+  "mn": {}
+}
