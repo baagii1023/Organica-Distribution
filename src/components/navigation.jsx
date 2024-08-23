@@ -1,15 +1,16 @@
 import React from 'react'
 import LanguageToggle from './LanguageToggle';
+import CompanyLogo from '/Organica-Logo.png';
 
 export default function navigation() {
 	return (
 		<header> 
-			<div className='flex justify-between items-center'>
-				<nav className='lg:flex gap-8 z-50 px-8 py-3 rounded-full'>
+			<div className='flex justify-between items-center bg-[#383838]'>
+				<nav className='lg:flex gap-8 z-50 px-8 py-1 rounded-full text-white'>
 					<p>+123 312314</p>
 					<p>email@gmail.com</p>
 				</nav>
-				<nav className='lg:flex gap-8 z-50 px-8 py-3 rounded-full'>
+				<nav className='lg:flex gap-8 z-50 px-8 py-1 items-center rounded-full text-white'>
           <a href="/about">About Us</a>
           <a href="/contact">Contacts</a>
 					<a href="/">FAQ</a>
@@ -18,7 +19,7 @@ export default function navigation() {
 			</div>
 			<div className='flex justify-between items-center'>
 				<nav>
-					<a href="/">Logo</a>
+					<a href="/"><img className="w-32 pl-4"  src={CompanyLogo} alt="" /></a>
 				</nav>
 				<nav className='lg:flex gap-8 z-50 px-8 py-3 rounded-full'>
 						<a href="/">Home</a>

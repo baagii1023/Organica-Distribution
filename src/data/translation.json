@@ -6,12 +6,16 @@
 		"productTitle": "PRODUCTS",
 		"products": [
 			{
-				"productHeading1": "Beverages",
-				"productHeading2": "Snacks",
-				"productHeading3": "Household",
-				"productImage1": "product-beverage.jpg",
-				"productImage2": "product-food.jpg",
-				"productImage3": "product-household.jpg"
+				"productHeading": "Beverages",
+				"productImage": "product-beverage.jpg"
+			},
+			{
+				"productHeading": "Snacks",
+				"productImage": "product-food.png"
+			},
+			{
+				"productHeading": "Household",
+				"productImage": "product-household.jpeg"
 			}
 		],
 		"whatWeOfferTitle": ["WHAT WE OFFER"],
