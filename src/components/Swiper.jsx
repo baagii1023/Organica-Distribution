@@ -24,22 +24,22 @@ export default function MySwiper() {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <div className="h-64 flex items-center justify-center">
+        <div className="h-120 flex items-center justify-center">
           <img src={drinks} alt="" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="h-64 flex items-center justify-center">
+        <div className="h-120 flex items-center justify-center">
 				<img src={sweets} alt="" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="h-64 flex items-center justify-center">
+        <div className="h-120 flex items-center justify-center">
 				<img src={food} alt="" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="h-64 flex items-center justify-center">
+        <div className="h-120 flex items-center justify-center">
 				<img src={household} alt="" />
         </div>
       </SwiperSlide>

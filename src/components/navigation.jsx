@@ -1,4 +1,5 @@
 import React from 'react'
+import LanguageToggle from './LanguageToggle';
 
 export default function navigation() {
 	return (
@@ -12,7 +13,7 @@ export default function navigation() {
           <a href="/about">About Us</a>
           <a href="/contact">Contacts</a>
 					<a href="/">FAQ</a>
-					<h6>toggle shit</h6>
+					<LanguageToggle />
 				</nav>
 			</div>
 			<div className='flex justify-between items-center'>
