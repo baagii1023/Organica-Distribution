@@ -18,6 +18,7 @@ export default function Home() {
       <section className="flex items-center justify-center space-x-2 pt-4">
 				<img src={logo} alt="Logo" className="h-8 w-8" />
 				<h2>{translationText.productTitle || 'Products'}</h2>
+
 			</section>
     </div>
   );
