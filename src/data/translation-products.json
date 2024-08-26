@@ -2,38 +2,50 @@
   "en": {
     "Beverage": [
       {
-        "PeachGreenTeaHeading": "Peach Green Tea 340ml",
-        "LemonGreenTeaHeading": "Lemon Green Tea 340ml",
-        "GrapeGreenTeaHeading": "Grape Green Tea 340ml",
-        "AppleMangoTeaHeading": "Apple Mango 340ml",
-        "PlumGreenTeaHeading": "Plum Green Tea 340ml",
-        
-        "PeachGreenTeaSubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea",
-        "LemonGreenTeaSubHeading": "Best seller product of first Sweet Café brand product of Wellgreen. Taste collaboration of sour-and-fresh lemon and green tea",
-        "GrapeGreenTeaSubHeading": "Taste collaboration of green tea and sweet-and-sour Green Grape from Jeju island",
-        "AppleMangoTeaSubHeading": "Trendy tropical fruit is collaborated with WELLgreen’s skilled process 2019 new launching item",
-        "PlumGreenTeaSubHeading": "Deeper scent of plum, Launched the first large sized item",
-
-		"WholesaleDrinkHeading": "The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
+        "BeverageName": "Peach Green Tea 340ml",
+        "Heading": "Peach Green Tea",
+        "SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea."
+      },
+      {
+        "BeverageName": "Lemon Green Tea 340ml",
+        "Heading": "Lemon Green Tea",
+        "SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste collaboration of sour-and-fresh lemon and green tea."
+      },
+      {
+        "BeverageName": "Grape Green Tea 340ml",
+        "Heading": "Grape Green Tea",
+        "SubHeading": "Taste collaboration of green tea and sweet-and-sour Green Grape from Jeju island."
+      },
+      {
+        "BeverageName": "Apple Mango Tea 340ml",
+        "Heading": "Apple Mango",
+        "SubHeading": "Trendy tropical fruit is collaborated with WELLgreen’s skilled process. 2019 new launching item."
+      },
+      {
+        "BeverageName": "Plum Green Tea 340ml",
+        "Heading": "Plum Green Tea",
+        "SubHeading": "Deeper scent of plum, launched as the first large-sized item."
       }
     ],
 
     "Food": [
       {
-        "SoftGorgonzolaHeading": "Soft Gorgonzola Cheese Flavored Corn, 50g",
-		"Soft GorgonzolaSubHeading": "Best seller product of Sweet Café brand of Wellgreen.Taste combination of fresh peach and green tea",
-
-		"WholesaleFoodHeading": "The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
+        "FoodName": "Soft Gorgonzola Cheese Flavored Corn 50g",
+        "Heading": "Soft Gorgonzola Cheese Flavored Corn",
+        "SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea."
       }
     ],
 
     "Household": [
-		{
-			"WholesaleHouseholdHeading": "The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
-		}
-	]
+      {
+        "HouseholdName": "Wholesale Household Items",
+        "Heading": "Wholesale Household Items",
+        "SubHeading": "The beverages at Wise Trading Group are a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category caters to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
+      }
+    ],
+
+    "WholesaleDrinkHeading": "The beverages at Wise Trading Group are a best-selling collection, reflecting our dedication and commitment to being premier wholesale drink suppliers. This category caters to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
   },
   
-
   "mn": {}
 }

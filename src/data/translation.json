@@ -66,17 +66,7 @@
 		"whyUsDetail4": ["We offer competitive pricing on all products, ensuring you get the best value for money without compromising on quality."],
 
 		"followUsTitle": ["FOLLOW US"],
-		"followUsIcons": [
-			{
-				"icon1": ""
-			},
-			{
-				"icon2": ""
-			},
-			{
-				"icon3": ""
-			}
-		],
+		
 		"followUsLogo": [""]
 	},
 	"mn": {}
