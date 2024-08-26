@@ -30,5 +30,5 @@ export default function navigation() {
 				</nav>
 			</div>
 		</header>
-	)
+	) 
 }

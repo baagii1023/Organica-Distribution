@@ -5,6 +5,9 @@ import { ThemeProvider } from '../context/LanguageContext';
 
 //Route Component
 import Home from '../pages/Home';
+import Beverage from '../pages/Beverages'; 
+import Food from '../pages/Food';
+import House from '../pages/Household';
 
 function AppRouter() {
 	return (
@@ -13,6 +16,9 @@ function AppRouter() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home/>} />
+					<Route path="/beverage" element={<Beverage />} />
+					<Route path="/food" element={<Food />} />
+					<Route path="/household" element={<House />} />
 				</Routes>
 			</BrowserRouter>
 		</ThemeProvider>
