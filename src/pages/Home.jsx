@@ -12,6 +12,11 @@ import whatOffer from '/WhatWeOffer.jpeg';
 import aboutimg from '/AboutUs.jpeg';
 import whyus from '/whyus.png';
 
+//import sections
+import ContactUs from '../components/ContactUs';
+import Socials from '../components/Socials';
+import Footer from '../components/Footer';
+
 export default function Home() {
   const { language } = useContext(LanguageContext); // Use LanguageContext
 
@@ -156,15 +161,15 @@ export default function Home() {
 
 			{/* Socials and LOGO */}
 			<section>
-
+				<Socials></Socials>
       </section>
 			{/* Contacts */}
 			<section>
-
+				<ContactUs></ContactUs>
       </section>
 			{/* Footer */}
 			<footer>
-				
+				<Footer></Footer>
 			</footer>
     </div>
   );
