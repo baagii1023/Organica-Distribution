@@ -1,12 +1,15 @@
 import React, { useContext } from 'react';
 import Navigation from '../components/Navigation';
 import Swiper from '../components/Swiper';
-import translationData from '../data/translation.json'; // Ensure this path is correct
+import translationData from '../data/translation.json'; 
 import { LanguageContext } from '../context/LanguageContext'; // Import LanguageContext
-import logo from '/green-logo.png'; // Ensure the path is correct
 import { Link } from 'react-router-dom';
+import '../input.css'; // import hyperlink text red
+
+//images 
+import logo from '/green-logo.png'; 
 import whatOffer from '/WhatWeOffer.jpeg';
-import '../input.css';
+import aboutimg from '/AboutUs.jpeg';
 
 export default function Home() {
   const { language } = useContext(LanguageContext); // Use LanguageContext
@@ -26,41 +29,47 @@ export default function Home() {
           <h2>{translationText.productTitle || 'Products'}</h2>
         </div>
         <div className="mt-4">
-          <div className="grid grid-cols-3 gap-1 max-w-[1200px] m-auto">
+          <div className="grid grid-cols-3 gap-1 max-w-[1280px] m-auto">
             <div className="flex flex-col items-center">
 							<Link to="/beverage">
-								<div className="relative h-[300px] w-[270px] overflow-hidden">
-									<img 
-										src="/product-beverage.jpg" 
-										alt="Beverages" 
-										className="h-full w-full object-cover transform transition duration-300 ease-in-out hover:scale-105" 
-									/>
+								<div className='rounded-lg box-shadow'>
+									<div className="relative h-[300px] w-[270px] overflow-hidden rounded-t-lg">
+										<img 
+											src="/product-beverage.jpg" 
+											alt="Beverages" 
+											className="h-full w-full object-cover transform transition duration-300 ease-in-out hover:scale-105 " 
+										/>
+									</div>
+									<p className='bg-[#1D4B0BBF] w-[270px] text-center p-2 text-white rounded-b-lg'>{translationText.productHeading1 || 'Beverages'}</p>
 								</div>
-								<p className='bg-[#1D4B0BBF] w-[270px] text-center p-2 text-white'>{translationText.productHeading1 || 'Beverages'}</p>
 							</Link>
             </div>
             <div className="flex flex-col items-center">
 						<Link to="/food">
-              <div className="relative h-[300px] w-[270px] overflow-hidden">
-                <img 
-                  src="/product-food.png" 
-                  alt="Snacks" 
-                  className="h-full w-full object-cover transform transition duration-300 ease-in-out hover:scale-105" 
-                />
-              </div>
-              <p className='bg-[#1D4B0BBF] w-[270px] text-center p-2 text-white'>{translationText.productHeading2 || 'Snacks'}</p>
+							<div className='rounded-lg box-shadow'>	
+								<div className="relative h-[300px] w-[270px] overflow-hidden rounded-t-lg">
+									<img 
+										src="/product-food.png" 
+										alt="Snacks" 
+										className="h-full w-full object-cover transform transition duration-300 ease-in-out hover:scale-105" 
+									/>
+								</div>
+								<p className='bg-[#1D4B0BBF] w-[270px] text-center p-2 text-white rounded-b-lg'>{translationText.productHeading2 || 'Snacks'}</p>
+							</div>
 							</Link>
             </div>
             <div className="flex flex-col items-center">
 						<Link to="/household">
-              <div className="relative h-[300px] w-[270px] overflow-hidden">
-                <img 
-                  src="/product-household.jpeg" 
-                  alt="Household" 
-                  className="h-full w-full object-cover transform transition duration-300 ease-in-out hover:scale-105" 
-                />
-              </div>
-              <p className='bg-[#1D4B0BBF] w-[270px] text-center p-2 text-white'>{translationText.productHeading3 || 'Household'}</p>
+							<div className='rounded-lg box-shadow'>
+								<div className="relative h-[300px] w-[270px] overflow-hidden rounded-t-lg ">
+									<img 
+										src="/product-household.jpeg" 
+										alt="Household" 
+										className="h-full w-full object-cover transform transition duration-300 ease-in-out hover:scale-105" 
+									/>
+								</div>
+								<p className='bg-[#1D4B0BBF] w-[270px] text-center p-2 text-white rounded-b-lg'>{translationText.productHeading3 || 'Household'}</p>
+							</div>
 							</Link>
             </div>
           </div>
@@ -72,9 +81,9 @@ export default function Home() {
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.whatWeOfferTitle || 'What We Offer'}</h2>
         </div>
-				<div className='flex'>
-					<img src={whatOffer} alt="" className='w-72 h-120 m-auto'/>
-					<div className="mt-4 max-w-[800px] m-auto">
+				<div className="flex items-center justify-between gap-4 px-24 py-10 max-w-[1280px] mx-auto">
+					<img src={whatOffer} alt="" className="w-1/3 h-[500px] object-cover" />
+					<div className="max-w-[800px]">
 						{offers.map((offer, index) => (
 							<div key={index} className="mb-4">
 								<h3 className="font-bold text-lg">
@@ -95,6 +104,19 @@ export default function Home() {
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.aboutUsTitle || 'About Us'}</h2>
         </div>
+				<div className='flex items-center justify-center space-x-2 pt-4'>
+					<div className="max-w-[800px] w-1/2">
+            <p className="text-xl font-bold">
+              {translationText.aboutUsSubTitle|| 'About Us Content'}
+            </p>
+            <p className="mt-4 text-sm">
+              {translationText.aboutUsDetails || 'As a trusted international wholesaler'}
+            </p>
+          </div>
+					<div>
+						<img className='w-[300px] h-[250px] m-auto object-cover' src={aboutimg} alt="" />
+					</div>
+				</div>
       </section>
 			{/* why us section */}
 			<section>

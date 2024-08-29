@@ -5,3 +5,7 @@
 .my-custom-class {
 	color: red;
 }
+
+.box-shadow {
+	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
