@@ -7,6 +7,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
+
+//import style 
+import '../input.css';
+
 // import banner images
 import drinks from '/drinks.png';
 import food from '/food.png';

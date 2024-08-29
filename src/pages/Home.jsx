@@ -10,6 +10,7 @@ import '../input.css'; // import hyperlink text red
 import logo from '/green-logo.png'; 
 import whatOffer from '/WhatWeOffer.jpeg';
 import aboutimg from '/AboutUs.jpeg';
+import whyus from '/whyus.png';
 
 export default function Home() {
   const { language } = useContext(LanguageContext); // Use LanguageContext
@@ -119,9 +120,40 @@ export default function Home() {
 				</div>
       </section>
 			{/* why us section */}
-			<section>
-
+			<section className='relative h-[50vh]'>
+				<img src={whyus} alt="" className='absolute inset-0 w-full h-full object-cover z-0' />
+				<div className="relative z-10 flex items-center justify-center space-x-2 pt-24">
+					<img src={logo} alt="Logo" className="h-8 w-8" />
+					<h2 className='text-white'>{translationText.whyUsTitle || 'About Us'}</h2>
+				</div>
+				<div className='relative z-10 flex gap-8 w-[1280px] justify-center mx-auto my-24'>
+					<div>
+						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle1 || 'Why Choose Us Content 1'}</h3>
+						<p className="mt-4 text-sm text-white">
+							{translationText.whyUsDetail1 || 'Why Choose Us Content 1'}
+						</p>
+					</div>
+					<div>
+						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle2 || 'Why Choose Us Content 1'}</h3>
+						<p className="mt-4 text-sm text-white">
+							{translationText.whyUsDetail2 || 'Why Choose Us Content 1'}
+						</p>
+					</div>
+					<div>
+						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle3 || 'Why Choose Us Content 1'}</h3>
+						<p className="mt-4 text-sm text-white">
+							{translationText.whyUsDetail3 || 'Why Choose Us Content 1'}
+						</p>
+					</div>
+					<div>
+						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle4 || 'Why Choose Us Content 1'}</h3>
+						<p className="mt-4 text-sm text-white">
+							{translationText.whyUsDetail4 || 'Why Choose Us Content 1'}
+						</p>
+					</div>
+				</div>
 			</section>
+
 			{/* Socials and LOGO */}
 			<section>
 

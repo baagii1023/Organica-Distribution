@@ -9,3 +9,13 @@
 .box-shadow {
 	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+	display: none;
+}
+
+/* Active color for pagination bullets */
+.swiper-pagination-bullet-active {
+	background-color: orange !important; /* Change this to your desired color */
+}
