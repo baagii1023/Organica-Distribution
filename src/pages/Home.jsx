@@ -146,7 +146,6 @@ export default function Home() {
 						<p className="mt-4 text-sm text-white">
 							{translationText.whyUsDetail1 || 'Why Choose Us Content 1'}
 						</p>
-            
 					</div>
 
 					<div>
