@@ -11,6 +11,12 @@ import logo from '/green-logo.png';
 import whatOffer from '/WhatWeOffer.jpeg';
 import aboutimg from '/AboutUs.jpeg';
 import whyus from '/whyus.png';
+import whyus1 from '../assets/whyussvg1.svg';
+import whyus2 from '../assets/whyussvg2.svg';
+import whyus3 from '../assets/whyussvg3.svg';
+import whyus4 from '../assets/whyussvg4.svg';
+
+
 
 //import sections
 import ContactUs from '../components/ContactUs';
@@ -83,7 +89,7 @@ export default function Home() {
       </section>
       {/* What we offer section */}
       <section className=''>
-				<div className="flex items-center justify-center space-x-2 pt-4">
+				<div className="flex items-center justify-center space-x-2 pt-4 ">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.whatWeOfferTitle || 'What We Offer'}</h2>
         </div>
@@ -133,24 +139,40 @@ export default function Home() {
 				</div>
 				<div className='relative z-10 flex gap-8 w-[1280px] justify-center mx-auto my-24'>
 					<div>
+            <div className='whyussvg1.svg'>
+                <img src={whyus1} alt="Why Us SVG" className="h-16 w-16" />
+            </div>
 						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle1 || 'Why Choose Us Content 1'}</h3>
 						<p className="mt-4 text-sm text-white">
 							{translationText.whyUsDetail1 || 'Why Choose Us Content 1'}
 						</p>
+            
 					</div>
+
 					<div>
+            <div className='whyussvg1.svg'>
+                <img src={whyus2} alt="Why Us SVG" className="h-16 w-16" />
+            </div>
 						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle2 || 'Why Choose Us Content 1'}</h3>
 						<p className="mt-4 text-sm text-white">
 							{translationText.whyUsDetail2 || 'Why Choose Us Content 1'}
 						</p>
 					</div>
+
 					<div>
+            <div className='whyussvg1.svg'>
+                <img src={whyus3} alt="Why Us SVG" className="h-16 w-16" />
+            </div>
 						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle3 || 'Why Choose Us Content 1'}</h3>
 						<p className="mt-4 text-sm text-white">
 							{translationText.whyUsDetail3 || 'Why Choose Us Content 1'}
 						</p>
 					</div>
+
 					<div>
+            <div className='whyussvg1.svg'>
+                <img src={whyus4} alt="Why Us SVG" className="h-16 w-16" />
+            </div>
 						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle4 || 'Why Choose Us Content 1'}</h3>
 						<p className="mt-4 text-sm text-white">
 							{translationText.whyUsDetail4 || 'Why Choose Us Content 1'}
