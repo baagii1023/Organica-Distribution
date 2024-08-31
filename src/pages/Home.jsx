@@ -35,13 +35,13 @@ export default function Home() {
       <Navigation />
       <Swiper />
       {/* Product section */}
-      <section className='h-[50vh] bg-[#F5F5F5]'>
+      <section className='pb-12 bg-[#F5F5F5]'>
 			<div className="flex items-center justify-center space-x-2 pt-4">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.productTitle || 'Products'}</h2>
         </div>
         <div className="mt-4">
-          <div className="grid grid-cols-3 gap-1 max-w-[1280px] m-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-1 max-w-[1280px] m-auto">
             <div className="flex flex-col items-center">
 							<Link to="/beverage">
 								<div className='rounded-lg box-shadow'>

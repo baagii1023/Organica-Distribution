@@ -17,6 +17,34 @@ import food from '/food.png';
 import household from '/household.png';
 import sweets from '/sweets.png';
 export default function MySwiper() {
+
+	const coverimg = [
+		{
+		source: drinks, 
+		text1: 'SWEETS', 
+		text2:'FRUIT & GREEN TEA',
+		button:'Shop Products'
+		},
+		{
+			source: drinks, 
+			text1: 'SWEETS', 
+			text2:'FRUIT & GREEN TEA',
+			button:'Shop Products'
+		},
+		{
+			source: drinks, 
+			text1: 'SWEETS', 
+			text2:'FRUIT & GREEN TEA',
+			button:'Shop Products'
+		},
+		{
+			source: drinks, 
+			text1: 'SWEETS', 
+			text2:'FRUIT & GREEN TEA',
+			button:'Shop Products'
+			}
+	]
+
   return (
     <Swiper
       // install Swiper modules
@@ -33,9 +61,22 @@ export default function MySwiper() {
 				disableOnInteraction: false, // Continue autoplay after user interaction
 			}}
     >
-      <SwiperSlide>
-				<div className="relative h-120 flex items-center justify-center">
-					<img src={drinks} alt="" className="w-screen object-cover" />
+			{coverimg.map(imgfunction=>{
+				return (
+          <SwiperSlide>
+            <div className="relative h-[400px] flex items-center justify-center">
+              <img src={imgfunction.source} alt="" className='w-screen object-cover h-full'/>
+              <div className='absolute z-10 left-1/4'>
+                <h1 className="text-white text-4xl my-4">{imgfunction.text1} <br /> {imgfunction.text2}</h1>
+                <a href="/" className='bg-orange-500 p-2'>{imgfunction.button}</a>
+              </div>
+            </div>
+          </SwiperSlide>
+        )
+			})}
+      {/* <SwiperSlide>
+				<div className="relative h-[400px] flex items-center justify-center">
+					<img src={drinks} alt="" className="w-screen object-cover h-full" />
 					<div className='absolute z-10 left-1/4'>
 						<h1 className=" text-white text-4xl my-4">SWEET'S <br /> FRUIT & GREEN TEA</h1>
 						<a href="/" className='bg-orange-500 p-2'>Shop Products</a>
@@ -43,8 +84,8 @@ export default function MySwiper() {
 				</div>
 			</SwiperSlide>
       <SwiperSlide>
-        <div className="relative h-120 flex items-center justify-center">
-				<img src={sweets} alt="" className='w-screen'/>
+        <div className="relative h-[400px] flex items-center justify-center">
+				<img src={sweets} alt="" className='w-screen object-cover h-full'/>
 					<div className='absolute z-10 left-1/4'>
 						<h1 className=" text-white text-4xl my-4">SWEET'S <br /> FRUIT & GREEN TEA</h1>
 						<a href="/" className='bg-orange-500 p-2'>Shop Products</a>
@@ -52,8 +93,8 @@ export default function MySwiper() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="relative h-120 flex items-center justify-center">
-				<img src={food} alt="" className='w-screen'/>
+        <div className="relative h-[400px] flex items-center justify-center">
+				<img src={food} alt="" className='w-screen object-cover h-full'/>
 					<div className='absolute z-10 left-1/4'>
 						<h1 className=" text-white text-4xl my-4">SNACK'S <br /> CHEESIE SAVOURY CHIPS</h1>
 						<a href="/" className='bg-orange-500 p-2'>Shop Products</a>
@@ -61,14 +102,14 @@ export default function MySwiper() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="h-120 flex items-center justify-center">
-				<img src={household} alt="" className='w-screen'/>
+        <div className="relative h-[400px] flex items-center justify-center">
+				<img src={household} alt="" className='w-screen object-cover h-full'/>
 					<div className='absolute z-10 left-1/4'>
 						<h1 className=" text-white text-4xl my-4">HOUSEHOLD'S <br /> ALL FOR YOUR HOME</h1>
 						<a href="/" className='bg-orange-500 p-2'>Shop Products</a>
 					</div>
         </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
       {/* Add more slides as needed */}
     </Swiper>
   );
