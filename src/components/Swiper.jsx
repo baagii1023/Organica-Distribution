@@ -21,25 +21,25 @@ export default function MySwiper() {
 	const coverimg = [
 		{
 		source: drinks, 
-		text1: 'SWEETS', 
+		text1: "SWEETS", 
 		text2:'FRUIT & GREEN TEA',
 		button:'Shop Products'
 		},
 		{
 			source: drinks, 
-			text1: 'SWEETS', 
+			text1: "DRINKS", 
 			text2:'FRUIT & GREEN TEA',
 			button:'Shop Products'
 		},
 		{
 			source: drinks, 
-			text1: 'SWEETS', 
-			text2:'FRUIT & GREEN TEA',
+			text1: "SNACKS", 
+			text2:'CHEESIE SAVOURY CHIPS',
 			button:'Shop Products'
 		},
 		{
 			source: drinks, 
-			text1: 'SWEETS', 
+			text1: "HOUSEHOLDS", 
 			text2:'FRUIT & GREEN TEA',
 			button:'Shop Products'
 			}

@@ -41,8 +41,8 @@ export default function Home() {
           <h2>{translationText.productTitle || 'Products'}</h2>
         </div>
         <div className="mt-4">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-1 max-w-[1280px] m-auto">
-            <div className="flex flex-col items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-24 lg:gap-1 max-w-[1280px] mx-auto">
+            <div className="flex flex-col items-center h-[300px] w-[270px] mx-auto">
 							<Link to="/beverage">
 								<div className='rounded-lg box-shadow'>
 									<div className="relative h-[300px] w-[270px] overflow-hidden rounded-t-lg">
@@ -56,7 +56,7 @@ export default function Home() {
 								</div>
 							</Link>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center h-[300px] w-[270px] mx-auto">
 						<Link to="/food">
 							<div className='rounded-lg box-shadow'>	
 								<div className="relative h-[300px] w-[270px] overflow-hidden rounded-t-lg">
@@ -70,7 +70,7 @@ export default function Home() {
 							</div>
 							</Link>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center h-[300px] w-[270px] mx-auto">
 						<Link to="/household">
 							<div className='rounded-lg box-shadow'>
 								<div className="relative h-[300px] w-[270px] overflow-hidden rounded-t-lg ">
@@ -88,8 +88,8 @@ export default function Home() {
         </div>
       </section>
       {/* What we offer section */}
-      <section className=''>
-				<div className="flex items-center justify-center space-x-2 pt-4 ">
+      {/* <section className=''>
+				<div className="flex flex-row items-center justify-center space-x-2 pt-4 ">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.whatWeOfferTitle || 'What We Offer'}</h2>
         </div>
@@ -109,9 +109,9 @@ export default function Home() {
 					</div>
 				</div>
       </section>
-			<hr className='w-[80%] m-auto'/>
+			<hr className='w-[80%] m-auto'/> */}
       {/* About us section */}
-      <section className='h-[50vh]'>
+      {/* <section className='h-[50vh]'>
 				<div className="flex items-center justify-center space-x-2 pt-4">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.aboutUsTitle || 'About Us'}</h2>
@@ -129,9 +129,9 @@ export default function Home() {
 						<img className='w-[300px] h-[250px] m-auto object-cover' src={aboutimg} alt="" />
 					</div>
 				</div>
-      </section>
+      </section> */}
 			{/* why us section */}
-			<section className='relative h-[50vh]'>
+			{/* <section className='relative h-[50vh]'>
 				<img src={whyus} alt="" className='absolute inset-0 w-full h-full object-cover z-0' />
 				<div className="relative z-10 flex items-center justify-center space-x-2 pt-24">
 					<img src={logo} alt="Logo" className="h-8 w-8" />
@@ -178,20 +178,20 @@ export default function Home() {
 						</p>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			{/* Socials and LOGO */}
-			<section>
+			{/* <section>
 				<Socials></Socials>
-      </section>
+      </section> */}
 			{/* Contacts */}
-			<section>
+			{/* <section>
 				<ContactUs></ContactUs>
-      </section>
+      </section> */}
 			{/* Footer */}
-			<footer>
+			{/* <footer>
 				<Footer></Footer>
-			</footer>
+			</footer> */}
     </div>
   );
 }
