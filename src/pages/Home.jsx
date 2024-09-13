@@ -35,7 +35,7 @@ export default function Home() {
       <Navigation />
       <Swiper />
       {/* Product section */}
-      <section className='pb-12 bg-[#F5F5F5]'>
+      <section className='pb-12 bg-[#F5F5F5] pb-24'>
 			<div className="flex items-center justify-center space-x-2 pt-4">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.productTitle || 'Products'}</h2>
@@ -88,13 +88,13 @@ export default function Home() {
         </div>
       </section>
       {/* What we offer section */}
-      {/* <section className=''>
+      <section className=''>
 				<div className="flex flex-row items-center justify-center space-x-2 pt-4 ">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.whatWeOfferTitle || 'What We Offer'}</h2>
         </div>
-				<div className="flex items-center justify-between gap-4 px-24 py-10 max-w-[1280px] mx-auto">
-					<img src={whatOffer} alt="" className="w-1/3 h-[500px] object-cover" />
+				<div className="flex flex-col lg:flex-row items-center justify-between gap-4 px-24 py-10 max-w-[1280px] mx-auto">
+					<img src={whatOffer} alt="" className="h-[500px] min-w-[300px] w-full max-w-[800px] object-cover" />
 					<div className="max-w-[800px]">
 						{offers.map((offer, index) => (
 							<div key={index} className="mb-4">
@@ -109,15 +109,15 @@ export default function Home() {
 					</div>
 				</div>
       </section>
-			<hr className='w-[80%] m-auto'/> */}
+			<hr className='w-[80%] m-auto'/>
       {/* About us section */}
-      {/* <section className='h-[50vh]'>
+      <section className=''>
 				<div className="flex items-center justify-center space-x-2 pt-4">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.aboutUsTitle || 'About Us'}</h2>
         </div>
-				<div className='flex items-center justify-center space-x-2 pt-4'>
-					<div className="max-w-[800px] w-1/2">
+				<div className='flex flex-col lg:flex-row items-center justify-between gap-4 px-24 py-10 max-w-[1280px] mx-auto'>
+					<div className="w-full">
             <p className="text-xl font-bold">
               {translationText.aboutUsSubTitle|| 'About Us Content'}
             </p>
@@ -129,69 +129,71 @@ export default function Home() {
 						<img className='w-[300px] h-[250px] m-auto object-cover' src={aboutimg} alt="" />
 					</div>
 				</div>
-      </section> */}
+      </section>
 			{/* why us section */}
-			{/* <section className='relative h-[50vh]'>
-				<img src={whyus} alt="" className='absolute inset-0 w-full h-full object-cover z-0' />
-				<div className="relative z-10 flex items-center justify-center space-x-2 pt-24">
-					<img src={logo} alt="Logo" className="h-8 w-8" />
-					<h2 className='text-white'>{translationText.whyUsTitle || 'About Us'}</h2>
-				</div>
-				<div className='relative z-10 flex gap-8 w-[1280px] justify-center mx-auto my-24'>
-					<div>
-            <div className='whyussvg1.svg'>
-                <img src={whyus1} alt="Why Us SVG" className="h-16 w-16" />
-            </div>
-						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle1 || 'Why Choose Us Content 1'}</h3>
-						<p className="mt-4 text-sm text-white">
-							{translationText.whyUsDetail1 || 'Why Choose Us Content 1'}
-						</p>
-					</div>
+			<section className='relative'>
+  <img src={whyus} alt="" className='absolute inset-0 w-full h-full object-cover z-0' />
+  
+  <div className="relative z-10 flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-2 pt-16 sm:pt-24 text-center sm:text-left">
+    <img src={logo} alt="Logo" className="h-12 w-12 sm:h-8 sm:w-8" />
+    <h2 className='text-white text-2xl sm:text-base'>{translationText.whyUsTitle || 'About Us'}</h2>
+  </div>
+  
+  <div className='relative z-10 flex flex-col sm:flex-row flex-wrap gap-6 sm:gap-8 w-full justify-center mx-auto my-12 sm:my-24 px-4'>
+    <div className='w-full md:w-1/2 lg:w-1/5 text-center sm:text-left'>
+      <div>
+        <img src={whyus1} alt="Why Us SVG" className="h-12 w-12 sm:h-16 sm:w-16 mx-auto sm:mx-0" />
+      </div>
+      <h3 className="font-bold text-lg sm:text-base w-[300px] text-white mt-4">{translationText.whyUsSubTitle1 || 'Why Choose Us Content 1'}</h3>
+      <p className="mt-2 sm:mt-4 text-sm text-white">
+        {translationText.whyUsDetail1 || 'Why Choose Us Content 1'}
+      </p>
+    </div>
 
-					<div>
-            <div className='whyussvg1.svg'>
-                <img src={whyus2} alt="Why Us SVG" className="h-16 w-16" />
-            </div>
-						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle2 || 'Why Choose Us Content 1'}</h3>
-						<p className="mt-4 text-sm text-white">
-							{translationText.whyUsDetail2 || 'Why Choose Us Content 1'}
-						</p>
-					</div>
+    <div className='w-full md:w-1/2 lg:w-1/5 text-center sm:text-left'>
+      <div>
+        <img src={whyus2} alt="Why Us SVG" className="h-12 w-12 sm:h-16 sm:w-16 mx-auto sm:mx-0" />
+      </div>
+      <h3 className="font-bold text-lg sm:text-base w-[150px] text-white mt-4">{translationText.whyUsSubTitle2 || 'Why Choose Us Content 2'}</h3>
+      <p className="mt-2 sm:mt-4 text-sm text-white">
+        {translationText.whyUsDetail2 || 'Why Choose Us Content 2'}
+      </p>
+    </div>
 
-					<div>
-            <div className='whyussvg1.svg'>
-                <img src={whyus3} alt="Why Us SVG" className="h-16 w-16" />
-            </div>
-						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle3 || 'Why Choose Us Content 1'}</h3>
-						<p className="mt-4 text-sm text-white">
-							{translationText.whyUsDetail3 || 'Why Choose Us Content 1'}
-						</p>
-					</div>
+    <div className='w-full md:w-1/2 lg:w-1/5 text-center sm:text-left'>
+      <div>
+        <img src={whyus3} alt="Why Us SVG" className="h-12 w-12 sm:h-16 sm:w-16 mx-auto sm:mx-0" />
+      </div>
+      <h3 className="font-bold text-lg sm:text-base w-[300px] text-white mt-4">{translationText.whyUsSubTitle3 || 'Why Choose Us Content 3'}</h3>
+      <p className="mt-2 sm:mt-4 text-sm text-white">
+        {translationText.whyUsDetail3 || 'Why Choose Us Content 3'}
+      </p>
+    </div>
 
-					<div>
-            <div className='whyussvg1.svg'>
-                <img src={whyus4} alt="Why Us SVG" className="h-16 w-16" />
-            </div>
-						<h3 className="font-bold text-lg text-white">{translationText.whyUsSubTitle4 || 'Why Choose Us Content 1'}</h3>
-						<p className="mt-4 text-sm text-white">
-							{translationText.whyUsDetail4 || 'Why Choose Us Content 1'}
-						</p>
-					</div>
-				</div>
-			</section> */}
+    <div className='w-full md:w-1/2 lg:w-1/5 text-center sm:text-left'>
+      <div>
+        <img src={whyus4} alt="Why Us SVG" className="h-12 w-12 sm:h-16 sm:w-16 mx-auto sm:mx-0" />
+      </div>
+      <h3 className="font-bold text-lg sm:text-base w-[300px] text-white mt-4">{translationText.whyUsSubTitle4 || 'Why Choose Us Content 4'}</h3>
+      <p className="mt-2 sm:mt-4 text-sm text-white">
+        {translationText.whyUsDetail4 || 'Why Choose Us Content 4'}
+      </p>
+    </div>
+  </div>
+</section>
 
 			{/* Socials and LOGO */}
-			{/* <section>
+			<section>
 				<Socials></Socials>
-      </section> */}
+      </section>
 			{/* Contacts */}
-			{/* <section>
+			<section>
 				<ContactUs></ContactUs>
-      </section> */}
+      </section>
 			{/* Footer */}
-			{/* <footer>
+			<footer>
 				<Footer></Footer>
-			</footer> */}
+			</footer>
     </div>
   );
 }
