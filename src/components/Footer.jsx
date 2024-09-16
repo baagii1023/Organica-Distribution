@@ -4,8 +4,7 @@ export default function Footer() {
 	return (
 		<>
 			<div className='text-white bg-custom-gray '>
-				<div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4  gap-4 py-10 max-w-[1280px] mx-auto">
-					<div>
+			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 py-10 max-w-[1280px] mx-auto pl-6 sm:pl-0"><div>
 						<h2 className='text-3xl'>Company</h2>
 						<p className='mt-6 text-font-gray'>Ulaanbaatar Olympic Street 1, 19, Ulaanbaatar 14241, Mongolia</p>
 					</div>
