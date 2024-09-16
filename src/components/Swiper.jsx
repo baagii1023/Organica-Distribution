@@ -61,9 +61,9 @@ export default function MySwiper() {
 				disableOnInteraction: false, // Continue autoplay after user interaction
 			}}
     >
-			{coverimg.map(imgfunction=>{
+			{coverimg.map((imgfunction, index) => {
 				return (
-          <SwiperSlide>
+          <SwiperSlide key={index}>
             <div className="relative h-[400px] flex items-center justify-center">
               <img src={imgfunction.source} alt="" className='w-screen object-cover h-full'/>
               <div className='absolute z-10 left-1/4'>
@@ -72,7 +72,7 @@ export default function MySwiper() {
               </div>
             </div>
           </SwiperSlide>
-        )
+        );
 			})}
       {/* <SwiperSlide>
 				<div className="relative h-[400px] flex items-center justify-center">

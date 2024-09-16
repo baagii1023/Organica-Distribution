@@ -129,17 +129,17 @@ export default function Home() {
       </section>
 			{/* why us section */}
 			<section className='relative'>
-  <img src={whyus} alt="" className='absolute inset-0 w-full h-full object-cover z-0' />
-  
-  <div className="relative z-10 flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-2 pt-16 sm:pt-24 text-center sm:text-left">
-    <img src={logo} alt="Logo" className="h-12 w-12 sm:h-8 sm:w-8" />
-    <h2 className='text-white text-2xl sm:text-base'>{translationText.whyUsTitle || 'About Us'}</h2>
-  </div>
-  
-  <div className='relative z-10 flex flex-col sm:flex-row flex-wrap gap-6 sm:gap-8 w-full justify-center mx-auto my-12 sm:my-24 px-4 pb-10'>
-		<WhyUs></WhyUs>
-  </div>
-</section>
+				<img src={whyus} alt="" className='absolute inset-0 w-full h-full object-cover z-0' />
+				
+				<div className="relative z-10 flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-2 pt-16 sm:pt-12 text-center sm:text-left">
+					<img src={logo} alt="Logo" className="h-12 w-12 sm:h-8 sm:w-8" />
+					<h2 className='text-white text-2xl sm:text-base'>{translationText.whyUsTitle || 'About Us'}</h2>
+				</div>
+				
+				<div className='relative z-10 flex flex-col sm:flex-row flex-wrap gap-6 sm:gap-8 w-full justify-center mx-auto my-12 sm:my-24 px-4 pb-10'>
+					<WhyUs></WhyUs>
+				</div>
+			</section>
 
 			{/* Socials and LOGO */}
 			<section>
