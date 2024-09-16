@@ -11,15 +11,12 @@ import logo from '/green-logo.png';
 import whatOffer from '/WhatWeOffer.jpeg';
 import aboutimg from '/AboutUs.jpeg';
 import whyus from '/whyus.png';
-import whyus1 from '../assets/whyussvg1.svg';
-import whyus2 from '../assets/whyussvg2.svg';
-import whyus3 from '../assets/whyussvg3.svg';
-import whyus4 from '../assets/whyussvg4.svg';
 
 
 
 //import sections
 import ContactUs from '../components/ContactUs';
+import WhyUs from '../components/WhyUs';
 import Socials from '../components/Socials';
 import Footer from '../components/Footer';
 
@@ -139,46 +136,8 @@ export default function Home() {
     <h2 className='text-white text-2xl sm:text-base'>{translationText.whyUsTitle || 'About Us'}</h2>
   </div>
   
-  <div className='relative z-10 flex flex-col sm:flex-row flex-wrap gap-6 sm:gap-8 w-full justify-center mx-auto my-12 sm:my-24 px-4'>
-    <div className='w-full md:w-1/2 lg:w-1/5 text-center sm:text-left'>
-      <div>
-        <img src={whyus1} alt="Why Us SVG" className="h-12 w-12 sm:h-16 sm:w-16 mx-auto sm:mx-0" />
-      </div>
-      <h3 className="font-bold text-lg sm:text-base w-[300px] text-white mt-4">{translationText.whyUsSubTitle1 || 'Why Choose Us Content 1'}</h3>
-      <p className="mt-2 sm:mt-4 text-sm text-white">
-        {translationText.whyUsDetail1 || 'Why Choose Us Content 1'}
-      </p>
-    </div>
-
-    <div className='w-full md:w-1/2 lg:w-1/5 text-center sm:text-left'>
-      <div>
-        <img src={whyus2} alt="Why Us SVG" className="h-12 w-12 sm:h-16 sm:w-16 mx-auto sm:mx-0" />
-      </div>
-      <h3 className="font-bold text-lg sm:text-base w-[150px] text-white mt-4">{translationText.whyUsSubTitle2 || 'Why Choose Us Content 2'}</h3>
-      <p className="mt-2 sm:mt-4 text-sm text-white">
-        {translationText.whyUsDetail2 || 'Why Choose Us Content 2'}
-      </p>
-    </div>
-
-    <div className='w-full md:w-1/2 lg:w-1/5 text-center sm:text-left'>
-      <div>
-        <img src={whyus3} alt="Why Us SVG" className="h-12 w-12 sm:h-16 sm:w-16 mx-auto sm:mx-0" />
-      </div>
-      <h3 className="font-bold text-lg sm:text-base w-[300px] text-white mt-4">{translationText.whyUsSubTitle3 || 'Why Choose Us Content 3'}</h3>
-      <p className="mt-2 sm:mt-4 text-sm text-white">
-        {translationText.whyUsDetail3 || 'Why Choose Us Content 3'}
-      </p>
-    </div>
-
-    <div className='w-full md:w-1/2 lg:w-1/5 text-center sm:text-left'>
-      <div>
-        <img src={whyus4} alt="Why Us SVG" className="h-12 w-12 sm:h-16 sm:w-16 mx-auto sm:mx-0" />
-      </div>
-      <h3 className="font-bold text-lg sm:text-base w-[300px] text-white mt-4">{translationText.whyUsSubTitle4 || 'Why Choose Us Content 4'}</h3>
-      <p className="mt-2 sm:mt-4 text-sm text-white">
-        {translationText.whyUsDetail4 || 'Why Choose Us Content 4'}
-      </p>
-    </div>
+  <div className='relative z-10 flex flex-col sm:flex-row flex-wrap gap-6 sm:gap-8 w-full justify-center mx-auto my-12 sm:my-24 px-4 pb-10'>
+		<WhyUs></WhyUs>
   </div>
 </section>
 
