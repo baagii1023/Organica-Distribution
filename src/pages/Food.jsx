@@ -3,6 +3,11 @@ import Navigation from '../components/Navigation';
 import food from '/food.png'
 import foodExtra from '/food-extra.jpeg'
 
+import ContactUs from '../components/ContactUs';
+import WhyUs from '../components/WhyUs';
+import Socials from '../components/Socials';
+import Footer from '../components/Footer';
+
 import { useContext } from 'react'
 import productData from '../data/translation-products.json';
 import { LanguageContext } from '../context/LanguageContext'; // Import LanguageContext
@@ -34,19 +39,31 @@ const Food = () => {
 					))}
 				</div>
 				<div className='mx-auto w-[1200px] flex border border-[#C7BFBA] h-[440px]'>
-					<div className='basis-1/2' style={{ backgroundImage: foodExtra, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+					<div className='basis-1/2' style={{ backgroundImage: `url(${foodExtra})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
 
 					</div>
 
 					<div className='basis-1/2 flex flex-col items-center justify-center'>
-						<div className='text-start'>
-							<h2>WHOLESALE FOOD</h2>
-							<p>The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.</p>
+						<div className='max-w-[400px] text-start flex flex-col gap-4'>
+							<h2 className='text-[#383838] font-[600] text-[30px]'>WHOLESALE FOOD</h2>
+							<p className='text-[#595959]'>The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.</p>
 
 						</div>
 					</div>
 				</div>
+
 			</div>
+			<section>
+				<Socials></Socials>
+      </section>
+			{/* Contacts */}
+			<section>
+				<ContactUs></ContactUs>
+      </section>
+			{/* Footer */}
+			<footer>
+				<Footer></Footer>
+			</footer>
 		</div>
 	)
 }
