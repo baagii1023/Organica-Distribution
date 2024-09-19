@@ -9,6 +9,7 @@ import Beverage from '../pages/Beverages';
 import Food from '../pages/Food';
 import House from '../pages/Household';
 import Details from '../pages/Details';
+import Policy from '../pages/Policy';
 
 function AppRouter() {
 	return (
@@ -20,7 +21,7 @@ function AppRouter() {
 					<Route path="/beverage" element={<Beverage />} />
 					<Route path="/food" element={<Food />} />
 					<Route path="/household" element={<House />} />
-					<Route path="/policy" element='' />
+					<Route path="/policy" element={<Policy/>} />
 					<Route path="/contact" element='' />
 					<Route path="/details/:BeverageName" element={<Details />} />
 				</Routes>
