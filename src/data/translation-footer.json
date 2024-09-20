@@ -1,0 +1,74 @@
+{
+	"en": {
+		"footerCompany": {
+			"companyTitle": "Company",
+			"address": "Ulaanbaatar Olympic Street 1, \\n19, Ulaanbaatar 14241, Mongolia"
+		},
+		"footerContacts": {
+			"contactsTitle": "Contacts",
+			"telephone": "Tel : +976 3122312",
+			"email": "Email: hello@gmail.com"
+		},
+		"footerLegal": {
+			"legalTitle": "Legal",
+			"privacyPolicy": "Privacy Policy",
+			"faq": "FAQ"
+		},
+		"footerProducts": {
+			"productsTitle": "Our Products",
+			"productList": [
+				{
+					"productHeading": "Beverages",
+					"url": "/beverages"
+				},
+				{
+					"productHeading": "Food",
+					"url": "/food"
+				},
+				{
+					"productHeading": "Household",
+					"url": "/household"
+				}
+			]
+		},
+		"footerRights": {
+			"rights": "All rights reserved © 2024 Organica Distribution"
+		}
+	},
+	"mn": {
+		"footerCompany": {
+			"companyTitle": "Компани",
+			"address": "Улаанбаатар, Олимпийн гудамж 1, \\n19, Улаанбаатар 14241, Монгол"
+		},
+		"footerContacts": {
+			"contactsTitle": "Холбоо барих",
+			"telephone": "Утас : +976 3122312",
+			"email": "Имэйл: hello@gmail.com"
+		},
+		"footerLegal": {
+			"legalTitle": "Хууль ёсны",
+			"privacyPolicy": "Нууцлалын бодлого",
+			"faq": "Түгээмэл асуултууд"
+		},
+		"footerProducts": {
+			"productsTitle": "Манай бүтээгдэхүүн",
+			"productList": [
+				{
+					"productHeading": "Ундаа",
+					"url": "/beverages"
+				},
+				{
+					"productHeading": "Хоол хүнс",
+					"url": "/food"
+				},
+				{
+					"productHeading": "Ахуйн",
+					"url": "/household"
+				}
+			]
+		},
+		"footerRights": {
+			"rights": "Бүх эрх хуулиар хамгаалагдсан © 2024 Органика Түгээлт"
+		}
+	}
+}

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .my-custom-class {
 	color: red;
 }

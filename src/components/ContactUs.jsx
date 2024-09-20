@@ -10,8 +10,9 @@ export default function ContactUs () {
 				
 				<p className='text-white font-medium text-lg'>Want to get in touch? We’d love to hear from you</p>
 				<a href="/contact" className='rounded-full bg-white text-custom-gray font-medium text-base p-3 my-6 w-32 text-center transition hover:bg-orange-600 hover:text-white'>
-          Contact Us
-        </a>			</div>
+					Contact Us
+				</a>			
+			</div>
 		</div>
 	)
 }

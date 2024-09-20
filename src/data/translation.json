@@ -67,7 +67,27 @@
 
 		"followUsTitle": ["FOLLOW US"],
 		
-		"followUsLogo": [""]
+		"followUsLogo": [""],
+
+		"ContactPageTitle": ["Contact Page"],
+		"ContactPageCard": [
+			{
+				"Subtitle": "Email",
+				"Content": "example@gmail.com"
+			},
+			{
+				"Subtitle": "Phone number",
+				"Content": "+976 99131323"
+
+			},
+			{
+				"Subtitle": "Address",
+				"Content": "Ulaanbaatar Mongolia Khan-Uul District"
+			}
+		],
+		"ContactPageFAQTitle": ["FAQ"],
+		"ContactPageFAQSubTitle": ["Below are some of are common questions:"]
+
 	},
 	"mn": {}
 }

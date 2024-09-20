@@ -26,19 +26,19 @@ export default function MySwiper() {
 		button:'Shop Products'
 		},
 		{
-			source: drinks, 
+			source: food, 
 			text1: "DRINKS", 
 			text2:'FRUIT & GREEN TEA',
 			button:'Shop Products'
 		},
 		{
-			source: drinks, 
+			source: household, 
 			text1: "SNACKS", 
 			text2:'CHEESIE SAVOURY CHIPS',
 			button:'Shop Products'
 		},
 		{
-			source: drinks, 
+			source: sweets, 
 			text1: "HOUSEHOLDS", 
 			text2:'FRUIT & GREEN TEA',
 			button:'Shop Products'
@@ -66,7 +66,7 @@ export default function MySwiper() {
           <SwiperSlide key={index}>
             <div className="relative h-[400px] flex items-center justify-center">
 				<img src={imgfunction.source} alt="" className='w-full object-cover h-full'/>
-				<div className='absolute z-10 left-1/4 transform -translate-x-1/4 max-w-[80%]'>
+				<div className='absolute z-10 transform -translate-x-3/4 max-w-[80%]'>
 					<h1 className="text-white text-4xl text-left my-4">{imgfunction.text1} <br /> {imgfunction.text2}</h1>
 					<a href="/" className='bg-orange-500 p-2 text-white'>{imgfunction.button}</a>
 				</div>

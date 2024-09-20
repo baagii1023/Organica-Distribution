@@ -28,7 +28,7 @@ export default function navigation() {
 				</nav>
 				<nav className='hidden lg:flex  items-center gap-8 z-50 px-8 py-3 rounded-full mt-8 mb-8'>
 					<a href="/" className='hover:text-orange-600'>Home</a>
-					<a href="/beverage" className='hover:text-orange-600' >Beverages</a>
+					<a href="/beverages" className='hover:text-orange-600' >Beverages</a>
 					<a href="/food" className='hover:text-orange-600'>Food</a>
 					<a href="/household" className='hover:text-orange-600'>Household</a>
 					<a href="#contactform" className='bg-orange-600 text-white p-2'>Get a quote</a>
