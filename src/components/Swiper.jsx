@@ -65,12 +65,13 @@ export default function MySwiper() {
 				return (
           <SwiperSlide key={index}>
             <div className="relative h-[400px] flex items-center justify-center">
-              <img src={imgfunction.source} alt="" className='w-screen object-cover h-full'/>
-              <div className='absolute z-10 left-1/4'>
-                <h1 className="text-white text-4xl my-4">{imgfunction.text1} <br /> {imgfunction.text2}</h1>
-                <a href="/" className='bg-orange-500 p-2'>{imgfunction.button}</a>
-              </div>
-            </div>
+				<img src={imgfunction.source} alt="" className='w-full object-cover h-full'/>
+				<div className='absolute z-10 left-1/4 transform -translate-x-1/4 max-w-[80%]'>
+					<h1 className="text-white text-4xl text-left my-4">{imgfunction.text1} <br /> {imgfunction.text2}</h1>
+					<a href="/" className='bg-orange-500 p-2 text-white'>{imgfunction.button}</a>
+				</div>
+			</div>
+
           </SwiperSlide>
         );
 			})}

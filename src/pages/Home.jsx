@@ -12,8 +12,6 @@ import whatOffer from '/WhatWeOffer.jpeg';
 import aboutimg from '/AboutUs.jpeg';
 import whyus from '/whyus.png';
 
-
-
 //import sections
 import ContactUs from '../components/ContactUs';
 import WhyUs from '../components/WhyUs';
@@ -22,14 +20,13 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   const { language } = useContext(LanguageContext); // Use LanguageContext
-
   const translationText = translationData[language] || {};
   const products = translationText.products || []; // Default to an empty array if products is undefined
 	const offers = translationText.offer || [];
 
   return (
-    <div>
-      <Navigation />
+<div className="">
+<Navigation />
       <Swiper />
       {/* Product section */}
       <section className='pb-12 bg-[#F5F5F5] pb-24'>
@@ -85,12 +82,12 @@ export default function Home() {
         </div>
       </section>
       {/* What we offer section */}
-      <section className=''>
+      <section className='relative w-full max-w-[1280px] mx-auto '>
 				<div className="flex flex-row items-center justify-center space-x-2 pt-4 ">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           <h2>{translationText.whatWeOfferTitle || 'What We Offer'}</h2>
         </div>
-				<div className="flex flex-col lg:flex-row items-center justify-between gap-4 px-24 py-10 max-w-[1280px] mx-auto">
+				<div className="flex flex-col lg:flex-row items-center justify-between gap-4 px-5 sm:px-24 py-10 max-w-[1280px] mx-auto">
 					<img src={whatOffer} alt="" className="h-[500px] min-w-[300px] w-full max-w-[800px] object-cover" />
 					<div className="max-w-[800px]">
 						{offers.map((offer, index) => (
@@ -108,47 +105,47 @@ export default function Home() {
       </section>
 			<hr className='w-[80%] m-auto'/>
       {/* About us section */}
-      <section className=''>
-				<div className="flex items-center justify-center space-x-2 pt-4">
-          <img src={logo} alt="Logo" className="h-8 w-8" />
-          <h2>{translationText.aboutUsTitle || 'About Us'}</h2>
-        </div>
-				<div className='flex flex-col lg:flex-row items-center justify-between gap-4 px-24 py-10 max-w-[1280px] mx-auto'>
-					<div className="w-full">
-            <p className="text-xl font-bold">
-              {translationText.aboutUsSubTitle|| 'About Us Content'}
-            </p>
-            <p className="mt-4 text-sm">
-              {translationText.aboutUsDetails || 'As a trusted international wholesaler'}
-            </p>
-          </div>
-					<div>
-						<img className='w-[300px] h-[250px] m-auto object-cover' src={aboutimg} alt="" />
-					</div>
+      <section className='relative w-full max-w-[1280px] mx-auto'>
+			<div className="flex items-center justify-center space-x-2 pt-4">
+				<img src={logo} alt="Logo" className="h-8 w-8" />
+				<h2>{translationText.aboutUsTitle || 'About Us'}</h2>
+       		 </div>
+			<div className='flex flex-col lg:flex-row items-center justify-between gap-4 px-5 sm:px-24 py-10 max-w-[1280px] mx-auto'>
+			<div className="w-full">
+				<p className="text-xl font-bold">
+				{translationText.aboutUsSubTitle|| 'About Us Content'}
+				</p>
+				<p className="mt-4 text-sm">
+				{translationText.aboutUsDetails || 'As a trusted international wholesaler'}
+				</p>
+          	</div>
+				<div>
+					<img className='w-[300px] h-[250px] m-auto object-cover' src={aboutimg} alt="" />
 				</div>
+			</div>
       </section>
-			{/* why us section */}
-			<section className='relative'>
-				<img src={whyus} alt="" className='absolute inset-0 w-full h-full object-cover z-0' />
-				
-				<div className="relative z-10 flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-2 pt-16 sm:pt-12 text-center sm:text-left">
-					<img src={logo} alt="Logo" className="h-12 w-12 sm:h-8 sm:w-8" />
-					<h2 className='text-white text-2xl sm:text-base'>{translationText.whyUsTitle || 'About Us'}</h2>
-				</div>
-				
-				<div className='relative z-10 flex flex-col sm:flex-row flex-wrap gap-6 sm:gap-8 w-full justify-center mx-auto my-12 sm:my-24 px-4 pb-10'>
-					<WhyUs></WhyUs>
-				</div>
-			</section>
+		{/* why us section */}
+		<section className='relative'>
+			<img src={whyus} alt="" className='absolute inset-0 w-full h-full object-cover z-0' />
+			
+			<div className="relative z-10 flex flex-col sm:flex-row items-center justify-center pb-16 space-x-0 sm:space-x-2 pt-16 sm:pt-12 text-center sm:text-left">
+				<img src={logo} alt="Logo" className="h-12 w-12 sm:h-8 sm:w-8" />
+				<h2 className='text-white text-2xl sm:text-base'>{translationText.whyUsTitle || 'About Us'}</h2>
+			</div>
+			
+			<div className='relative w-full max-w-[1280px] mx-auto pb-32'>
+				<WhyUs></WhyUs>
+			</div>
+		</section>
 
-			{/* Socials and LOGO */}
-			<section>
-				<Socials></Socials>
-      </section>
+		{/* Socials and LOGO */}
+		<section className='relative w-full max-w-[1280px] mx-auto my-12'>
+			<Socials></Socials>
+		</section>
 			{/* Contacts */}
 			<section>
 				<ContactUs></ContactUs>
-      </section>
+		</section>
 			{/* Footer */}
 			<footer>
 				<Footer></Footer>
