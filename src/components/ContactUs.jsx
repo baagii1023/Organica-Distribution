@@ -1,19 +1,15 @@
 import React from 'react'
-import logo from '/green-logo.png'; 
-export default function ContactUs () {
-	return (
-		<div className='bg-orange-500 py-12'>
-			<div className='flex flex-col items-center px-5'>
-				<div className="flex items-center justify-center space-x-2 py-8">
-					<h2 className='text-white font-bold uppercase text-4xl'>GET IN TOUCH</h2>
-				</div>
-				
-				<p className='text-white font-medium text-lg'>Want to get in touch? We’d love to hear from you</p>
-				<a href="/contact" className='rounded-full bg-white text-custom-gray font-medium text-base p-3 my-6 w-32 text-center transition hover:bg-orange-600 hover:text-white'>
-					Contact Us
-				</a>			
-			</div>
-		</div>
-	)
-}
+import logo from '/green-logo.png';
 
+export default function ContactUs() {
+  return (
+    <section className='w-full bg-[#FF6D00]'>
+      <div className='relative max-w-[1200px] mx-auto text-white text-center py-[64px]'>
+        <h2 className='font-semibold text-4xl text-center pb-6'>Get In Touch</h2>
+        <p>Want to get in touch? We’d love to hear from you</p>
+        {/* Added mt-6 to provide margin-top to the button */}
+        <a className='mt-6 inline-block px-6 py-3 bg-white text-black shadow-lg' href="">Contact Us</a>
+      </div>
+    </section>
+  )
+}

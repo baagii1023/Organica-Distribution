@@ -1,12 +1,12 @@
 import React, { useContext } from 'react';
-import translationFooterData from '../data/translation-footer.json'; 
-import { LanguageContext } from '../context/LanguageContext'; 
+import translationFooterData from '../data/translation-footer.json';
+import { LanguageContext } from '../context/LanguageContext';
 
 export default function Footer() {
-	const { language } = useContext(LanguageContext); 
+	const { language } = useContext(LanguageContext);
 	const footerData = translationFooterData[language] || translationFooterData['mn'];
 
-	
+
 	const renderAddressWithLineBreaks = (address) => {
 		return address.split('\\n').map((line, index) => (
 			<span key={index}>
@@ -17,44 +17,47 @@ export default function Footer() {
 	};
 
 	return (
-		<div className='text-white bg-custom-gray'>
-			<div className="flex flex-col sm:flex-row justify-center sm:justify-around gap-4 py-16 pl-20 max-w-[1280px] mx-auto sm:px-20">
-				<div>
-					<h2 className='text-3xl'>{footerData.footerCompany.companyTitle}</h2>
-					<p className='mt-6 text-font-gray'>
-						{renderAddressWithLineBreaks(footerData.footerCompany.address)}
-					</p>
+		<footer className='w-full bg-[#383838] pt-[48px] pb-[24px]'>
+			<div className='relative max-w-[1200px] mx-auto text-white'>
+				<div className='flex justify-between'>
+					<div className='grow flex flex-col gap-5'>
+						<h3 className='font-semibold text-2xl'>Company</h3>
+						<p className='text-[14px] text-[#cdcdcd]'>
+							Ulaanbaatar Olympic Street 1, 19, Ulaanbaatar 14241, Mongolia
+						</p>
+					</div>
+					<div className='grow flex flex-col gap-5'>
+						<h3 className='font-semibold text-2xl'>Contacts</h3>
+						<ul className='text-[14px] text-[#cdcdcd]'>
+							<li className='flex items-center gap-1'>
+								<span>Tel:</span>
+								<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 99999999</a>
+							</li>
+							<li className='flex items-center gap-1'>
+								<span>Email:</span>
+								<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">example@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+					<div className='grow flex flex-col gap-5'>
+						<h3 className='font-semibold text-2xl'>Legal</h3>
+						<ul className='text-[14px] text-[#cdcdcd]'>
+							<li><a className='hover:opacity-80 duration-300' href="#">Privacy Policy</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="#">FAQ</a></li>
+						</ul>
+					</div>
+					<div className='grow flex flex-col gap-5'>
+						<h3 className='font-semibold text-2xl'>Products</h3>
+						<ul className='text-[14px] text-[#cdcdcd]'>
+							<li><a className='hover:opacity-80 duration-300' href="#">Beverages</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="#">Food</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="#">Household</a></li>
+						</ul>
+					</div>
 				</div>
-				<div>
-					<h2 className='text-3xl'>{footerData.footerContacts.contactsTitle}</h2>
-					<p className='mt-6 text-font-gray'>{footerData.footerContacts.telephone}</p>
-					<p className='text-font-gray'>{footerData.footerContacts.email}</p>
-				</div>
-				<div>
-					<h2 className='text-3xl'>{footerData.footerLegal.legalTitle}</h2>
-					<a href='#' className="mt-6 block text-font-gray">{footerData.footerLegal.privacyPolicy}</a>
-					<a href='#' className="block text-font-gray">{footerData.footerLegal.faq}</a>
-				</div>
-				<div>
-					<h2 className='text-3xl'>{footerData.footerProducts.productsTitle}</h2>
-					{footerData.footerProducts.productList.map((product, index) => (
-						<a 
-							href={product.url} 
-							key={index} 
-							className={`${index === 0 ? 'mt-6' : 'mt-1'} block text-font-gray`}
-						>
-							{product.productHeading}
-						</a>
-					))}
-				</div>
+				<div className='h-[1px] w-full bg-[#cdcdcd] mt-[24px] mb-[12px]'></div>
+				<p className='text-[14px] text-[#cdcdcd]'>All rights reserved © 2024 Organica Distribution</p>
 			</div>
-
-			<div>
-				<hr className='bg-hr-gray w-[80%] m-auto' />
-				<p className='flex justify-center text-font-gray text-xs mt-4 pb-4'>
-					{footerData.footerRights.rights}
-				</p>
-			</div>
-		</div>
+		</footer>
 	);
 }

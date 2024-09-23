@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -16,7 +16,7 @@
 	display: none;
 }
 
-/* Active color for pagination bullets */
+
 .swiper-pagination-bullet-active {
-	background-color: orange !important; /* Change this to your desired color */
-}
+	background-color: orange !important; 
+} */

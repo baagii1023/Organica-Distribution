@@ -20,98 +20,64 @@ export default function MySwiper() {
 
 	const coverimg = [
 		{
-		source: drinks, 
-		text1: "SWEETS", 
-		text2:'FRUIT & GREEN TEA',
-		button:'Shop Products'
+			source: drinks,
+			text1: "SWEETS",
+			text2: 'FRUIT & GREEN TEA',
+			button: 'Shop Products'
 		},
 		{
-			source: food, 
-			text1: "DRINKS", 
-			text2:'FRUIT & GREEN TEA',
-			button:'Shop Products'
+			source: food,
+			text1: "DRINKS",
+			text2: 'FRUIT & GREEN TEA',
+			button: 'Shop Products'
 		},
 		{
-			source: household, 
-			text1: "SNACKS", 
-			text2:'CHEESIE SAVOURY CHIPS',
-			button:'Shop Products'
+			source: household,
+			text1: "SNACKS",
+			text2: 'CHEESIE SAVOURY CHIPS',
+			button: 'Shop Products'
 		},
 		{
-			source: sweets, 
-			text1: "HOUSEHOLDS", 
-			text2:'FRUIT & GREEN TEA',
-			button:'Shop Products'
-			}
+			source: sweets,
+			text1: "HOUSEHOLDS",
+			text2: 'FRUIT & GREEN TEA',
+			button: 'Shop Products'
+		}
 	]
 
-  return (
-    <Swiper
-      // install Swiper modules
-      modules={[Navigation, Pagination, Autoplay]}
-      spaceBetween={50}
-      slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-			loop={true} // Enables looping
+	return (
+		<Swiper
+			modules={[Navigation, Pagination, Autoplay]}
+			spaceBetween={0}
+			slidesPerView={1}
+			navigation
+			pagination={{ clickable: true }}
+			onSlideChange={() => console.log('slide change')}
+			onSwiper={(swiper) => console.log(swiper)}
+			loop={true}
 			autoplay={{
-				delay: 4000, // 4 seconds delay between slides
-				disableOnInteraction: false, // Continue autoplay after user interaction
+				delay: 3000,
+				disableOnInteraction: false,
 			}}
-    >
+			speed={600}
+		>
 			{coverimg.map((imgfunction, index) => {
 				return (
-          <SwiperSlide key={index}>
-            <div className="relative h-[400px] flex items-center justify-center">
-				<img src={imgfunction.source} alt="" className='w-full object-cover h-full'/>
-				<div className='absolute z-10 transform -translate-x-3/4 max-w-[80%]'>
-					<h1 className="text-white text-4xl text-left my-4">{imgfunction.text1} <br /> {imgfunction.text2}</h1>
-					<a href="/" className='bg-orange-500 p-2 text-white'>{imgfunction.button}</a>
-				</div>
-			</div>
+					<SwiperSlide key={index}>
+						<div className="w-full relative h-[400px]" style={{ backgroundImage: `url(${imgfunction.source})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+							{/* Background Dark Overlay */}
+							<div className='absolute w-full h-full bg-black bg-opacity-30'></div>
+							<div className='z-[10] relative max-w-[1200px] mx-auto h-[400px] flex items-center'>
+								<div className='flex flex-col gap-2'>
+									<h1 className="text-white text-5xl text-left my-4 font-semibold">{imgfunction.text1} <br /> {imgfunction.text2}</h1>
+									<a href="/" className='bg-[#FF6D00] px-6 py-3 text-white w-fit'>{imgfunction.button}</a>
+								</div>
+							</div>
+						</div>
 
-          </SwiperSlide>
-        );
+					</SwiperSlide>
+				);
 			})}
-      {/* <SwiperSlide>
-				<div className="relative h-[400px] flex items-center justify-center">
-					<img src={drinks} alt="" className="w-screen object-cover h-full" />
-					<div className='absolute z-10 left-1/4'>
-						<h1 className=" text-white text-4xl my-4">SWEET'S <br /> FRUIT & GREEN TEA</h1>
-						<a href="/" className='bg-orange-500 p-2'>Shop Products</a>
-					</div>
-				</div>
-			</SwiperSlide>
-      <SwiperSlide>
-        <div className="relative h-[400px] flex items-center justify-center">
-				<img src={sweets} alt="" className='w-screen object-cover h-full'/>
-					<div className='absolute z-10 left-1/4'>
-						<h1 className=" text-white text-4xl my-4">SWEET'S <br /> FRUIT & GREEN TEA</h1>
-						<a href="/" className='bg-orange-500 p-2'>Shop Products</a>
-					</div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="relative h-[400px] flex items-center justify-center">
-				<img src={food} alt="" className='w-screen object-cover h-full'/>
-					<div className='absolute z-10 left-1/4'>
-						<h1 className=" text-white text-4xl my-4">SNACK'S <br /> CHEESIE SAVOURY CHIPS</h1>
-						<a href="/" className='bg-orange-500 p-2'>Shop Products</a>
-					</div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="relative h-[400px] flex items-center justify-center">
-				<img src={household} alt="" className='w-screen object-cover h-full'/>
-					<div className='absolute z-10 left-1/4'>
-						<h1 className=" text-white text-4xl my-4">HOUSEHOLD'S <br /> ALL FOR YOUR HOME</h1>
-						<a href="/" className='bg-orange-500 p-2'>Shop Products</a>
-					</div>
-        </div>
-      </SwiperSlide> */}
-      {/* Add more slides as needed */}
-    </Swiper>
-  );
+		</Swiper>
+	);
 }
