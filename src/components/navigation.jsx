@@ -9,7 +9,7 @@ export default function navigation() {
 		// Docs
 		// Here I fixed issue with the width and some design changes
 		// Also Added a React Icons (Search Icon)
-		<header className='w-full'>
+		<header className='w-full shadow-md'>
 			<div className='bg-[#525252] w-full'>
 				<div className='relative max-w-[1200px] mx-auto text-white text-[14px] py-2'>
 					<div className='w-full flex justify-between'>
@@ -22,11 +22,11 @@ export default function navigation() {
 							<a className='hover:opacity-80 duration-300' href="/contact">Contact & FAQ</a>
 							<div className='flex gap-2'>
 								<a className='hover:opacity-80 duration-300' href="">
-									<img className='rounded-sm w-fit h-[20px]' src="./english-lang.svg" alt="" />
+									<img className='rounded-sm w-fit h-[20px]' src="./english-lang.svg" alt="EN" />
 
 								</a>
 								<a className='hover:opacity-80 duration-300' href="">
-									<img className='rounded-sm w-fit h-[20px]' src="./mongolian-lang.png" alt="" />
+									<img className='rounded-sm w-fit h-[20px]' src="./mongolian-lang.png" alt="MN" />
 								</a>
 							</div>
 						</nav>
