@@ -43,10 +43,10 @@ export default function navigation() {
 					<img className='w-auto h-[48px]' src={CompanyLogo} alt="" />
 				</a>
 				<nav className='hidden lg:flex gap-6 items-center'>
-					<a href="">Home</a>
-					<a href="">Beverages</a>
-					<a href="">Food</a>
-					<a href="">Household</a>
+					<a href="/">Home</a>
+					<a href="/beverages">Beverages</a>
+					<a href="/food">Food</a>
+					<a href="/household">Household</a>
 					<div>
 						<IoSearch size={20}/>
 					</div>
