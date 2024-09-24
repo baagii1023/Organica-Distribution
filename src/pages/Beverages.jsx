@@ -9,6 +9,9 @@ import ProductCard from '../components/ProductCard';
 import ContactUs from '../components/ContactUs';
 import Social from '../components/Socials';
 import Footer from '../components/Footer';
+import Poster from '../components/Poster';
+
+import beveragebg from '/Beverage-extra.jpg';
 
 
 const Beverages = () => {
@@ -28,20 +31,14 @@ const Beverages = () => {
           <div className='w-full grid grid-cols-4 gap-4 gap-y-6 pt-[64px]'>
             {productText.Beverage.map((product, index) => (
               <ProductCard product={product} key={index} />
-              // <Link key={index} to={`/details/${product.BeverageName}`}>
-              //   <div className="flex flex-col items-center w-[270px] mx-auto border border-black">
-              //     <img src={product.image} alt={product.Heading} className="h-full w-full" />
-              //     <h3>{product.BeverageName}</h3>
-              //     <p>{product.SubHeading}</p>
-              //   </div>
-              // </Link>
             ))}
           </div>
+          <Poster bgImage={beveragebg} Heading={'Wholesale Drinks'} Desc={'The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.'} />
         </section>
       </div>
-      <ContactUs/>
-      <Social/>
-      <Footer/>
+      <ContactUs />
+      <Social />
+      <Footer />
     </div>
   )
 }

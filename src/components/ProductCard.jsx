@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard = ({ product }) => {
     return (
-        <div className='w-[280px] bg-white p-4 shadow-md text-left flex flex-col'>
+        <div className='w-[280px] bg-white px-4 py-6 shadow-md text-left flex flex-col'>
             <img className='w-full h-[200px] object-cover' src={product.image} alt={product.Heading} />
             <h3 className='text-xl font-[500] mt-6 mb-2'>{product.Heading}</h3>
             <p className='text-sm text-[#888] truncate'>{product.SubHeading}</p>
