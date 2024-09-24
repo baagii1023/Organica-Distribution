@@ -39,7 +39,7 @@ export default function Contact (){
                     <Accordion className=''>
                         <Accordion.Panel className=''>
                             <Accordion.Title className='mb-2 px-2 py-4 text-lg'>What is Flowbite?</Accordion.Title>
-                            <Accordion.Content className='bg-red-200'>
+                            <Accordion.Content className=''>
                                 <p className="mb-2 ml-4 py-2 text-gray-500 dark:text-gray-400">
                                     Flowbite is an open-source library of interactive components built on top of Tailwind CSS.
                                 </p>
