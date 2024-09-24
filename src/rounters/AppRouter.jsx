@@ -11,6 +11,8 @@ import House from '../pages/Household';
 import Details from '../pages/Details';
 import Policy from '../pages/Policy';
 import Contact from '../pages/Contact';
+import NotFoundPage from '../pages/NotFoundPage'; 
+
 
 function AppRouter() {
 	return (
@@ -25,8 +27,8 @@ function AppRouter() {
 					<Route path="/policy" element={<Policy/>} />
 					<Route path="/contact" element={<Contact/>} />
 					<Route path="/details/:BeverageName" element={<Details />} />
-					
-				</Routes>
+					<Route path="*" element={<NotFoundPage />} />
+					</Routes>
 			</BrowserRouter>
 		</ThemeProvider>
 		</>
