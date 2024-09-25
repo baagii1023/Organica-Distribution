@@ -37,7 +37,7 @@ export default function Home() {
         <div className="mt-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-24 lg:gap-1 max-w-[1280px] mx-auto">
             <div className="flex flex-col items-center h-[300px] w-[270px] mx-auto">
-							<Link to="/beverage">
+							<Link to="/beverages">
 								<div className='rounded-lg box-shadow'>
 									<div className="relative h-[300px] w-[270px] overflow-hidden rounded-t-lg">
 										<img 

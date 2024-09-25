@@ -12,6 +12,7 @@ import Details from '../pages/Details';
 import Policy from '../pages/Policy';
 import Contact from '../pages/Contact';
 import NotFoundPage from '../pages/NotFoundPage'; 
+import ProductDetail from '../pages/Details';
 
 
 function AppRouter() {
@@ -26,8 +27,9 @@ function AppRouter() {
 					<Route path="/household" element={<House />} />
 					<Route path="/policy" element={<Policy/>} />
 					<Route path="/contact" element={<Contact/>} />
-					<Route path="/details/:BeverageName" element={<Details />} />
 					<Route path="*" element={<NotFoundPage />} />
+					
+					<Route path="/details/:id" element={<ProductDetail />} /> {/* Product detail route */}
 					</Routes>
 			</BrowserRouter>
 		</ThemeProvider>
