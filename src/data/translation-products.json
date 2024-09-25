@@ -2,30 +2,35 @@
 	"en": {
 		"Beverage": [
 			{
+				"id": 1,
 				"BeverageName": "Peach Green Tea 340ml",
 				"Heading": "Peach Green Tea",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea.",
 				"image": "/product-plumgreentea.jpg"
 			},
 			{
+				"id": 2,
 				"BeverageName": "Lemon Green Tea 340ml",
 				"Heading": "Lemon Green Tea",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste collaboration of sour-and-fresh lemon and green tea.",
 				"image": "/product-lemon.png"
 			},
 			{
+				"id": 3,
 				"BeverageName": "Grape Green Tea 340ml",
 				"Heading": "Grape Green Tea",
 				"SubHeading": "Taste collaboration of green tea and sweet-and-sour Green Grape from Jeju island.",
 				"image": "/product-halabong.png"
 			},
 			{
+				"id": 4,
 				"BeverageName": "Mango Green Tea 340ml",
 				"Heading": "Apple Mango",
 				"SubHeading": "Trendy tropical fruit is collaborated with WELLgreen’s skilled process. 2019 new launching item.",
 				"image": "/product-applemango.jpg"
 			},
 			{
+				"id": 5,
 				"BeverageName": "Plum Green Tea 340ml",
 				"Heading": "Plum Green Tea",
 				"SubHeading": "Deeper scent of plum, launched as the first large-sized item.",

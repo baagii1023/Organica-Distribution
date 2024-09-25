@@ -24,7 +24,7 @@ function AppRouter() {
 					<Route path="/household" element={<House />} />
 					<Route path="/policy" element={<Policy/>} />
 					<Route path="/contact" element={<Contact/>} />
-					<Route path="/details/:BeverageName" element={<Details />} />
+					<Route path="/details/:id" element={<Details />} />
 					
 				</Routes>
 			</BrowserRouter>
