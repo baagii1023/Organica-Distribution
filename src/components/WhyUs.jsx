@@ -21,11 +21,11 @@ const WhyUsCard = ({ image, subTitle, details }) => (
       <img src={image} alt="Why Choose Us" className="h-[50px] w-[50px]" />
     </div>
 
-    <h2 className="text-2xl font-semibold pt-8">
+    <h2 className="text-xl sm:text-2xl font-semibold pt-8">
       {subTitle || 'Why Choose Us'}
     </h2>
 
-    <p className="text-[14px] pt-4">
+    <p className="text-[14px] pt-4 text-[#cdcdcd]">
       {details || 'Why choose us details'}
     </p>
   </div>
@@ -41,12 +41,12 @@ const WhyUs = () => {
   return (
     <section className='relative w-full' style={{ backgroundImage: `url(${whyusbg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className='w-full absolute bg-black/20 h-full'></div>
-      <div className='relative max-w-[1200px] mx-auto py-[80px]'>
+      <div className='px-4 relative max-w-[1200px] mx-auto py-[80px]'>
         <span className='flex items-center space-x-3 pb-[64px]'>
           <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
-          <h2 className='font-semibold text-3xl text-white'>Why Us?</h2>
+          <h2 className='font-semibold text-2xl sm:text-3xl text-white'>Why Us?</h2>
         </span>
-        <div className="w-full flex gap-10">
+        <div className="w-full flex flex-wrap lg:flex-nowrap gap-10">
           {whyUsData.map((item, index) => (
             <WhyUsCard
               key={index}

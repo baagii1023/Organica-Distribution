@@ -27,6 +27,7 @@ export default function Home() {
 		<div>
 			{/* Navigation */}
 			<Navigation />
+			<div className='w-full h-[133px]'></div>
 
 			{/* Banner */}
 			<Swiper />

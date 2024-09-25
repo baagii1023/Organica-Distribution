@@ -19,9 +19,9 @@ const HamburgerMenu = () => {
     return (
         <>
             {/* Hamburger Icon */}
-            <div className="block lg:hidden fixed top-8 right-8 z-50">
+            <div className="block md:hidden fixed top-14 right-8 z-50">
                 <button
-                    className="flex items-center justify-center bg-yellow-400 rounded-full h-12 w-12 cursor-pointer shadow-lg"
+                    className="flex items-center justify-center h-12 w-12 cursor-pointer"
                     onClick={handleToggle}
                 >
                     {menuOpen ? (
@@ -34,15 +34,14 @@ const HamburgerMenu = () => {
 
             {/* Navigation Menu */}
             <nav
-                className={`fixed top-0 right-0 w-full h-screen bg-white z-40 transition-transform transform ${
-                    menuOpen ? 'translate-x-0' : 'translate-x-full'
-                }`}
+                className={`fixed top-0 right-0 w-full h-screen bg-white z-40 transition-transform transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'
+                    }`}
             >
-                <ul className="text-3xl flex flex-col items-end justify-center h-full list-none text-center space-y-8 pr-8">
+                <ul className="text-3xl flex flex-col items-end justify-center h-full list-none text-center space-y-6 pr-8">
                     <li>
                         <a
                             href="/"
-                            className="font-light text-yellow-400 hover:text-green-800 transition-transform"
+                            className="font-semibold transition-transform"
                             onClick={handleToggle}
                         >
                             Home
@@ -51,7 +50,7 @@ const HamburgerMenu = () => {
                     <li>
                         <a
                             href="/beverages"
-                            className="font-light text-yellow-400 hover:text-green-800 transition-transform"
+                            className="font-semibold transition-transform"
                             onClick={handleToggle}
                         >
                             Beverages
@@ -60,7 +59,7 @@ const HamburgerMenu = () => {
                     <li>
                         <a
                             href="/food"
-                            className="font-light text-yellow-400 hover:text-green-800 transition-transform"
+                            className="font-semibold transition-transform"
                             onClick={handleToggle}
                         >
                             Food
@@ -69,19 +68,23 @@ const HamburgerMenu = () => {
                     <li>
                         <a
                             href="/household"
-                            className="font-light text-yellow-400 hover:text-green-800 transition-transform"
+                            className="font-semibold transition-transform"
                             onClick={handleToggle}
                         >
                             Household
                         </a>
                     </li>
-                    <li className="mt-4">
+                    <li>
                         <a
-                            href="#contactform"
-                            className="text-[16px] bg-orange-600 text-white p-2 m-4"
+                            href="/contact"
+                            className="font-semibold transition-transform"
+                            onClick={handleToggle}
                         >
-                            Get a quote
+                            Contact & FAQ
                         </a>
+                    </li>
+                    <li className="mt-4">
+                        <a className='bg-[#FF6D00] px-6 py-3 text-white text-xl' href="/contact">Get a quote</a>
                     </li>
                 </ul>
             </nav>

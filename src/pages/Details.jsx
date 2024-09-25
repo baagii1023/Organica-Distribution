@@ -7,6 +7,10 @@ import productData from '../data/translation-products.json';
 import { LanguageContext } from '../context/LanguageContext';
 import ProductCard from '../components/ProductCard';
 
+import ContactUs from '../components/ContactUs';
+import Social from '../components/Socials';
+import Footer from '../components/Footer';
+
 const Details = () => {
 	const { language } = useContext(LanguageContext);
 	const productText = productData[language] || {};
@@ -14,9 +18,10 @@ const Details = () => {
 	return (
 		<>
 			<Navigation />
-			<section className='relative max-w-[1200px] mx-auto px-10 flex flex-col items-center justify-center'>
-				<div className='w-full flex py-[80px]'>
-					<img className='basis-[40%]' src="/product-halabong.png" alt="something" />
+			<div className='w-full h-[133px]'></div>
+			<section className='relative max-w-[1200px] mx-auto px-4 md:px-10 flex flex-col items-center justify-center'>
+				<div className='w-full flex lg:flex-row flex-col py-[80px]'>
+					<img className='w-[300px] md:basis-[40%] object-cover' src="/product-halabong.png" alt="something" />
 
 					<div className='basis-[60%] flex flex-col justify-center'>
 						<h3 className='font-semibold text-3xl'>Halabong</h3>
@@ -52,13 +57,17 @@ const Details = () => {
 						<img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
 						<h2 className='font-semibold text-3xl'>Similar Products</h2>
 					</span>
-					<div className='w-full grid grid-cols-4 gap-4 gap-y-6 pt-[64px]'>
+					<div className='w-full flex flex-wrap gap-4 py-[64px]'>
 						{productText.Beverage.map((product, index) => (
 							<ProductCard product={product} key={index} />
 						))}
 					</div>
 				</div>
 			</section>
+
+			<ContactUs />
+			<Social />
+			<Footer />
 		</>
 	)
 }

@@ -1,29 +1,24 @@
 import React from 'react'
 import LanguageToggle from './LanguageToggle';
 import CompanyLogo from '../assets/logo-svg.png';
-
 import Hamburger from '../components/Hamburger';
 
-export default function navigation() {
+export default function Navigation() {
 	return (
-		// Docs
-		// Here I fixed issue with the width and some design changes
-		// Also Added a React Icons (Search Icon)
-		<header className='w-full shadow-md'>
+		<header className='fixed top-0 w-full shadow-md bg-white z-50'>
 			<div className='bg-[#525252] w-full'>
-				<div className='relative max-w-[1200px] mx-auto text-white text-[14px] py-2'>
+				<div className='relative px-4 w-full xl:max-w-[1200px] mx-auto text-white text-[14px] py-2'>
 					<div className='w-full flex justify-between'>
-						<nav className='flex gap-5 items-center'>
+						<nav className='hidden sm:flex gap-5 items-center'>
 							<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 99999999</a>
 							<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">example@gmail.com</a>
 						</nav>
-						<nav className='flex items-center gap-5'>
-							<a className='hover:opacity-80 duration-300' href="/about">About Us</a>
-							<a className='hover:opacity-80 duration-300' href="/contact">Contact & FAQ</a>
-							<div className='flex gap-2'>
+						<nav className='w-full sm:w-auto flex items-center gap-5'>
+							<a className='hidden sm:block hover:opacity-80 duration-300' href="/about">About Us</a>
+							<a className='hidden sm:block hover:opacity-80 duration-300' href="/contact">Contact & FAQ</a>
+							<div className='w-full sm:w-auto flex justify-between sm:justify-start sm:gap-2'>
 								<a className='hover:opacity-80 duration-300' href="">
 									<img className='rounded-sm w-fit h-[20px]' src="./english-lang.svg" alt="EN" />
-
 								</a>
 								<a className='hover:opacity-80 duration-300' href="">
 									<img className='rounded-sm w-fit h-[20px]' src="./mongolian-lang.png" alt="MN" />
@@ -31,14 +26,13 @@ export default function navigation() {
 							</div>
 						</nav>
 					</div>
-
 				</div>
 			</div>
-			<div className='relative max-w-[1200px] mx-auto py-6 text-[14px] flex justify-between items-end'>
+			<div className='px-4 relative max-w-[1200px] mx-auto py-6 text-[14px] flex justify-between items-end'>
 				<a href="/">
 					<img className='w-auto h-[48px]' src={CompanyLogo} alt="" />
 				</a>
-				<nav className='hidden lg:flex gap-6 items-center'>
+				<nav className='hidden md:flex gap-6 items-center'>
 					<a href="/">Home</a>
 					<a href="/beverages">Beverages</a>
 					<a href="/food">Food</a>
@@ -47,7 +41,6 @@ export default function navigation() {
 				</nav>
 			</div>
 			<Hamburger />
-
 		</header>
 	)
 }

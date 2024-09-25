@@ -19,13 +19,14 @@ const Policy = () => {
     return (
         <div>
             <Navigation />
+            <div className='w-full h-[133px]'></div>
             <Swiper />
             <div className='relative max-w-[1200px] mx-auto py-[100px]'>
                 <span className='flex items-center justify-center space-x-2'>
                     <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
-                    <h2 className='font-semibold text-3xl'>Privacy Policy</h2>
+                    <h2 className='font-semibold text-2xl sm:text-3xl'>Privacy Policy</h2>
                 </span>
-                <div className='flex max-w-[1200px] flex-col gap-3 pt-[64px]'>
+                <div className='flex px-4 relative mx-auto max-w-[1200px] flex-col gap-3 pt-[64px]'>
                     <p>This Privacy Policy describes how bakery-theme-v1.myshopify.com (the “Site” or “we”) collects, uses, and discloses your Personal Information when you visit or make a purchase from the Site.</p>
                     <h6 className='font-semibold'>Collecting Personal Information</h6>
                     <p>When you visit the Site, we collect certain information about your device, your interaction with the Site, and information necessary to process your purchases. We may also collect additional information if you contact us for customer support. In this Privacy Policy, we refer to any information that can uniquely identify an individual (including the information below) as “Personal Information”. See the list below for more information about what Personal Information we collect and why.</p>
