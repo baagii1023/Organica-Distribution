@@ -31,27 +31,27 @@ export default function Footer() {
 						<ul className='text-[14px] text-[#cdcdcd]'>
 							<li className='flex items-center gap-1'>
 								<span>Tel:</span>
-								<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 99999999</a>
+								<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 99114426</a>
 							</li>
 							<li className='flex items-center gap-1'>
 								<span>Email:</span>
-								<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">example@gmail.com</a>
+								<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">nomin1124@gmail.com</a>
 							</li>
 						</ul>
 					</div>
 					<div className='grow flex flex-col gap-5'>
 						<h3 className='font-semibold text-xl sm:text-2xl'>Legal</h3>
 						<ul className='text-[14px] text-[#cdcdcd]'>
-							<li><a className='hover:opacity-80 duration-300' href="#">Privacy Policy</a></li>
-							<li><a className='hover:opacity-80 duration-300' href="#">FAQ</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="/policy">Privacy Policy</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="/contact">FAQ</a></li>
 						</ul>
 					</div>
 					<div className='grow flex flex-col gap-5'>
 						<h3 className='font-semibold text-xl sm:text-2xl'>Products</h3>
 						<ul className='text-[14px] text-[#cdcdcd]'>
-							<li><a className='hover:opacity-80 duration-300' href="#">Beverages</a></li>
-							<li><a className='hover:opacity-80 duration-300' href="#">Food</a></li>
-							<li><a className='hover:opacity-80 duration-300' href="#">Household</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="/beverages">Beverages</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="/food">Food</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="/household">Household</a></li>
 						</ul>
 					</div>
 				</div>

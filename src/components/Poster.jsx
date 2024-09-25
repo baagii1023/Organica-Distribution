@@ -8,7 +8,7 @@ const Poster = ({bgImage, Heading, Desc}) => {
             <div className='w-full md:basis-1/2 shadow-xl h-[400px]' style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 {/* <img className='object-cover max-h-[400px] w-full' src={bgImage} alt="Beverage Background" /> */}
             </div>
-            <div className='basis-1/2 md:my-8 flex flex-col bg-white justify-center p-8 gap-4'>
+            <div className='basis-1/2  flex flex-col bg-white justify-center p-8 gap-4'>
                 <h3 className='font-semibold text-xl sm:text-2xl text-left'>{Heading}</h3>
                 <p className='text-left text-[#888]  leading-[150%]'>{Desc}</p>
             </div>

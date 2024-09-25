@@ -10,8 +10,8 @@ export default function Navigation() {
 				<div className='relative px-4 w-full xl:max-w-[1200px] mx-auto text-white text-[14px] py-2'>
 					<div className='w-full flex justify-between'>
 						<nav className='hidden sm:flex gap-5 items-center'>
-							<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 99999999</a>
-							<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">example@gmail.com</a>
+							<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 99114426</a>
+							<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">nomin1124@gmail.com</a>
 						</nav>
 						<nav className='w-full sm:w-auto flex items-center gap-5'>
 							<a className='hidden sm:block hover:opacity-80 duration-300' href="/about">About Us</a>
