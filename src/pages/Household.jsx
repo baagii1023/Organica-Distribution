@@ -39,7 +39,7 @@ const Household = () => {
 							))
 						) : (
 							<div className="col-span-4 text-xl text-[#888] py-[100px]">
-								Sorry, could not find any products.
+								Sorry, household products are coming soon.
 							</div>
 						)}
 					</div>

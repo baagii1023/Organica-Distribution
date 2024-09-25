@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import CategoryCard from './CategoryCard';
-
+import translation from '../data/translation.json';
+import { LanguageContext } from '../context/LanguageContext';
 
 const HomeProducts = () => {
+    const { language } = useContext(LanguageContext);
+    const homeProductsTitle = translation[language].productTitle;
+
     return (
         <div className='w-full bg-[#F5F5F5]'>
             <section className='relative max-w-[1200px] mx-auto py-[100px] bg-[#F5F5F5]'>
                 <span className='flex items-center justify-center space-x-2'>
                     <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
-                    <h2 className='font-semibold text-2xl sm:text-3xl'>Products</h2>
+                    <h2 className='font-semibold text-2xl sm:text-3xl'>{homeProductsTitle}</h2>
                 </span>
                 <div className='w-full flex lg:flex-row flex-col justify-center items-center gap-4 pt-10'>
                     <CategoryCard CategoryImage={'/product-beverage.jpg'} Category={'Beverages'} ComingSoon={false} pagelink={'/beverages'} />

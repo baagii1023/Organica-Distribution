@@ -1,9 +1,18 @@
 {
 	"en": {
+		"navigationUpper1": "About Us",
+		"navigationUpper2": "Contact & FAQ",
+
+		"navigation1": "Home",
+		"navigation2": "Beverages",
+		"navigation3": "Food",
+		"navigation4": "Household",
+		"navigationButton": "Get a quote",
+
 		"heroTitle1": ["SWEET'S FRUIT & GREEN TEA", ""],
 		"heroSubtitle1": "Perfect combination of fruit and green tea",
 		"heroButton": "Shop Products",
-		"productTitle": "PRODUCTS",
+		"productTitle": "Products",
 		"products": [
 			{
 				"productHeading": "Beverages",
@@ -18,44 +27,44 @@
 				"productImage": "product-household.jpeg"
 			}
 		],
-		"whatWeOfferTitle": ["WHAT WE OFFER"],
+		"whatWeOfferTitle": ["What We Offer"],
 		"offer": [
 			{
 				"firstTitle": "Organica Distribution",
 				"details": [
-					"Organica Distribution stands as a distinguished FMCG wholesale company, offering an extensive range of products and services to meet the diverse needs of the modern market. With a strong focus on quality and variety, we are established as a reliable FMCG products supplier, catering to businesses across various countries."
+					"Organica Distribution specializes in providing high-quality products imported from Korea and Canada across a range of categories. Our commitment to quality, sustainability, and taste ensures that customers receive the best products available. This dedication makes us a preferred supplier for businesses looking to enhance their product offerings with organic options."
 				]
 			},
 			{
 				"secondTitle": "Wholesale Drinks",
 				"details": [
-					"As <a href='http://example.com/wholesale-drinks-supplier' class='my-custom-class'>wholesale drinks supplier</a>, we excel in offering a comprehensive selection of beverages. The portfolio includes everything from soft drinks and juices to energy drinks, hydration drinks, mineral water, and beer, catering to the different needs of the beverage market. The expertise in FMCG wholesale ensures that we provide not just variety, but also products that align with current market trends and consumer preferences. The wholesale soft drinks service by Wise TG is notable for its extensive range of popular and niche brands. We understand the importance of providing a diverse beverage selection to businesses, making them a one-stop solution for all soft drink needs in the FMCG sector."
+					"Discover our extensive range of beverages at Organica. From invigorating juices to soothing herbal teas, our drinks are crafted with natural ingredients to deliver exceptional taste and health benefits. Perfect for health-conscious consumers, each sip is a celebration of flavor and wellness."
 				]
 			},
 			{
 				"thirdTitle": "Wholesale Sweets",
 				"details": [
-					"Discover excellence in FMCG confectionery with Wise Trading Group’s diverse range of wholesale sweets. Our extensive selection, featuring timeless classics and innovative flavors, reflects a profound understanding of the dynamic FMCG market. This variety, combined with our commitment to quality, makes us a top choice for businesses looking for reliable supplier of FMCG products in the confectionery segment."
+					"Indulge in our delightful selection of organic sweets, featuring everything from crispy natural chips to luxurious gourmet chocolates. Made with ethically sourced ingredients, our sweet treats are free from artificial additives, making them a guilt-free pleasure for both kids and adults."
 				]
 			},
 			{
 				"forthTitle": "Wholesale Snacks",
 				"details": [
-					"Explore a world of flavorful delights with Wise Trading Group’s bespoke wholesale snacks. Crafted to align seamlessly with evolving consumer snacking preferences, our assortment offers a diverse range, from savory essentials to salted indulgent treats. Tailored for various occasions and consumer groups, our snacks cater to every taste."
+					"Explore a world of flavorful delights with Organica’s bespoke wholesale snacks. Crafted to align seamlessly with evolving consumer snacking preferences, our assortment offers a diverse range, from savory essentials to salted indulgent treats. Tailored for various occasions and consumer groups, our snacks cater to every taste."
 				]
 			}
 		],
 
 		"aboutUsTitle": ["ABOUT US"],
-		"aboutUsSubTitle": "Orgonica Distribution: Your International Wholesaler of Top-Brand FMCG Products",
+		"aboutUsSubTitle": "Organica Distribution: \\International Wholesaler \\ of Top-Brand Products",
 		"aboutUsDetails": [
-			"As a trusted international wholesaler, Orgonica Distribution supplies a comprehensive range of top-brand beverages, food, household, personal care goods, and services from our distribution centers in Lithuania, Ukraine, and The Netherlands. We also offer own branded products – sunflower oil, sauces, flour, soups, dried fruits, and nuts. The assortment is constantly growing with the introduction of new goods due to market demands."
+			"As a trusted international wholesaler, Organica specializes in providing high-quality products imported from Korea and Canada across a diverse range of categories. Our commitment to quality, sustainability, and taste guarantees that customers receive the best products available. This dedication positions us as a preferred supplier for businesses looking to enhance their product offerings with organic options."
 		],
 
-		"whyUsTitle": ["WHY US"],
+		"whyUsTitle": ["Why Us"],
 		"whyUsSubTitle1": ["Reliable partner"],
 		"whyUsSubTitle2": ["Competitive pricing"],
-		"whyUsSubTitle3": ["Importing "],
+		"whyUsSubTitle3": ["Importing"],
 		"whyUsSubTitle4": ["Competitive pricing"],
 
 		"whyUsDetail1": [
@@ -65,29 +74,93 @@
 		"whyUsDetail3": ["Experience the convenience of worldwide delivery as we bring consumer goods right to your place."],
 		"whyUsDetail4": ["We offer competitive pricing on all products, ensuring you get the best value for money without compromising on quality."],
 
-		"followUsTitle": ["FOLLOW US"],
-		
-		"followUsLogo": [""],
+		"followUsTitle": ["Follow Us On"],
 
-		"ContactPageTitle": ["Contact Page"],
-		"ContactPageCard": [
+		"getInTouch": "Get In Touch",
+		"getInTouchSub": "Want to get in touch? We’d love to hear from you.",
+		"getInTouchButton": "Contact Us",
+
+		"ContactPageFAQTitle": ["FAQ"],
+		"ContactPageFAQSubTitle": ["Below are some of our common questions:"],
+
+		"detailButton": "View Detail"
+	},
+
+	"mn": {
+		"navigationUpper1": "Бидний тухай",
+		"navigationUpper2": "Холбоо барих ба Түгээмэл асуултууд",
+		"navigation1": "Нүүр хуудас",
+		"navigation2": "Уух зүйлс",
+		"navigation3": "Хоол хүнс",
+		"navigation4": "Гэр ахуйн бараа",
+		"navigationButton": "Үнийн санал авах",
+		"heroTitle1": ["SWEET'S ЖИМС & НОГООН ЦАЙ", ""],
+		"heroSubtitle1": "Жимс ба ногоон цайны төгс хослол",
+		"heroButton": "Бүтээгдэхүүнүүд үзэх",
+		"productTitle": "Бүтээгдэхүүнүүд",
+		"products": [
 			{
-				"Subtitle": "Email",
-				"Content": "example@gmail.com"
+				"productHeading": "Уух зүйлс",
+				"productImage": "product-beverage.jpg"
 			},
 			{
-				"Subtitle": "Phone number",
-				"Content": "+976 99131323"
-
+				"productHeading": "Амттан",
+				"productImage": "product-food.png"
 			},
 			{
-				"Subtitle": "Address",
-				"Content": "Ulaanbaatar Mongolia Khan-Uul District"
+				"productHeading": "Гэр ахуйн бараа",
+				"productImage": "product-household.jpeg"
 			}
 		],
-		"ContactPageFAQTitle": ["FAQ"],
-		"ContactPageFAQSubTitle": ["Below are some of are common questions:"]
-
-	},
-	"mn": {}
+		"whatWeOfferTitle": ["Бидний санал болгож буй зүйлс"],
+		"offer": [
+			{
+				"firstTitle": "Organica Хуваарилалт",
+				"details": [
+					"Organica Хуваарилалт нь Солонгос болон Канад улсаас өндөр чанартай бүтээгдэхүүнүүдийг төрөл бүрийн ангиллаар нийлүүлдэг. Манай чанар, тогтвортой байдал, амтанд өгсөн анхаарал нь хэрэглэгчдэд хамгийн сайн бүтээгдэхүүнүүдийг хүргэхэд чиглэгддэг. Энэ нь манай компанийг бизнесийнхэнд органик бүтээгдэхүүний сонголтыг өргөжүүлэхэд туслах найдвартай нийлүүлэгч болгодог."
+				]
+			},
+			{
+				"secondTitle": "Бөөний ундаа",
+				"details": [
+					"Organica-д бэлэн байгаа өргөн хүрээний ундааг олж мэдээрэй. Шинэхэн жимсний шүүснээс эхлээд амар амгаланг өгдөг ургамлын цай хүртэл, манай ундаанууд байгалийн гаралтай орцуудаар бүтээгдсэн бөгөөд гайхалтай амт болон эрүүл мэндийн ач холбогдлыг агуулсан байдаг. Эрүүл мэнддээ анхаардаг хэрэглэгчдэд тохирсон бөгөөд нэг амтат бал нь амт ба эрүүл мэндийн баяр юм."
+				]
+			},
+			{
+				"thirdTitle": "Бөөний амттан",
+				"details": [
+					"Манай органик амттаны гайхалтай сонголтыг мэдрээрэй. Байгалийн гаралтай хөнгөн зуушнаас эхлээд тансаг шоколад хүртэл бүх зүйл энд байна. Эдгээр амттангууд нь хиймэл нэмэлтгүй бөгөөд эрхэмсэг амт, чанарыг санал болгодог."
+				]
+			},
+			{
+				"forthTitle": "Бөөний зууш",
+				"details": [
+					"Organica-ийн санал болгож буй амттангуудын гайхамшигт ертөнцийг нээж, өргөн хүрээний зуушнуудаар амтлаарай. Манай бүтээгдэхүүнүүд нь хэрэглэгчдийн хэрэгцээнд нийцсэн төрөл бүрийн сонголтуудыг санал болгож байна."
+				]
+			}
+		],
+		"aboutUsTitle": ["БИДНИЙ ТУХАЙ"],
+		"aboutUsSubTitle": "Organica Хуваарилалт: \\Олон улсын бөөний худалдаа \\ шилдэг брэнд бүтээгдэхүүнүүд",
+		"aboutUsDetails": [
+			"Органика нь Солонгос болон Канадын өндөр чанартай бүтээгдэхүүнүүдийг төрөл бүрийн ангиллаар нийлүүлдэг олон улсын итгэлтэй бөөний худалдаачин юм. Манай чанарт өгсөн анхаарал, тогтвортой байдал, амт нь хэрэглэгчдэд хамгийн сайн бүтээгдэхүүнүүдийг хүргэдэг. Энэ нь манай компанийг бизнесийнхэнд органик бүтээгдэхүүний сонголтыг өргөжүүлэхэд туслах найдвартай нийлүүлэгч болгодог."
+		],
+		"whyUsTitle": ["Яагаад бид"],
+		"whyUsSubTitle1": ["Итгэлтэй түнш"],
+		"whyUsSubTitle2": ["Тэсвэртэй үнэ"],
+		"whyUsSubTitle3": ["Импортын үйлчилгээ"],
+		"whyUsSubTitle4": ["Тэсвэртэй үнэ"],
+		"whyUsDetail1": [
+			"Organica Хуваарилалт нь таны итгэлтэй түнш бөгөөд амжилттай бизнесийн шийдлийг санал болгодог."
+		],
+		"whyUsDetail2": ["Бид бүх бүтээгдэхүүнд тэсвэртэй үнийг санал болгож, чанарыг бууруулахгүйгээр хамгийн сайн үнэ авах боломжийг олгож байна."],
+		"whyUsDetail3": ["Дэлхийн хэмжээнд бараа бүтээгдэхүүнийг хүргэхэд таатай бөгөөд бид хэрэглэгчийн барааг таны байранд авчирна."],
+		"whyUsDetail4": ["Бид бүх бүтээгдэхүүнд тэсвэртэй үнийг санал болгож, чанарыг бууруулахгүйгээр хамгийн сайн үнэ авах боломжийг олгож байна."],
+		"followUsTitle": ["Биднийг дагаарай"],
+		"getInTouch": "Холбоо барих",
+		"getInTouchSub": "Холбоо барихыг хүсч байна уу? Бид таныг сонсохыг хүсч байна.",
+		"getInTouchButton": "Холбоо барих",
+		"ContactPageFAQTitle": ["Түгээмэл асуултууд"],
+		"ContactPageFAQSubTitle": ["Дараах нь манай ихэвчлэн асуудаг асуултууд:"],
+		"detailButton": "Дэлгэрэнгүйг харах"
+	}
 }

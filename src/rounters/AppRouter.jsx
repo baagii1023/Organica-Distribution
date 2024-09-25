@@ -25,7 +25,6 @@ function AppRouter() {
 					<Route path="/policy" element={<Policy/>} />
 					<Route path="/contact" element={<Contact/>} />
 					<Route path="/details/:id" element={<Details />} />
-					
 				</Routes>
 			</BrowserRouter>
 		</ThemeProvider>

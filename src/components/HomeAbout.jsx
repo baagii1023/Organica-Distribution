@@ -1,23 +1,38 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import translationAboutData from '../data/translation.json';
+import { LanguageContext } from '../context/LanguageContext';
 
 const HomeAbout = () => {
-    return (
-        <div className='w-full bg-[#F5F5F5]'>
-            <section className='px-4 relative max-w-[1200px] mx-auto py-[100px]'>
-                <span className='flex items-center justify-center space-x-3'>
-                    <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
-                    <h2 className='font-semibold text-2xl sm:text-3xl'>About Us</h2>
-                </span>
-                <div className='w-full flex lg:flex-row flex-col-reverse justify-center items-center gap-8 pt-[80px]'>
-                    <div className='w-full flex flex-col gap-4'>
-                        <h3 className='font-bold text-xl sm:text-2xl'>Organica Distribution: <br />Your International Wholesaler <br/> of Top-Brand FMCG Products</h3>
-                        <p className='leading-[150%] text-[#888]'>As a trusted international wholesaler, Organica Distribution supplies a comprehensive range of top-brand beverages, food, household, personal care goods, and services from our distribution centers in Lithuania, Ukraine, and The Netherlands. We also offer own branded products – sunflower oil, sauces, flour, soups, dried fruits, and nuts. The assortment is constantly growing with the introduction of new goods due to market demands.</p>
-                    </div>
-                    <img className='shadow-md object-cover h-[300px] lg:w-auto w-full' src="/AboutUs.jpeg" alt="" />
-                </div>
-            </section>
-        </div>
-    );
+	const { language } = useContext(LanguageContext);
+	const aboutData = translationAboutData[language] || translationAboutData['mn'];
+	const renderAddressWithLineBreaks = (text) => {
+		return text.split('\\').map((line, index) => (
+			<span key={index}>
+				{line}
+				<br />
+			</span>
+		));
+	};
+
+	return (
+		<div className='w-full bg-[#F5F5F5]'>
+			<section id="about-us" className='px-4 relative max-w-[1200px] mx-auto py-[100px]'>
+				<span className='flex items-center justify-center space-x-3'>
+					<img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
+					<h2 className='font-semibold text-2xl sm:text-3xl'>{aboutData.aboutTitle || "About Us"}</h2>
+				</span>
+				<div className='w-full flex lg:flex-row flex-col-reverse justify-center items-center gap-8 pt-[80px]'>
+					<div className='w-full flex flex-col gap-4'>
+						<h3 className='font-bold text-xl sm:text-2xl'>
+							{renderAddressWithLineBreaks(aboutData.aboutUsSubTitle || "Organica Distribution: \\International Wholesaler \\ of Top-Brand Products")}
+						</h3>
+						<p className='leading-[150%] text-[#888]'>{aboutData.aboutUsDetails}</p>
+					</div>
+					<img className='shadow-md object-cover h-[300px] lg:w-auto w-full' src="/AboutUs.jpeg" alt="" />
+				</div>
+			</section>
+		</div>
+	);
 }
 
 export default HomeAbout;

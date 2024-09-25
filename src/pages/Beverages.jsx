@@ -39,7 +39,7 @@ const Beverages = () => {
           <hr className='mt-10'/>
           <Poster 
             bgImage={beveragebg} 
-            Heading={'Wholesale Drinks'} 
+            Heading={productText.wholesaleDrinksHeading} 
             Desc={
               <>
                 <p>The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers.</p>

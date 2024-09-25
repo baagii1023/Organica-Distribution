@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 import { LanguageContext } from '../context/LanguageContext';
 import ProductCard from '../components/ProductCard';
 import ContactUs from '../components/ContactUs';
-
 import Social from '../components/Socials';
 import Footer from '../components/Footer';
 import productData from '../data/translation-products.json'; 
@@ -12,12 +11,12 @@ import productData from '../data/translation-products.json';
 const Details = () => {
   const { language } = useContext(LanguageContext);
   const productText = productData[language] || {};
-  const { id } = useParams(); // Get product ID from URL
+  const { id } = useParams(); 
 
-  const product = productText.Beverage.find((item) => item.id === parseInt(id)); // Find product by ID
+  const product = productText.Beverage.find((item) => item.id === parseInt(id)); 
 
   if (!product) {
-    return <div>Product not found</div>; // Handle invalid product ID
+    return <div>Product not found</div>; 
   }
 
   return (
@@ -30,37 +29,39 @@ const Details = () => {
 
           <div className='basis-[60%] flex flex-col justify-center'>
             <h3 className='font-semibold text-3xl'>{product.BeverageName}</h3>
-            <p className='text-[#888] mt-6'>{product.description}</p>
+            <p className='text-[#707070] mt-4'>{product.SubHeading}</p>
+			<p className='text-[#707070] mt-2'> {productText.IngredientsSub}</p>
 
-            <table className='border border-[#888] mt-5'>
-              <tbody>
-                <tr className='border border-[#888]'>
-                  <td className='border border-[#FF6D00] p-2 bg-[#FF6D00]/20'>Origin</td>
-                  <td className='border border-[#888] p-2'>{product.origin}</td>
-                </tr>
-                <tr className='border border-[#888]'>
-                  <td className='border border-[#FF6D00] p-2 bg-[#FF6D00]/20'>Details</td>
-                  <td className='border border-[#888] p-2'>{product.details}</td>
-                </tr>
-                <tr className='border border-[#888]'>
-                  <td className='border border-[#FF6D00] p-2 bg-[#FF6D00]/20'>Units Per Carton</td>
-                  <td className='border border-[#888] p-2'>{product.unitsPerCarton}</td>
-                </tr>
-                <tr className='border border-[#888]'>
-                  <td className='border border-[#FF6D00] p-2 bg-[#FF6D00]/20'>Cartons per pallet</td>
-                  <td className='border border-[#888] p-2'>{product.cartonsPerPallet}</td>
-                </tr>
-              </tbody>
-            </table>
+            {/* Nutrition Information Table */}
+            {product.Nutrition && (
+              <table className='border border-[#888] mt-5'>
+                <thead>
+                  <tr className='border border-[#888]'>
+                    <th className='border border-[#FF6D00] p-2 bg-[#FF6D00]/20'>{productText.IngredientsTh1}</th>
+                    <th className='border border-[#FF6D00] p-2 bg-[#FF6D00]/20'>{productText.IngredientsTh2}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(product.Nutrition).map(([key, value]) => (
+                    <tr key={key} className='border border-[#888]'>
+                      <td className='border border-[#FF6D00] p-2'>{key}</td>
+                      <td className='border border-[#888] p-2'>{value}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
+			<p className='mt-4 text-[#707070]'>{productText.Ingredients} 
+			</p>
 
-            <a className='bg-[#FF6D00] px-6 py-3 text-white w-fit mt-6' href="">Price quote</a>
+            <a className='bg-[#FF6D00] px-6 py-3 text-white w-fit mt-6' href="/contact">{productText.PriceButton}</a>
           </div>
         </div>
 
-        <div className='w-full'>
+        <div className='w-full mt-24'>
           <span className='flex items-center justify-center space-x-2'>
             <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
-            <h2 className='font-semibold text-3xl'>Similar Products</h2>
+            <h2 className='font-semibold text-3xl'>{productText.similarProducts}</h2>
           </span>
           <div className='w-full flex flex-wrap gap-4 py-[64px]'>
             {productText.Beverage.map((product, index) => (
