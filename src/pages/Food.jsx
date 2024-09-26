@@ -18,6 +18,7 @@ import Poster from '../components/Poster';
 const Food = () => {
 	const { language } = useContext(LanguageContext); // Use LanguageContext
 	const productText = productData[language] || {};
+	
 	return (
 		<div>
 			<Navigation />

@@ -5,8 +5,11 @@ import LanguageToggle from './LanguageToggle';
 import CompanyLogo from '../assets/logo-svg.png';
 import Hamburger from '../components/Hamburger';
 
+import en_lang from '/english-lang.svg';
+import mn_lang from '/mongolian-lang.png';
+
 export default function Navigation() {
-	const { language } = useContext(LanguageContext); 
+	const { language } = useContext(LanguageContext);
 	const translationText = translationData[language] || translationData['mn'];
 
 	return (
@@ -23,10 +26,10 @@ export default function Navigation() {
 							<a className='hidden sm:block hover:opacity-80 duration-300' href="/contact">{translationText.navigationUpper2}</a>
 							<div className='w-full sm:w-auto flex justify-between sm:justify-start sm:gap-2'>
 								<a className='hover:opacity-80 duration-300' href="">
-									<img className='rounded-sm w-fit h-[20px]' src="./english-lang.svg" alt="EN" />
+									<img className='rounded-sm w-fit h-[20px]' src={en_lang} alt="EN" />
 								</a>
 								<a className='hover:opacity-80 duration-300' href="">
-									<img className='rounded-sm w-fit h-[20px]' src="./mongolian-lang.png" alt="MN" />
+									<img className='rounded-sm w-fit h-[20px]' src={mn_lang} alt="MN" />
 								</a>
 							</div>
 						</nav>
