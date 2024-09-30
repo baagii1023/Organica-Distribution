@@ -25,7 +25,9 @@ const Details = () => {
       <div className='w-full h-[133px]'></div>
       <section className='relative max-w-[1200px] mx-auto px-4 md:px-10 flex flex-col items-center justify-center'>
         <div className='w-full flex lg:flex-row flex-col py-[80px]'>
-          <img className='w-[300px] md:basis-[40%] object-cover' src={product.image} alt={product.BeverageName} />
+          <div className='basis-[40%] '>
+            <img className='w-[275px] h-auto md:basis-[40%] object-contain' src={product.image} alt={product.BeverageName} />
+          </div>
 
           <div className='basis-[60%] flex flex-col justify-center'>
             <h3 className='font-semibold text-3xl'>{product.BeverageName}</h3>
@@ -44,8 +46,8 @@ const Details = () => {
                 <tbody>
                   {Object.entries(product.Nutrition).map(([key, value]) => (
                     <tr key={key} className='border border-[#888]'>
-                      <td className='border border-[#FF6D00] p-2'>{key}</td>
-                      <td className='border border-[#888] p-2'>{value}</td>
+                      <td className='border border-[#FF6D00] p-1 pl-6'>{key}</td>
+                      <td className='border border-[#888] p-1 pl-5'>{value}</td>
                     </tr>
                   ))}
                 </tbody>

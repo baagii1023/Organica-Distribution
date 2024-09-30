@@ -9,9 +9,9 @@ const ProductCard = ({ product }) => {
     
     return (
         <div className='w-[280px] bg-white px-4 py-6 shadow-md text-left flex flex-col'>
-            <img className='w-full h-[200px] object-cover' src={product.image} alt={product.Heading} />
-            <h3 className='text-xl font-[500] mt-6 mb-2'>{product.Heading}</h3>
-            <p className='text-sm text-[#888] truncate'>{product.SubHeading}</p>
+            <img className='w-full h-[300px] object-cover' src={product.image} alt={product.Heading} />
+            <h3 className='text-xl font-[500] mt-6 mb-2 text-center'>{product.Heading}</h3>
+            <p className='text-sm text-[#888] '>{product.SubHeading}</p>
             <div className='self-center mt-4'>
                 <Link to={`/details/${product.id}`}>
                     <button className='bg-orange-500 text-white px-6 py-3 mt-2'>{translationText.detailButton}</button>

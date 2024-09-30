@@ -5,29 +5,35 @@
 
 		"navigation1": "Home",
 		"navigation2": "Beverages",
-		"navigation3": "Food",
+		"navigation3": "Snacks",
 		"navigation4": "Household",
 		"navigationButton": "Get a quote",
 
 		"heroTitle1": ["SWEET'S FRUIT & GREEN TEA", ""],
 		"heroSubtitle1": "Perfect combination of fruit and green tea",
 		"heroButton": "Shop Products",
-		"productTitle": "Products",
+		"productTitle": "PRODUCTS",
 		"products": [
 			{
 				"productHeading": "Beverages",
-				"productImage": "product-beverage.jpg"
+				"productImage": "product-beverage.jpg",
+				"ComingSoon": false,
+				"pagelink": "beverages"
 			},
 			{
 				"productHeading": "Snacks",
-				"productImage": "product-food.png"
+				"productImage": "product-food.png",
+				"ComingSoon": false,
+				"pagelink": "snacks"
 			},
 			{
 				"productHeading": "Household",
-				"productImage": "product-household.jpeg"
+				"productImage": "product-household.jpeg",
+				"ComingSoon": true,
+				"pagelink": "household"
 			}
 		],
-		"whatWeOfferTitle": ["What We Offer"],
+		"whatWeOfferTitle": ["WHAT WE OFFER"],
 		"offer": [
 			{
 				"firstTitle": "Organica Distribution",
@@ -61,7 +67,7 @@
 			"As a trusted international wholesaler, Organica specializes in providing high-quality products imported from Korea and Canada across a diverse range of categories. Our commitment to quality, sustainability, and taste guarantees that customers receive the best products available. This dedication positions us as a preferred supplier for businesses looking to enhance their product offerings with organic options."
 		],
 
-		"whyUsTitle": ["Why Us"],
+		"whyUsTitle": ["WHY US"],
 		"whyUsSubTitle1": ["Reliable partner"],
 		"whyUsSubTitle2": ["Competitive pricing"],
 		"whyUsSubTitle3": ["Importing"],
@@ -97,27 +103,36 @@
 		"heroTitle1": ["SWEET'S ЖИМС & НОГООН ЦАЙ", ""],
 		"heroSubtitle1": "Жимс ба ногоон цайны төгс хослол",
 		"heroButton": "Бүтээгдэхүүнүүд үзэх",
-		"productTitle": "Бүтээгдэхүүнүүд",
+		"productTitle": "БҮТЭЭГДЭХҮҮНҮҮД",
 		"products": [
 			{
 				"productHeading": "Уух зүйлс",
-				"productImage": "product-beverage.jpg"
+				"productImage": "product-beverage.jpg",
+				"ComingSoon": false,
+				"pagelink": "beverages"
+
 			},
 			{
 				"productHeading": "Амттан",
-				"productImage": "product-food.png"
+				"productImage": "product-food.png",
+				"ComingSoon": false,
+				"pagelink": "snacks"
+
 			},
 			{
 				"productHeading": "Гэр ахуйн бараа",
-				"productImage": "product-household.jpeg"
+				"productImage": "product-household.jpeg",
+				"ComingSoon": true,
+				"pagelink": "household"
+
 			}
 		],
-		"whatWeOfferTitle": ["Бидний санал болгож буй зүйлс"],
+		"whatWeOfferTitle": ["БИДНИЙ САНАЛ БОЛГОЖ БУЙ ЗҮЙЛС"],
 		"offer": [
 			{
-				"firstTitle": "Organica Хуваарилалт",
+				"firstTitle": "Organica Distribution",
 				"details": [
-					"Organica Хуваарилалт нь Солонгос болон Канад улсаас өндөр чанартай бүтээгдэхүүнүүдийг төрөл бүрийн ангиллаар нийлүүлдэг. Манай чанар, тогтвортой байдал, амтанд өгсөн анхаарал нь хэрэглэгчдэд хамгийн сайн бүтээгдэхүүнүүдийг хүргэхэд чиглэгддэг. Энэ нь манай компанийг бизнесийнхэнд органик бүтээгдэхүүний сонголтыг өргөжүүлэхэд туслах найдвартай нийлүүлэгч болгодог."
+					"Organica Distribution нь Солонгос болон Канад улсаас өндөр чанартай бүтээгдэхүүнүүдийг төрөл бүрийн ангиллаар нийлүүлдэг. Манай чанар, тогтвортой байдал, амтанд өгсөн анхаарал нь хэрэглэгчдэд хамгийн сайн бүтээгдэхүүнүүдийг хүргэхэд чиглэгддэг. Энэ нь манай компанийг бизнесийнхэнд органик бүтээгдэхүүний сонголтыг өргөжүүлэхэд туслах найдвартай нийлүүлэгч болгодог."
 				]
 			},
 			{

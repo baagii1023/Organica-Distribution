@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import translationData from '../data/translation.json';
 import { LanguageContext } from '../context/LanguageContext';
-import LanguageToggle from './LanguageToggle';
 import CompanyLogo from '../assets/logo-svg.png';
 import Hamburger from '../components/Hamburger';
 
@@ -9,7 +8,7 @@ import en_lang from '/english-lang.svg';
 import mn_lang from '/mongolian-lang.png';
 
 export default function Navigation() {
-	const { language } = useContext(LanguageContext);
+	const { language, toggleLanguage } = useContext(LanguageContext);
 	const translationText = translationData[language] || translationData['mn'];
 
 	return (
@@ -25,10 +24,16 @@ export default function Navigation() {
 							<a className='hidden sm:block hover:opacity-80 duration-300' href="/#about-us">{translationText.navigationUpper1}</a>
 							<a className='hidden sm:block hover:opacity-80 duration-300' href="/contact">{translationText.navigationUpper2}</a>
 							<div className='w-full sm:w-auto flex justify-between sm:justify-start sm:gap-2'>
-								<a className='hover:opacity-80 duration-300' href="">
+								<a 
+									className='hover:opacity-80 duration-300'
+									onClick={() => toggleLanguage('en')} 
+								>
 									<img className='rounded-sm w-fit h-[20px]' src={en_lang} alt="EN" />
 								</a>
-								<a className='hover:opacity-80 duration-300' href="">
+								<a 
+									className='hover:opacity-80 duration-300'
+									onClick={() => toggleLanguage('mn')} 
+								>
 									<img className='rounded-sm w-fit h-[20px]' src={mn_lang} alt="MN" />
 								</a>
 							</div>
@@ -43,12 +48,12 @@ export default function Navigation() {
 				<nav className='hidden md:flex gap-6 items-center'>
 					<a href="/">{translationText.navigation1}</a>
 					<a href="/beverages">{translationText.navigation2}</a>
-					<a href="/food">{translationText.navigation3}</a>
+					<a href="/snacks">{translationText.navigation3}</a>
 					<a href="/household">{translationText.navigation4}</a>
 					<a className='bg-[#FF6D00] px-6 py-3 text-white' href="">{translationText.navigationButton}</a>
 				</nav>
 			</div>
 			<Hamburger />
 		</header>
-	)
+	);
 }

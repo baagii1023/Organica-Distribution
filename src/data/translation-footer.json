@@ -22,8 +22,8 @@
 					"url": "/beverages"
 				},
 				{
-					"productHeading": "Food",
-					"url": "/food"
+					"productHeading": "Snacks",
+					"url": "/snacks"
 				},
 				{
 					"productHeading": "Household",
@@ -58,8 +58,8 @@
 					"url": "/beverages"
 				},
 				{
-					"productHeading": "Хоол хүнс",
-					"url": "/food"
+					"productHeading": "Амттан",
+					"url": "/snacks"
 				},
 				{
 					"productHeading": "Ахуйн",
