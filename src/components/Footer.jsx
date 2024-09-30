@@ -55,7 +55,7 @@ export default function Footer() {
 					</div>
 				</div>
 				<div className='h-[1px] w-full bg-[#cdcdcd] mt-[24px] mb-[12px]'></div>
-				<p className='text-[14px] text-[#cdcdcd]'>{footerData.footerRights.rights}</p>
+				<p className='text-[14px] text-[#cdcdcd] mt-8'>{footerData.footerRights.rights}</p>
 			</div>
 		</footer>
 	);

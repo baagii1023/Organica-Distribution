@@ -36,9 +36,9 @@ export default function Contact() {
                     <div className="flex flex-col justify-between p-4 shadow-md">
                         <div>
                             <h3 className="font-semibold mb-3">Email</h3>
-                            <p className='text-[#888]'>example@gmail.com</p>
+                            <p className='text-[#888]'>organica.mn@gmail.com</p>
                         </div>
-                        <a className="flex gap-2 mt-4 text-white py-3 bg-[#FF6D00] items-center justify-center" href="mailto:example@gmail.com">
+                        <a className="flex gap-2 mt-4 text-white py-3 bg-[#FF6D00] items-center justify-center" href="mailto:organica.mn@gmail.com">
                             <span>Send Email</span>
                             <MdOutlineEmail size={24} />
                         </a>
@@ -46,7 +46,7 @@ export default function Contact() {
                     <div className="flex flex-col justify-between p-4 shadow-md">
                         <div>
                             <h3 className="font-semibold mb-3">Phone</h3>
-                            <p className='text-[#888]'>+(976) 99999999</p>
+                            <p className='text-[#888]'>+(976) 89011261</p>
                         </div>
                         <a className="flex gap-2 mt-4 text-white py-3 bg-[#FF6D00] items-center justify-center" href="tel:+97699999999">
                             <span>Make a Call</span>
@@ -56,7 +56,7 @@ export default function Contact() {
                     <div className="flex flex-col justify-between p-4 shadow-md">
                         <div>
                             <h3 className="font-semibold mb-3">Location</h3>
-                            <p className='text-[#888]'>Ulaanbaatar Olympic Street 1, 19, Ulaanbaatar 14241, Mongolia</p>
+                            <p className='text-[#888]'>Ulaanbaatar, Sukhbaatar, 1st district, olimpic 22, unit 1503</p>
                         </div>
                         <a className="flex gap-2 mt-4 text-white py-3 bg-[#FF6D00] items-center justify-center" href="mailto:example@gmail.com">
                             <span>See Location</span>

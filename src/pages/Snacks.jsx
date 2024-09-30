@@ -4,6 +4,7 @@ import Swiper from '../components/Swiper';
 import food from '/food.png'
 import foodExtra from '/food-extra.jpeg'
 import ProductCard from '../components/ProductCard';
+import translationData from '../data/translation.json';
 
 import ContactUs from '../components/ContactUs';
 import WhyUs from '../components/WhyUs';
@@ -18,7 +19,8 @@ import Poster from '../components/Poster';
 const Food = () => {
 	const { language } = useContext(LanguageContext); 
 	const productText = productData[language] || {};
-	
+	const translationText = translationData[language] || {};
+
 	return (
 		<div>
 			<Navigation />
@@ -28,7 +30,7 @@ const Food = () => {
 				<section className='px-4 relative max-w-[1200px] mx-auto py-[64px] text-center'>
 					<span className='flex items-center justify-center space-x-2'>
 						<img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
-						<h2 className='font-semibold text-2xl sm:text-3xl uppercase'>Snacks</h2>
+						<h2 className='font-semibold text-2xl sm:text-3xl uppercase'>{translationText.products[1].productHeading}</h2>
 					</span>
 					<div className='w-full flex flex-wrap gap-4 pt-[64px]'>
 						{productText.Food.map((product, index) => (

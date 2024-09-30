@@ -2,12 +2,12 @@
 	"en": {
 		"footerCompany": {
 			"companyTitle": "Company",
-			"address": "Ulaanbaatar Olympic Street 1, \\n19, Ulaanbaatar 14241, Mongolia"
+			"address": "Ulaanbaatar, Sukhbaatar, 1st district, \\n olimpic 22, unit 1503 Mongolia"
 		},
 		"footerContacts": {
 			"contactsTitle": "Contacts",
-			"telephone": "Tel : +976 99114426",
-			"email": "Email: nomin1124@gmail.com"
+			"telephone": "Tel : +976 89011261",
+			"email": "Email: organica.mn@gmail.com"
 		},
 		"footerLegal": {
 			"legalTitle": "Legal",
@@ -32,18 +32,18 @@
 			]
 		},
 		"footerRights": {
-			"rights": "All rights reserved © 2024 Organica Distribution"
+			"rights": "All rights reserved © 2024 Organica Distribution - Developed by Vancouver WebTeck"
 		}
 	},
 	"mn": {
 		"footerCompany": {
 			"companyTitle": "Компани",
-			"address": "Улаанбаатар, Олимпийн гудамж 1, \\n19, Улаанбаатар 14241, Монгол"
+			"address": "Улаанбаатар, Сүхбаатар, 1-р хороо,\\n Олимпийн 22, 1503 тоот, Монгол"
 		},
 		"footerContacts": {
 			"contactsTitle": "Холбоо барих",
-			"telephone": "Утас : +976 3122312",
-			"email": "Имэйл: hello@gmail.com"
+			"telephone": "Утас : +976 89011261",
+			"email": "Имэйл: organica.mn@gmail.com"
 		},
 		"footerLegal": {
 			"legalTitle": "Хууль ёсны",

@@ -14,9 +14,9 @@ const HomeProducts = () => {
                     <img className='h-[40px] w-fit' src="/green-logo.png" alt="Company Logo" />
                     <h2 className='font-semibold text-2xl sm:text-3xl'>{productTitle}</h2>
                 </span>
-                <div className='w-full flex lg:flex-row flex-col justify-center items-center gap-4 pt-10'>
+                <div className='w-full flex lg:flex-row flex-col justify-center items-center gap-4 pt-10 '>
                     {products.map((product, index) => (
-                        <CategoryCard
+                        <CategoryCard 
                             key={index}
                             CategoryImage={`/${product.productImage}`} 
                             Category={product.productHeading} 
