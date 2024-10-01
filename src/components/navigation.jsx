@@ -47,9 +47,9 @@ export default function Navigation() {
 				</a>
 				<nav className='hidden md:flex gap-6 items-center'>
 					<a href="/">{translationText.navigation1}</a>
-					<a href="/beverages">{translationText.navigation2}</a>
-					<a href="/snacks">{translationText.navigation3}</a>
-					<a href="/household">{translationText.navigation4}</a>
+					<a href="/Beverage">{translationText.navigation2}</a>
+					<a href="/Food">{translationText.navigation3}</a>
+					<a href="/Household">{translationText.navigation4}</a>
 					<a className='bg-[#FF6D00] px-6 py-3 text-white' href="/contact">{translationText.navigationButton}</a>
 				</nav>
 			</div>

@@ -8,7 +8,9 @@ import Home from '../pages/Home';
 import Beverage from '../pages/Beverages'; 
 import Snacks from '../pages/Snacks';
 import House from '../pages/Household';
-import Details from '../pages/Details';
+import BeverageDetails from '../pages/BeveragesDetail';
+import FoodDetails from '../pages/FoodDetail';
+import HouseholdDetails from '../pages/HouseholdDetail';
 import Policy from '../pages/Policy';
 import Contact from '../pages/Contact';
 
@@ -19,12 +21,14 @@ function AppRouter() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home/>} />
-					<Route path="/beverages" element={<Beverage />} />
-					<Route path="/snacks" element={<Snacks />} />
-					<Route path="/household" element={<House />} />
+					<Route path="/Beverage" element={<Beverage />} />
+					<Route path="/Food" element={<Snacks />} />
+					<Route path="/Household" element={<House />} />
 					<Route path="/policy" element={<Policy/>} />
 					<Route path="/contact" element={<Contact/>} />
-					<Route path="/details/:id" element={<Details />} />
+					<Route path="/Beverage/details/:id" element={<BeverageDetails />} />
+					<Route path="/Food/details/:id" element={<FoodDetails />} />
+					<Route path="/Household/details/:id" element={<HouseholdDetails />} />
 				</Routes>
 			</BrowserRouter>
 		</ThemeProvider>

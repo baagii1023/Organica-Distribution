@@ -8,7 +8,7 @@ import Social from '../components/Socials';
 import Footer from '../components/Footer';
 import productData from '../data/translation-products.json'; 
 
-const Details = () => {
+const BeverageDetails = () => {
   const { language } = useContext(LanguageContext);
   const productText = productData[language] || {};
   const { id } = useParams(); 
@@ -80,4 +80,4 @@ const Details = () => {
   );
 };
 
-export default Details;
+export default BeverageDetails;
