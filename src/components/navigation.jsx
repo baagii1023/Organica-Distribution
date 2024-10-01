@@ -17,8 +17,8 @@ export default function Navigation() {
 				<div className='relative px-4 w-full xl:max-w-[1200px] mx-auto text-white text-[14px] py-2'>
 					<div className='w-full flex justify-between'>
 						<nav className='hidden sm:flex gap-5 items-center'>
-							<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 99114426</a>
-							<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">nomin1124@gmail.com</a>
+							<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 89011261</a>
+							<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">organica.mn@gmail.com</a>
 						</nav>
 						<nav className='w-full sm:w-auto flex items-center gap-5'>
 							<a className='hidden sm:block hover:opacity-80 duration-300' href="/#about-us">{translationText.navigationUpper1}</a>
@@ -50,7 +50,7 @@ export default function Navigation() {
 					<a href="/beverages">{translationText.navigation2}</a>
 					<a href="/snacks">{translationText.navigation3}</a>
 					<a href="/household">{translationText.navigation4}</a>
-					<a className='bg-[#FF6D00] px-6 py-3 text-white' href="">{translationText.navigationButton}</a>
+					<a className='bg-[#FF6D00] px-6 py-3 text-white' href="/contact">{translationText.navigationButton}</a>
 				</nav>
 			</div>
 			<Hamburger />
