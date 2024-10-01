@@ -7,6 +7,7 @@ import ContactUs from '../components/ContactUs';
 import Social from '../components/Socials';
 import Footer from '../components/Footer';
 import productData from '../data/translation-products.json'; 
+import ReactImageMagnify from 'react-image-magnify'; // Import ReactImageMagnify
 
 const BeverageDetails = () => {
   const { language } = useContext(LanguageContext);
@@ -24,15 +25,39 @@ const BeverageDetails = () => {
       <Navigation />
       <div className='w-full h-[133px]'></div>
       <section className='relative max-w-[1200px] mx-auto px-4 md:px-10 flex flex-col items-center justify-center'>
-        <div className='w-full flex lg:flex-row flex-col py-[80px]'>
+        <div className='w-full flex lg:flex-row flex-col py-[80px] gap-10'>
           <div className='basis-[40%] '>
-            <img className='w-[275px] h-auto md:basis-[40%] object-contain' src={product.image} alt={product.BeverageName} />
+            <ReactImageMagnify
+              {...{
+                smallImage: {
+                  alt: product.BeverageName,
+                  isFluidWidth: true,
+                  src: product.detailImage,
+                  width: 500,
+                  height: 500,
+                },
+                largeImage: {
+                  src: product.detailImage,
+                  width: 800,
+                  height: 800,
+                },
+                enlargedImagePosition: 'beside', 
+                isHintEnabled: true,
+                shouldUsePositiveSpaceLens: true,
+                lensStyle: { background: 'rgba(255, 255, 255, 0.4)' }, 
+                enlargedImageContainerDimensions: {
+                  width: '150%', 
+                  height: '100%',
+                },
+              }}
+              className=' w-[500px] h-auto md:basis-[40%] object-contain'
+            />
           </div>
 
           <div className='basis-[60%] flex flex-col justify-center'>
             <h3 className='font-semibold text-3xl'>{product.BeverageName}</h3>
             <p className='text-[#707070] mt-4'>{product.SubHeading}</p>
-			<p className='text-[#707070] mt-2'> {productText.IngredientsSub}</p>
+            <p className='text-[#707070] mt-2'>{productText.IngredientsSub}</p>
 
             {/* Nutrition Information Table */}
             {product.Nutrition && (
@@ -53,8 +78,7 @@ const BeverageDetails = () => {
                 </tbody>
               </table>
             )}
-			<p className='mt-4 text-[#707070]'>{productText.Ingredients} 
-			</p>
+            <p className='mt-4 text-[#707070]'>{productText.Ingredients}</p>
 
             <a className='bg-[#FF6D00] px-6 py-3 text-white w-fit mt-6' href="/contact">{productText.PriceButton}</a>
           </div>

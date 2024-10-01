@@ -18,19 +18,19 @@
 				"productHeading": "Beverages",
 				"productImage": "product-beverage.jpg",
 				"ComingSoon": false,
-				"pagelink": "beverages"
+				"pagelink": "beverage"
 			},
 			{
 				"productHeading": "Snacks",
 				"productImage": "product-food.png",
 				"ComingSoon": false,
-				"pagelink": "snacks"
+				"pagelink": "food"
 			},
 			{
 				"productHeading": "Household",
 				"productImage": "product-household.jpeg",
 				"ComingSoon": true,
-				"pagelink": "household"
+				"pagelink": "Household"
 			}
 		],
 		"whatWeOfferTitle": ["WHAT WE OFFER"],
@@ -109,7 +109,11 @@
 		"faqAccordianHeading3": "What payment methods do you accept?",
 		"faqAccordianSubHeading1": "We offer a wide range of International products, including Beverages, Snacks, Household, and specialty items sourced from Korea and Canada.",
 		"faqAccordianSubHeading2": "You can place an order directly through our website by adding items to your cart and completing the checkout process. For bulk orders or specific inquiries, please contact our sales team.",
-		"faqAccordianSubHeading3": "We accept bank transfers. All transactions are secure and encrypted."
+		"faqAccordianSubHeading3": "We accept bank transfers. All transactions are secure and encrypted.",
+
+		"beverageParagraph1": "The beverages at Organica Distribution is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers.",
+		"beverageParagraph2": "This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.",
+		"snackParagraph1": "The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
 	},
 
 	"mn": {
@@ -220,6 +224,10 @@
 		"faqAccordianHeading3": "Та ямар төлбөрийн аргуудыг хүлээн авдаг вэ?",
 		"faqAccordianSubHeading1": "Бид олон улсын бүтээгдэхүүнүүдийг, ялангуяа Уух зүйлс, Амттан, Гэр ахуйн бараа, Солонгос болон Канад улсаас оруулсан онцгой бүтээгдэхүүнүүдийг санал болгодог.",
 		"faqAccordianSubHeading2": "Та манай вэбсайтаар дамжуулан захиалга өгөх боломжтой, бүтээгдэхүүнийг хуудсанд нэмээд худалдан авах процессийг дуусгах хэрэгтэй. Их хэмжээний захиалга эсвэл тодорхой асуултуудын хувьд манай борлуулалтын багтай холбогдож болно.",
-		"faqAccordianSubHeading3": "Бид банкны шилжүүлгийг хүлээн авдаг. Бүх гүйлгээ аюулгүй, шифрлэгдсэн байдаг."
+		"faqAccordianSubHeading3": "Бид банкны шилжүүлгийг хүлээн авдаг. Бүх гүйлгээ аюулгүй, шифрлэгдсэн байдаг.",
+		"beverageParagraph1": "Organica Distribution-ийн ундаанууд нь хамгийн их борлуулалттай цуглуулгуудын нэг бөгөөд бидний бөөний ундааны бүтээгдэхүүн нийлүүлэх салбарын тэргүүлэгч байх хүсэл тэмүүлэл, амлалтыг илэрхийлдэг.",
+		"beverageParagraph2": "Энэхүү ангилал нь хэрэглэгчдийн олон төрлийн амт, хүсэл сонирхолд нийцүүлэн бүтээгдсэн бөгөөд өргөн хүрээний ундааны бөөний худалдааны гол цэг болох зорилготой.",
+		"snackParagraph1": "Wise Trading Group-ийн ундаанууд нь хамгийн их борлуулалттай цуглуулгуудын нэг бөгөөд бидний бөөний ундааны бүтээгдэхүүн нийлүүлэх салбарын тэргүүлэгч байх хүсэл тэмүүлэл, амлалтыг илэрхийлдэг. Энэхүү ангилал нь хэрэглэгчдийн олон төрлийн амт, хүсэл сонирхолд нийцүүлэн бүтээгдсэн бөгөөд өргөн хүрээний ундааны бөөний худалдааны гол цэг болох зорилготой."
+
 	}
 }

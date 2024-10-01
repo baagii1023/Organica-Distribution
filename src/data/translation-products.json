@@ -7,6 +7,7 @@
 				"Heading": "Peach Green Tea",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea.",
 				"image": "/product-plumgreentea.jpg",
+				"detailImage": "/product-peach-greentea.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "15 mg",
@@ -24,6 +25,7 @@
 				"Heading": "Lemon Green Tea",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste collaboration of sour-and-fresh lemon and green tea.",
 				"image": "/product-lemon.png",
+				"detailImage": "/product-lemon-greentea.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "20 mg",
@@ -40,7 +42,8 @@
 				"BeverageName": "Grape Green Tea 340ml",
 				"Heading": "Grape Green Tea",
 				"SubHeading": "Taste collaboration of green tea and sweet-and-sour Green Grape from Jeju island.",
-				"image": "/product-halabong.png",
+				"image": "/product-grape-green-tea.jpg",
+				"detailImage": "/product-grape-green-tea.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "27 mg",
@@ -58,6 +61,7 @@
 				"Heading": "Apple Mango Green Tea",
 				"SubHeading": "Trendy tropical fruit is collaborated with WELLgreen’s skilled process. 2019 new launching item.",
 				"image": "/product-applemango.jpg",
+				"detailImage": "/product-apple-mango-greentea.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "18 mg",
@@ -75,6 +79,7 @@
 				"Heading": "Plum Green Tea",
 				"SubHeading": "Deeper scent of plum, launched as the first large-sized item.",
 				"image": "/product-plumgreentea.jpg",
+				"detailImage": "/product-plum-greentea.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "18 mg",
@@ -120,7 +125,9 @@
 		"similarProducts": "Similar Products",
 
 		"wholesaleDrinksHeading": "Wholesale Drinks",
-		"WholesaleDrinkSub": "The beverages at Organica are a best-selling collection, reflecting our dedication and commitment to being premier wholesale drink suppliers. This category caters to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
+		"WholesaleDrinkSub": "The beverages at Organica are a best-selling collection, reflecting our dedication and commitment to being premier wholesale drink suppliers. This category caters to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.",
+		"wholesaleSnackHeading":"Wholesale Food"
+
 	},
 
 	"mn": {
@@ -131,6 +138,7 @@
 				"Heading": "Пичийн Ногоон Цай",
 				"SubHeading": "Wellgreen-ийн Sweet Café брэндийн хамгийн их борлуулалттай бүтээгдэхүүн. Шинэ пич, ногоон цайны амт холилдсон.",
 				"image": "/product-plumgreentea.jpg",
+				"detailImage": "/product-peach-greentea.jpg",
 				"Nutrition": {
 					"Calories": "70 ккал",
 					"Sodium": "15 мг",
@@ -148,6 +156,7 @@
 				"Heading": "Лемон Ногоон Цай",
 				"SubHeading": "Wellgreen-ийн Sweet Café брэндийн хамгийн их борлуулалттай бүтээгдэхүүн. Исгэлэн, шинэ лемоны амт, ногоон цайтай хосолсон.",
 				"image": "/product-lemon.png",
+				"detailImage": "/product-lemon-greentea.jpg",
 				"Nutrition": {
 					"Calories": "70 ккал",
 					"Sodium": "20 мг",
@@ -165,6 +174,7 @@
 				"Heading": "Улаан Жимсний Ногоон Цай",
 				"SubHeading": "Ногоон цай болон Жэжү арал дээрх чихэрлэг, исгэлэн улаан жимснүүдийн амт хосолсон.",
 				"image": "/product-halabong.png",
+				"detailImage": "/product-grape-green-tea.jpg",
 				"Nutrition": {
 					"Calories": "70 ккал",
 					"Sodium": "27 мг",
@@ -182,6 +192,7 @@
 				"Heading": "Алим Мангатай Ногоон Цай",
 				"SubHeading": "Трендэд орж ирсэн тропик жимс WELLgreen-ийн мэргэжлийн процессыг хослуулан бэлтгэж байна. 2019 оны шинэ бүтээгдэхүүн.",
 				"image": "/product-applemango.jpg",
+				"detailImage": "/product-apple-mango-greentea.jpg",
 				"Nutrition": {
 					"Calories": "70 ккал",
 					"Sodium": "18 мг",
@@ -199,6 +210,7 @@
 				"Heading": "Ургамлын Ногоон Цай",
 				"SubHeading": "Ургамлын гүнзгий үнэр, анхны том хэмжээтэй бүтээгдэхүүн болгон танилцуулсан.",
 				"image": "/product-plumgreentea.jpg",
+				"detailImage": "/product-plum-greentea.jpg",
 				"Nutrition": {
 					"Calories": "70 ккал",
 					"Sodium": "18 мг",
@@ -244,6 +256,8 @@
 		"similarProducts": "Ижил бүтээгдэхүүн",
 
 		"wholesaleDrinksHeading": "Бөөний Уух зүйлс",
-		"WholesaleDrinkSub": "Organica дахь уух зүйлс бол манай бөөний уух бүтээгдэхүүн нийлүүлэгч болох зорилго, хүсэл эрмэлзлэлийг илэрхийлсэн борлуулалтын шилдэг цуглуулга юм. Энэ ангилал нь өргөн сонголт, амт, сонирхолыг хамарсан, өргөн хүрээний уух зүйлсийн бөөний зах зээлд анхаарлаа төвлөрүүлж байна."
+		"WholesaleDrinkSub": "Organica дахь уух зүйлс бол манай бөөний уух бүтээгдэхүүн нийлүүлэгч болох зорилго, хүсэл эрмэлзлэлийг илэрхийлсэн борлуулалтын шилдэг цуглуулга юм. Энэ ангилал нь өргөн сонголт, амт, сонирхолыг хамарсан, өргөн хүрээний уух зүйлсийн бөөний зах зээлд анхаарлаа төвлөрүүлж байна.",
+		"wholesaleSnackHeading": "Бөөний Хүнсний Бараа"
+
 	}
 }

@@ -20,7 +20,6 @@ const ProductCard = ({ product }) => {
             <h3 className='text-xl font-[500] mt-6 mb-2 text-center'>{product.Heading}</h3>
             <p className='text-sm text-[#888] '>{product.SubHeading}</p>
             <div className='self-center mt-4'>
-                {/* On click, use window.location.href to cause a full page reload */}
                 <button 
                     className='bg-orange-500 text-white px-6 py-3 mt-2' 
                     onClick={handleClick}

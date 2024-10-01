@@ -39,7 +39,7 @@ const Food = () => {
 						
 					</div>
 					<hr className='mt-10'/>
-					<Poster bgImage={foodExtra} Heading={'Wholesale Food'} Desc={'The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.'}/>
+					<Poster bgImage={foodExtra} Heading={productText.wholesaleSnackHeading} Desc={translationText.snackParagraph1}/>
 				</section>
 			</div>
 			<ContactUs />
