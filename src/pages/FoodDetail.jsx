@@ -7,7 +7,7 @@ import ContactUs from '../components/ContactUs';
 import Social from '../components/Socials';
 import Footer from '../components/Footer';
 import productData from '../data/translation-products.json';
-import ReactImageMagnify from 'react-image-magnify'; // Importing React Image Magnify
+import ReactImageMagnify from 'react-image-magnify'; 
 
 const FoodDetails = () => {
   const { language } = useContext(LanguageContext);

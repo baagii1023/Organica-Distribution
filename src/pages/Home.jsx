@@ -14,9 +14,6 @@ import ContactUs from '../components/ContactUs';
 import Socials from '../components/Socials';
 import Footer from '../components/Footer';
 
-
-
-
 export default function Home() {
 	const { language } = useContext(LanguageContext); 
 	const translationText = translationData[language] || {};
