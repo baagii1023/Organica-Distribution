@@ -1,49 +1,95 @@
 import React, { useState } from 'react';
-// import 'tailwindcss/tailwind.css'; // Ensure Tailwind CSS is imported
-// import logo from '/joly-logo1.gif';
+import { FaBars, FaTimes } from 'react-icons/fa'; // Import FontAwesome icons
 import LanguageToggle from './LanguageToggle';
 
 const HamburgerMenu = () => {
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    // Function to toggle the menu
+    const handleToggle = () => {
+        setMenuOpen(!menuOpen);
+        // Disable body scroll when the menu is open
+        if (!menuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    };
 
     return (
         <>
-            {/* <a href="">
-                <img className="w-32 h-auto mx-8 mt-8 md:hidden" src={logo} alt="" />
-            </a> */}
-            <div className={`block lg:hidden top-8 right-8 ${click ? 'open' : ''}`}>
-                <label 
-                    htmlFor="navi-toggle" 
-                    className={`flex items-center justify-center bg-yellow-400 rounded-full h-12 w-12 cursor-pointer z-50 shadow-lg ${click ? 'bg-opacity-80' : ''}`}
-                    onClick={handleClick}
+            {/* Hamburger Icon */}
+            <div className="block md:hidden fixed top-14 right-8 z-50">
+                <button
+                    className="flex items-center justify-center h-12 w-12 cursor-pointer"
+                    onClick={handleToggle}
                 >
-                    <span className={`icon block bg-black w-12 h-1 ${click ? 'transform translate-y-2' : ''}`}>&nbsp;</span>
-                </label>
-                <div className={`fixed top-10 right-10 bg-gradient-radial from-black to-gray-300 h-24 w-24 rounded-full z-30 ${click ? 'scale-80' : ''}`}>&nbsp;</div>
-
-                <nav className={`fixed top-0 right-0 w-full h-screen bg-white z-20 ${click ? 'block' : 'hidden'}`}>
-                    <ul className="flex flex-col items-end justify-center h-full list-none text-center">
-                        <li>
-                            <a href="/" className="text-3xl font-light text-yellow-400 p-4 hover:text-green-800 hover:translate-x-4 transition-transform" onClick={handleClick}>Home</a>
-                        </li>
-                        <li>
-                            <a href="/" className="text-3xl font-light text-yellow-400 p-4 hover:text-green-800 hover:translate-x-4 transition-transform" onClick={handleClick}>Beverages</a>
-                        </li>
-                        <li>
-                            <a href="/" className="text-3xl font-light text-yellow-400 p-4 hover:text-green-800 hover:translate-x-4 transition-transform" onClick={handleClick}>Food</a>
-                        </li>
-                        <li>
-                            <a href="/" className="text-3xl font-light text-yellow-400 p-4 hover:text-green-800 hover:translate-x-4 transition-transform" onClick={handleClick}>Household</a>
-                        </li>
-                        <li className='mt-4'>
-														<a href="#contactform" className='bg-orange-600 text-white p-2 m-4'>Get a quote</a>
-                        </li>
-                    </ul>
-                </nav>
+                    {menuOpen ? (
+                        <FaTimes className="text-black text-2xl" />
+                    ) : (
+                        <FaBars className="text-black text-2xl" />
+                    )}
+                </button>
             </div>
+
+            {/* Navigation Menu */}
+            <nav
+                className={`fixed top-0 right-0 w-full h-screen bg-white z-40 transition-transform transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'
+                    }`}
+            >
+                <ul className="text-3xl flex flex-col items-end justify-center h-full list-none text-center space-y-6 pr-8">
+                    <li>
+                        <a
+                            href="/"
+                            className="font-semibold transition-transform"
+                            onClick={handleToggle}
+                        >
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/Beverage"
+                            className="font-semibold transition-transform"
+                            onClick={handleToggle}
+                        >
+                            Beverages
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/Food"
+                            className="font-semibold transition-transform"
+                            onClick={handleToggle}
+                        >
+                            Food
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/Household"
+                            className="font-semibold transition-transform"
+                            onClick={handleToggle}
+                        >
+                            Household
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/contact"
+                            className="font-semibold transition-transform"
+                            onClick={handleToggle}
+                        >
+                            Contact & FAQ
+                        </a>
+                    </li>
+                    <li className="mt-4">
+                        <a className='bg-[#FF6D00] px-6 py-3 text-white text-xl' href="/contact">Get a quote</a>
+                    </li>
+                </ul>
+            </nav>
         </>
     );
-}
+};
 
 export default HamburgerMenu;

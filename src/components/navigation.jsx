@@ -1,43 +1,59 @@
-import React from 'react'
-import LanguageToggle from './LanguageToggle';
+import React, { useContext } from 'react';
+import translationData from '../data/translation.json';
+import { LanguageContext } from '../context/LanguageContext';
 import CompanyLogo from '../assets/logo-svg.png';
-
 import Hamburger from '../components/Hamburger';
 
-export default function navigation() {
+import en_lang from '/english-lang.svg';
+import mn_lang from '/mongolian-lang.png';
+
+export default function Navigation() {
+	const { language, toggleLanguage } = useContext(LanguageContext);
+	const translationText = translationData[language] || translationData['mn'];
+
 	return (
-		<header className=''> 
-			<div className='flex justify-between items-center bg-[#383838]'>
-				<nav className='lg:flex gap-8 z-50 px-8 py-1 rounded-full text-white'>
-					<p>+123 312314</p>
-					<p>email@gmail.com</p>
-				</nav>
-				<nav className='lg:flex gap-8 z-50 pr-8 py-1 items-center rounded-full text-white'>
-					<div className='hidden lg:flex gap-8'>
-						<a href="/about">About Us</a>
-						<a href="/contact">Contacts</a>
-						<a href="/">FAQ</a>
+		<header className='fixed top-0 w-full shadow-md bg-white z-50'>
+			<div className='bg-[#525252] w-full'>
+				<div className='relative px-4 w-full xl:max-w-[1200px] mx-auto text-white text-[14px] py-2'>
+					<div className='w-full flex justify-between'>
+						<nav className='hidden sm:flex gap-5 items-center'>
+							<a className='hover:opacity-80 duration-300' href="tel:+97699999999">+(976) 89011261</a>
+							<a className='hover:opacity-80 duration-300' href="mailto:example@gmail.com">organica.mn@gmail.com</a>
+						</nav>
+						<nav className='w-full sm:w-auto flex items-center gap-5'>
+							<a className='hidden sm:block hover:opacity-80 duration-300' href="/#about-us">{translationText.navigationUpper1}</a>
+							<a className='hidden sm:block hover:opacity-80 duration-300' href="/contact">{translationText.navigationUpper2}</a>
+							<div className='w-full sm:w-auto flex justify-between sm:justify-start sm:gap-2'>
+								<a 
+									className='hover:opacity-80 duration-300'
+									onClick={() => toggleLanguage('en')} 
+								>
+									<img className='rounded-sm w-fit h-[20px]' src={en_lang} alt="EN" />
+								</a>
+								<a 
+									className='hover:opacity-80 duration-300'
+									onClick={() => toggleLanguage('mn')} 
+								>
+									<img className='rounded-sm w-fit h-[20px]' src={mn_lang} alt="MN" />
+								</a>
+							</div>
+						</nav>
 					</div>
-					<LanguageToggle />
-				</nav>
-			</div>
-			<div className='flex mt-4'>
-				<div className='flex justify-between items-center max-w-[1280px] mx-auto w-full px-8'>
-				<nav>
-					<a href="/"><img className="w-24 lg:w-56" src={CompanyLogo} alt="" /></a>
-				</nav>
-				<nav className='hidden lg:flex  items-center gap-8 z-50 px-8 py-3 rounded-full mt-8 mb-8'>
-					<a href="/" className='hover:text-orange-600'>Home</a>
-					<a href="/beverages" className='hover:text-orange-600' >Beverages</a>
-					<a href="/food" className='hover:text-orange-600'>Food</a>
-					<a href="/household" className='hover:text-orange-600'>Household</a>
-					<a href="#contactform" className='bg-orange-600 text-white p-2'>Get a quote</a>
-				</nav>
 				</div>
-				<nav>
-					<Hamburger></Hamburger>
+			</div>
+			<div className='px-4 relative max-w-[1200px] mx-auto py-6 text-[14px] flex justify-between items-end'>
+				<a href="/">
+					<img className='w-auto h-[48px]' src={CompanyLogo} alt="" />
+				</a>
+				<nav className='hidden md:flex gap-6 items-center'>
+					<a href="/">{translationText.navigation1}</a>
+					<a href="/Beverage">{translationText.navigation2}</a>
+					<a href="/Food">{translationText.navigation3}</a>
+					<a href="/Household">{translationText.navigation4}</a>
+					<a className='bg-[#FF6D00] px-6 py-3 text-white' href="/contact">{translationText.navigationButton}</a>
 				</nav>
 			</div>
+			<Hamburger />
 		</header>
-	) 
+	);
 }

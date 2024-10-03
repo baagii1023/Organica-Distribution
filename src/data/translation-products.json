@@ -6,59 +6,258 @@
 				"BeverageName": "Peach Green Tea 340ml",
 				"Heading": "Peach Green Tea",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea.",
-				"image": "/product-plumgreentea.jpg"
+				"image": "/product-plumgreentea.jpg",
+				"detailImage": "/product-peach-greentea.jpg",
+				"Nutrition": {
+					"Calories": "70 kcal",
+					"Sodium": "15 mg",
+					"Carbohydrate": "17 g",
+					"Sugar": "15 g",
+					"Trans fat": "0 g",
+					"Saturated fat": "0 g",
+					"Cholesterol": "0 mg",
+					"Protein": "0 g"
+				}
 			},
 			{
 				"id": 2,
 				"BeverageName": "Lemon Green Tea 340ml",
 				"Heading": "Lemon Green Tea",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste collaboration of sour-and-fresh lemon and green tea.",
-				"image": "/product-lemon.png"
+				"image": "/product-lemon.png",
+				"detailImage": "/product-lemon-greentea.jpg",
+				"Nutrition": {
+					"Calories": "70 kcal",
+					"Sodium": "20 mg",
+					"Carbohydrate": "17 g",
+					"Sugar": "17 g",
+					"Trans fat": "0 g",
+					"Saturated fat": "0 g",
+					"Cholesterol": "0 mg",
+					"Protein": "0 g"
+				}
 			},
 			{
 				"id": 3,
-				"BeverageName": "Orange Green Tea 340ml",
+				"BeverageName": "Grape Green Tea 340ml",
 				"Heading": "Grape Green Tea",
 				"SubHeading": "Taste collaboration of green tea and sweet-and-sour Green Grape from Jeju island.",
-				"image": "/product-halabong.png"
+				"image": "/product-grape-green-tea.jpg",
+				"detailImage": "/product-grape-green-tea.jpg",
+				"Nutrition": {
+					"Calories": "70 kcal",
+					"Sodium": "27 mg",
+					"Carbohydrate": "20 g",
+					"Sugar": "17 g",
+					"Trans fat": "0 g",
+					"Saturated fat": "0 g",
+					"Cholesterol": "0 mg",
+					"Protein": "0 g"
+				}
 			},
 			{
 				"id": 4,
-				"BeverageName": "Mango Green Tea 340ml",
-				"Heading": "Apple Mango",
+				"BeverageName": "Apple Mango Green Tea 340ml",
+				"Heading": "Apple Mango Green Tea",
 				"SubHeading": "Trendy tropical fruit is collaborated with WELLgreen’s skilled process. 2019 new launching item.",
-				"image": "/product-applemango.jpg"
+				"image": "/product-applemango.jpg",
+				"detailImage": "/product-apple-mango-greentea.jpg",
+				"Nutrition": {
+					"Calories": "70 kcal",
+					"Sodium": "18 mg",
+					"Carbohydrate": "17 g",
+					"Sugar": "17 g",
+					"Trans fat": "0 g",
+					"Saturated fat": "0 g",
+					"Cholesterol": "0 mg",
+					"Protein": "0 g"
+				}
 			},
 			{
 				"id": 5,
 				"BeverageName": "Plum Green Tea 340ml",
 				"Heading": "Plum Green Tea",
 				"SubHeading": "Deeper scent of plum, launched as the first large-sized item.",
-				"image": "/product-plumgreentea.jpg"
+				"image": "/product-plumgreentea.jpg",
+				"detailImage": "/product-plum-greentea.jpg",
+				"Nutrition": {
+					"Calories": "70 kcal",
+					"Sodium": "18 mg",
+					"Carbohydrate": "17 g",
+					"Sugar": "17 g",
+					"Trans fat": "0 g",
+					"Saturated fat": "0 g",
+					"Cholesterol": "0 mg",
+					"Protein": "0 g"
+				}
 			}
 		],
 
 		"Food": [
 			{
-				"id": 1,
+				"id": 6,
 				"FoodName": "Soft Gorgonzola Cheese Flavored Corn 50g",
 				"Heading": "Soft Gorgonzola Cheese Flavored Corn",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea.",
-				"image":"/product-food.png"
+				"image": "/product-food.png",
+				"Nutrition": {
+					"Sodium": "198 mg",
+					"Trans fat": "0 g",
+					"Carbohydrate": "27 g",
+					"Saturated fat": "6 g",
+					"Sugar": "6 g",
+					"Cholesterol": "3.1 mg",
+					"Fat": "20 g",
+					"Protein": "2 g"
+				}
 			}
 		],
 
 		"Household": [
+
+		],
+
+		"Ingredients": "INGREDIENTS: water, citric acid, sodium, carbohydrate, sugar. NET WEIGHT: 340ml BEST BEFORE: Please see from top of the bottle SHELF LIFE: 12 months STORING CONDITION: store away from high temperature and direct sunlight. Ready to drink.",
+		"IngredientsSub": "Nutrition facts /per 200gram/",
+		"IngredientsTh1": "Nutrient",
+		"IngredientsTh2": "Value",
+		"PriceButton": "Price quote",
+		"similarProducts": "Similar Products",
+
+		"wholesaleDrinksHeading": "Wholesale Drinks",
+		"WholesaleDrinkSub": "The beverages at Organica are a best-selling collection, reflecting our dedication and commitment to being premier wholesale drink suppliers. This category caters to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.",
+		"wholesaleSnackHeading":"Wholesale Food"
+
+	},
+
+	"mn": {
+		"Beverage": [
 			{
 				"id": 1,
-				"HouseholdName": "Wholesale Household Items",
-				"Heading": "Wholesale Household Items",
-				"SubHeading": "The beverages at Wise Trading Group are a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category caters to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
+				"BeverageName": "Пичийн Ногоон Цай 340мл",
+				"Heading": "Пичийн Ногоон Цай",
+				"SubHeading": "Wellgreen-ийн Sweet Café брэндийн хамгийн их борлуулалттай бүтээгдэхүүн. Шинэ пич, ногоон цайны амт холилдсон.",
+				"image": "/product-plumgreentea.jpg",
+				"detailImage": "/product-peach-greentea.jpg",
+				"Nutrition": {
+					"Calories": "70 ккал",
+					"Sodium": "15 мг",
+					"Carbohydrate": "17 г",
+					"Sugar": "15 г",
+					"Trans fat": "0 г",
+					"Saturated fat": "0 г",
+					"Cholesterol": "0 мг",
+					"Protein": "0 г"
+				}
+			},
+			{
+				"id": 2,
+				"BeverageName": "Лемон Ногоон Цай 340мл",
+				"Heading": "Лемон Ногоон Цай",
+				"SubHeading": "Wellgreen-ийн Sweet Café брэндийн хамгийн их борлуулалттай бүтээгдэхүүн. Исгэлэн, шинэ лемоны амт, ногоон цайтай хосолсон.",
+				"image": "/product-lemon.png",
+				"detailImage": "/product-lemon-greentea.jpg",
+				"Nutrition": {
+					"Calories": "70 ккал",
+					"Sodium": "20 мг",
+					"Carbohydrate": "17 г",
+					"Sugar": "17 г",
+					"Trans fat": "0 г",
+					"Saturated fat": "0 г",
+					"Cholesterol": "0 мг",
+					"Protein": "0 г"
+				}
+			},
+			{
+				"id": 3,
+				"BeverageName": "Улаан Жимсний Ногоон Цай 340мл",
+				"Heading": "Улаан Жимсний Ногоон Цай",
+				"SubHeading": "Ногоон цай болон Жэжү арал дээрх чихэрлэг, исгэлэн улаан жимснүүдийн амт хосолсон.",
+				"image": "/product-halabong.png",
+				"detailImage": "/product-grape-green-tea.jpg",
+				"Nutrition": {
+					"Calories": "70 ккал",
+					"Sodium": "27 мг",
+					"Carbohydrate": "20 г",
+					"Sugar": "17 г",
+					"Trans fat": "0 г",
+					"Saturated fat": "0 г",
+					"Cholesterol": "0 мг",
+					"Protein": "0 г"
+				}
+			},
+			{
+				"id": 4,
+				"BeverageName": "Алим Мангатай Ногоон Цай 340мл",
+				"Heading": "Алим Мангатай Ногоон Цай",
+				"SubHeading": "Трендэд орж ирсэн тропик жимс WELLgreen-ийн мэргэжлийн процессыг хослуулан бэлтгэж байна. 2019 оны шинэ бүтээгдэхүүн.",
+				"image": "/product-applemango.jpg",
+				"detailImage": "/product-apple-mango-greentea.jpg",
+				"Nutrition": {
+					"Calories": "70 ккал",
+					"Sodium": "18 мг",
+					"Carbohydrate": "17 г",
+					"Sugar": "17 г",
+					"Trans fat": "0 г",
+					"Saturated fat": "0 г",
+					"Cholesterol": "0 мг",
+					"Protein": "0 г"
+				}
+			},
+			{
+				"id": 5,
+				"BeverageName": "Ургамлын Ногоон Цай 340мл",
+				"Heading": "Ургамлын Ногоон Цай",
+				"SubHeading": "Ургамлын гүнзгий үнэр, анхны том хэмжээтэй бүтээгдэхүүн болгон танилцуулсан.",
+				"image": "/product-plumgreentea.jpg",
+				"detailImage": "/product-plum-greentea.jpg",
+				"Nutrition": {
+					"Calories": "70 ккал",
+					"Sodium": "18 мг",
+					"Carbohydrate": "17 г",
+					"Sugar": "17 г",
+					"Trans fat": "0 г",
+					"Saturated fat": "0 г",
+					"Cholesterol": "0 мг",
+					"Protein": "0 г"
+				}
 			}
 		],
 
-		"WholesaleDrinkHeading": "The beverages at Wise Trading Group are a best-selling collection, reflecting our dedication and commitment to being premier wholesale drink suppliers. This category caters to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
-	},
+		"Food": [
+			{
+				"id": 6,
+				"FoodName": "Зөөлөн Горгонзолла Чий Cheese Flavored Corn 50г",
+				"Heading": "Зөөлөн Горгонзолла Чий Cheese Flavored Corn",
+				"SubHeading": "Wellgreen-ийн Sweet Café брэндийн хамгийн их борлуулалттай бүтээгдэхүүн. Шинэ пич, ногоон цайны амт холилдсон.",
+				"image": "/product-food.png",
+				"Nutrition": {
+					"Sodium": "198 мг",
+					"Trans fat": "0 г",
+					"Carbohydrate": "27 г",
+					"Saturated fat": "6 г",
+					"Sugar": "6 г",
+					"Cholesterol": "3.1 мг",
+					"Fat": "20 г",
+					"Protein": "2 г"
+				}
+			}
+		],
 
-	"mn": {}
+		"Household": [
+
+		],
+
+		"Ingredients": "Орц: ус, лимон хүчил, натри, нүүрс ус, сахар. НЕТ ЖИН: 340мл ХУГАЦАА: Лонхны дээд талд харна уу. ХАДГАЛАХ ХУГАЦАА: 12 сар. ХАДГАЛАХ НӨХЦӨЛ: Өндөр температур, шууд наранд хадгалахаас зайлсхийх. Уухад бэлэн.",
+		"IngredientsSub": "Хоол тэжээлийн үнэлгээ /200гр-д/",
+		"IngredientsTh1": "Хоол тэжээлийн",
+		"IngredientsTh2": "Урт хугацаа",
+		"PriceButton": "Үнийн санал",
+		"similarProducts": "Ижил бүтээгдэхүүн",
+
+		"wholesaleDrinksHeading": "Бөөний Уух зүйлс",
+		"WholesaleDrinkSub": "Organica дахь уух зүйлс бол манай бөөний уух бүтээгдэхүүн нийлүүлэгч болох зорилго, хүсэл эрмэлзлэлийг илэрхийлсэн борлуулалтын шилдэг цуглуулга юм. Энэ ангилал нь өргөн сонголт, амт, сонирхолыг хамарсан, өргөн хүрээний уух зүйлсийн бөөний зах зээлд анхаарлаа төвлөрүүлж байна.",
+		"wholesaleSnackHeading": "Бөөний Хүнсний Бараа"
+
+	}
 }
