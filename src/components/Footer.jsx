@@ -22,8 +22,11 @@ export default function Footer() {
 					<div className='grow flex flex-col gap-5'>
 						<h3 className='font-semibold text-xl sm:text-2xl'>{footerData.footerCompany.companyTitle}</h3>
 						<p className='text-[14px] text-[#cdcdcd]'>
-							{renderAddressWithLineBreaks(footerData.footerCompany.address)}
+							<a href={`https://maps.google.com/?q=${encodeURIComponent(footerData.footerCompany.address)}`} target="https://	maps.app.goo.gl/bWiaYzhd5DKQZY7p8" rel="noopener noreferrer">
+								{renderAddressWithLineBreaks(footerData.footerCompany.address)}
+							</a>
 						</p>
+
 					</div>
 					<div className='grow flex flex-col gap-5'>
 						<h3 className='font-semibold text-xl sm:text-2xl'>{footerData.footerContacts.contactsTitle}</h3>

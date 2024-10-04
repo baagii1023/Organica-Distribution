@@ -2,7 +2,7 @@
 	"en": {
 		"footerCompany": {
 			"companyTitle": "Company",
-			"address": "Ulaanbaatar, Sukhbaatar, 1st district, \\n olimpic 22, unit 1503 Mongolia"
+			"address": "Khan-Uul District, 10th Khoroo, \\n Nisekh 10th Street, No. 236. \\n Zip code 17120. Mongolia"
 		},
 		"footerContacts": {
 			"contactsTitle": "Contacts",
@@ -38,7 +38,7 @@
 	"mn": {
 		"footerCompany": {
 			"companyTitle": "Компани",
-			"address": "Улаанбаатар, Сүхбаатар, 1-р хороо,\\n Олимпийн 22, 1503 тоот, Монгол"
+			"address": "Хан-уул дүүрэг, 10-р хороо,\\n Нисэх 10-р гудамж, 236 тоот. \\n zip код 17120. Монгол"
 		},
 		"footerContacts": {
 			"contactsTitle": "Холбоо барих",

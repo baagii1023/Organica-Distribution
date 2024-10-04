@@ -15,7 +15,7 @@ import Policy from '../pages/Policy';
 import Contact from '../pages/Contact';
 import NotFoundPage from '../pages/NotFoundPage'; 
 import ProductDetail from '../pages/Details';
-
+import GetQuote from '../pages/Getquote';
 
 function AppRouter() {
 	return (
@@ -32,6 +32,8 @@ function AppRouter() {
 					<Route path="/Beverage/details/:id" element={<BeverageDetails />} />
 					<Route path="/Food/details/:id" element={<FoodDetails />} />
 					<Route path="/Household/details/:id" element={<HouseholdDetails />} />
+					<Route path="*" element={<NotFoundPage />} />
+					<Route path="/Getquote" element={<GetQuote />} />
 				</Routes>
 			</BrowserRouter>
 		</ThemeProvider>

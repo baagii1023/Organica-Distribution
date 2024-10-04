@@ -50,7 +50,7 @@ export default function Navigation() {
 					<a href="/Beverage">{translationText.navigation2}</a>
 					<a href="/Food">{translationText.navigation3}</a>
 					<a href="/Household">{translationText.navigation4}</a>
-					<a className='bg-[#FF6D00] px-6 py-3 text-white' href="/contact">{translationText.navigationButton}</a>
+					<a className='bg-[#FF6D00] px-6 py-3 text-white' href="/Getquote">{translationText.navigationButton}</a>
 				</nav>
 			</div>
 			<Hamburger />
