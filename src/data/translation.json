@@ -113,7 +113,16 @@
 
 		"beverageParagraph1": "The beverages at Organica Distribution is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers.",
 		"beverageParagraph2": "This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.",
-		"snackParagraph1": "The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages."
+		"snackParagraph1": "The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.",
+
+		"getQuoteTitle": "Get A Quote",
+		"getQuoteName": "Name",
+		"getQuoteEmail": "Email",
+		"getQuotePhone": "Phone number",
+		"getQuoteDeliveryAddress": "Delivery Address",
+		"getQuoteProducts": "Interested Products",
+		"getQuoteButton": "Send Messages",
+		"getQuoteConfirmation":"Thank you! Your form has been successfully submitted."
 	},
 
 	"mn": {
@@ -206,7 +215,7 @@
 
 		"detailButton": "Дэлгэрэнгүйг үзэх",
 
-		"contactUsHeading": "Холбоо барих хуудс",
+		"contactUsHeading": "Холбоо барих хуудас",
 		"contactUsSubHeading1": "И-мэйл",
 		"contactUsSubHeading2": "Утас",
 		"contactUsSubHeading3": "Байршил",
@@ -227,7 +236,19 @@
 		"faqAccordianSubHeading3": "Бид банкны шилжүүлгийг хүлээн авдаг. Бүх гүйлгээ аюулгүй, шифрлэгдсэн байдаг.",
 		"beverageParagraph1": "Organica Distribution-ийн ундаанууд нь хамгийн их борлуулалттай цуглуулгуудын нэг бөгөөд бидний бөөний ундааны бүтээгдэхүүн нийлүүлэх салбарын тэргүүлэгч байх хүсэл тэмүүлэл, амлалтыг илэрхийлдэг.",
 		"beverageParagraph2": "Энэхүү ангилал нь хэрэглэгчдийн олон төрлийн амт, хүсэл сонирхолд нийцүүлэн бүтээгдсэн бөгөөд өргөн хүрээний ундааны бөөний худалдааны гол цэг болох зорилготой.",
-		"snackParagraph1": "Wise Trading Group-ийн ундаанууд нь хамгийн их борлуулалттай цуглуулгуудын нэг бөгөөд бидний бөөний ундааны бүтээгдэхүүн нийлүүлэх салбарын тэргүүлэгч байх хүсэл тэмүүлэл, амлалтыг илэрхийлдэг. Энэхүү ангилал нь хэрэглэгчдийн олон төрлийн амт, хүсэл сонирхолд нийцүүлэн бүтээгдсэн бөгөөд өргөн хүрээний ундааны бөөний худалдааны гол цэг болох зорилготой."
+		"snackParagraph1": "Wise Trading Group-ийн ундаанууд нь хамгийн их борлуулалттай цуглуулгуудын нэг бөгөөд бидний бөөний ундааны бүтээгдэхүүн нийлүүлэх салбарын тэргүүлэгч байх хүсэл тэмүүлэл, амлалтыг илэрхийлдэг. Энэхүү ангилал нь хэрэглэгчдийн олон төрлийн амт, хүсэл сонирхолд нийцүүлэн бүтээгдсэн бөгөөд өргөн хүрээний ундааны бөөний худалдааны гол цэг болох зорилготой.",
+
+	
+		"getQuoteTitle": "Үнийн санал авах",
+		"getQuoteName": "Нэр",
+		"getQuoteEmail": "Имэйл",
+		"getQuotePhone": "Утасны дугаар",
+		"getQuoteDeliveryAddress": "Хүргэлтийн хаяг",
+		"getQuoteProducts": "Сонирхож буй бүтээгдэхүүнүүд",
+		"getQuoteButton": "Зурвас илгээх",
+		"getQuoteConfirmation": "Баярлалаа! Таны маягт амжилттай илгээгдлээ."
+		
+		
 
 	}
 }
