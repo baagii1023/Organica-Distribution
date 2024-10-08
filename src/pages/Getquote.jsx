@@ -5,7 +5,7 @@ import translationData from '../data/translation.json';
 import { LanguageContext } from '../context/LanguageContext';
 import Socials from '../components/Socials';
 import Footer from '../components/Footer';
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"; // Plus/Minus Icons
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"; 
 
 export default function GetQuote() {
     const { language } = useContext(LanguageContext);
@@ -14,7 +14,7 @@ export default function GetQuote() {
         name: '',
         phone: '',
         deliveryAddress: '',
-        interestedProducts: [], // Use an array for checkboxes
+        interestedProducts: [], 
         email: ''
     });
     const [showConfirmation, setShowConfirmation] = useState(false); // State for confirmation message
@@ -73,10 +73,11 @@ export default function GetQuote() {
             <div className='w-full h-[133px]'></div>
             <Swiper />
             <section className='px-4 relative max-w-[1200px] py-[64px] mx-auto'>
-                <span className='flex items-center justify-center space-x-2 mb-16'>
+                <span className='flex items-center justify-center space-x-2 '>
                     <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
                     <h2 className='font-semibold text-2xl sm:text-3xl'>{translationText.getQuoteTitle || 'Get a Quote'}</h2>
                 </span>
+                <p className='mt-8 mb-16 text-center text-[#888]'>{translationText.getQuoteSubTitle}</p>
                 <div className="p-6 md:p-12 rounded-md shadow-lg bg-white">
                     <form onSubmit={handleSubmit} className='w-full flex flex-col gap-4 pt-[64px]'>
                         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-4">
@@ -175,7 +176,7 @@ export default function GetQuote() {
                         </button>
                     </form>
 
-                    {/* Display the confirmation message after form submission */}
+                    {/* Display a confirmation message after form submission */}
                     {showConfirmation && (
                         <div className="mt-6 p-4 border border-green-400 text-green-700 rounded-md">
                             {translationText.getQuoteConfirmation || 'Thank you! Your form has been successfully submitted.'}

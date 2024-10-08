@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import Swiper from '../components/Swiper';
 import Navigation from '../components/Navigation';
 import translationData from '../data/translation.json';
+import translationFooterData from '../data/translation-footer.json';
 import { LanguageContext } from '../context/LanguageContext';
 import ContactUs from '../components/ContactUs';
 import Socials from '../components/Socials';
@@ -17,7 +18,15 @@ export default function Contact() {
     const { language } = useContext(LanguageContext);
     const [openSection, setOpenSection] = useState(null);
     const translationText = translationData[language] || {};
-
+    const translationFooter = translationFooterData[language] || {};
+    const renderAddressWithLineBreaks = (address) => {
+		return address.split('\\n').map((line, index) => (
+			<span key={index}>
+				{line}
+				<br />
+			</span>
+		));
+	};
     const toggleSection = (section) => {
         setOpenSection(openSection === section ? null : section);
     };
@@ -34,7 +43,7 @@ export default function Contact() {
                 </span>
                 <div className='w-full flex flex-col lg:grid lg:grid-cols-3 gap-4 pt-[64px]'>
                     <div className="flex flex-col justify-between p-4 shadow-md">
-                        <div>
+                        <div className='ml-1'>
                             <h3 className="font-semibold mb-3">{translationText.contactUsSubHeading1}</h3>
                             <p className='text-[#888]'>{translationText.contactUsSubParagraph1}</p>
                         </div>
@@ -44,7 +53,7 @@ export default function Contact() {
                         </a>
                     </div>
                     <div className="flex flex-col justify-between p-4 shadow-md">
-                        <div>
+                        <div className='ml-1'>
                             <h3 className="font-semibold mb-3">{translationText.contactUsSubHeading2}</h3>
                             <p className='text-[#888]'>{translationText.contactUsSubParagraph2}</p>
                         </div>
@@ -54,9 +63,9 @@ export default function Contact() {
                         </a>
                     </div>
                     <div className="flex flex-col justify-between p-4 shadow-md">
-                        <div>
+                        <div className='ml-1'>
                             <h3 className="font-semibold mb-3">{translationText.contactUsSubHeading3}</h3>
-                            <p className='text-[#888]'>{translationText.contactUsSubParagraph3}</p>
+                            <p className='text-[#888]'>{renderAddressWithLineBreaks(translationFooter.footerCompany.address)}</p>
                         </div>
                         <a className="flex gap-2 mt-4 text-white py-3 bg-[#FF6D00] items-center justify-center" href="mailto:example@gmail.com">
                             <span>{translationText.contactUsButton3}</span>
@@ -100,7 +109,7 @@ export default function Contact() {
                         {openSection === 'figma' && (
                             <div className="mb-2 ml-4 py-2 text-gray-500 dark:text-gray-400">
                                 <p>
-                                    {translationText.faqAccordianSubHeading2}
+                                <p dangerouslySetInnerHTML={{ __html: translationText.faqAccordianSubHeading2 }} />
                                 </p>
                             </div>
                         )}

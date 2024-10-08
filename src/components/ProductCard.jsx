@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
 
     return (
         <div className='w-[280px] bg-white px-4 py-6 shadow-md text-left flex flex-col'>
-            <img className='w-full h-[300px] object-cover' src={product.image} alt={product.Heading} />
+            <img className='w-full h-[300px] object-cover rounded-lg' src={product.image} alt={product.Heading} />
             <h3 className='text-xl font-[500] mt-6 mb-2 text-center'>{product.Heading}</h3>
             <p className='text-sm text-[#888] '>{product.SubHeading}</p>
             <div className='self-center mt-4'>

@@ -107,22 +107,28 @@
 		"faqAccordianHeading1": "What products do you offer?",
 		"faqAccordianHeading2": "How can I place an order?",
 		"faqAccordianHeading3": "What payment methods do you accept?",
-		"faqAccordianSubHeading1": "We offer a wide range of International products, including Beverages, Snacks, Household, and specialty items sourced from Korea and Canada.",
-		"faqAccordianSubHeading2": "You can place an order directly through our website by adding items to your cart and completing the checkout process. For bulk orders or specific inquiries, please contact our sales team.",
+		"faqAccordianSubHeading1": "We offer a wide range of International products, including Beverages, Snacks, Household, and specialty items sourced from North America, Europe, and Asia.",
+		"faqAccordianSubHeading2": "You can place a <a href=\"/getquote\" style=\"color: #F97316; text-decoration: underline;\">Get a Quote</a> on our website and we will get back to you within 24 hours. If you have any questions or need assistance, please <a href=\"/contact\" style=\"color: #F97316; text-decoration: underline;\">contact</a> our sales team.",
 		"faqAccordianSubHeading3": "We accept bank transfers. All transactions are secure and encrypted.",
 
 		"beverageParagraph1": "The beverages at Organica Distribution is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers.",
 		"beverageParagraph2": "This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.",
-		"snackParagraph1": "The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.",
+		"snackParagraph1": "The snacks at Organica Distribution Company feature a best-selling collection that reflects our dedication and commitment to being premier wholesale snack suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of snacks.",
 
-		"getQuoteTitle": "Get A Quote",
+		"getQuoteTitle": "Get a Quote",
 		"getQuoteName": "Name",
 		"getQuoteEmail": "Email",
 		"getQuotePhone": "Phone number",
 		"getQuoteDeliveryAddress": "Delivery Address",
 		"getQuoteProducts": "Interested Products",
 		"getQuoteButton": "Send Messages",
-		"getQuoteConfirmation":"Thank you! Your form has been successfully submitted."
+		"getQuoteConfirmation":"Thank you! Your form has been successfully submitted.",
+		"getQuoteSubTitle": "Tell us what you're looking for, and we'll provide a customized quote tailored to your needs.",
+		"houseHoldTitle": "Household",
+		"houseHoldParagraph": "Household products are coming soon.",
+		"houseHoldCardTitle": "Wholesale Household",
+		"houseHoldCardParagraph": "At Organica Distribution Company, we offer a carefully curated selection of household products that reflect our commitment to quality and sustainability. Our household category is designed to meet the diverse needs and preferences of our customers, providing a wide range of essential items that enhance everyday living. As a premier wholesale supplier, we are dedicated to delivering products that you can trust for your home.",
+		"comingSoon": "Coming Soon"
 	},
 
 	"mn": {
@@ -231,12 +237,12 @@
 		"faqAccordianHeading1": "Та ямар бүтээгдэхүүн санал болгодог вэ?",
 		"faqAccordianHeading2": "Би хэрхэн захиалга өгөх вэ?",
 		"faqAccordianHeading3": "Та ямар төлбөрийн аргуудыг хүлээн авдаг вэ?",
-		"faqAccordianSubHeading1": "Бид олон улсын бүтээгдэхүүнүүдийг, ялангуяа Уух зүйлс, Амттан, Гэр ахуйн бараа, Солонгос болон Канад улсаас оруулсан онцгой бүтээгдэхүүнүүдийг санал болгодог.",
-		"faqAccordianSubHeading2": "Та манай вэбсайтаар дамжуулан захиалга өгөх боломжтой, бүтээгдэхүүнийг хуудсанд нэмээд худалдан авах процессийг дуусгах хэрэгтэй. Их хэмжээний захиалга эсвэл тодорхой асуултуудын хувьд манай борлуулалтын багтай холбогдож болно.",
+		"faqAccordianSubHeading1": "Бид Хойд Америк, Европ, Азиас гаралтай ундаа, амттан, гэр ахуйн бараа болон тусгай бүтээгдэхүүнүүдийг багтаасан олон төрлийн олон улсын бүтээгдэхүүнийг санал болгодог.",
+		"faqAccordianSubHeading2": "Та манай вэбсайтад <a href=\"/getquote\" style=\"color: #F97316; text-decoration: underline;\">Үнийн санал авах</a> захиалга өгөх боломжтой бөгөөд бид 24 цагийн дотор хариу өгнө. Хэрэв танд ямар нэгэн асуулт байвал эсвэл тусламж хэрэгтэй бол манай борлуулалтын багтай <a href=\"/contact\" style=\"color: #F97316; text-decoration: underline;\">холбогдож</a> болно.",
 		"faqAccordianSubHeading3": "Бид банкны шилжүүлгийг хүлээн авдаг. Бүх гүйлгээ аюулгүй, шифрлэгдсэн байдаг.",
 		"beverageParagraph1": "Organica Distribution-ийн ундаанууд нь хамгийн их борлуулалттай цуглуулгуудын нэг бөгөөд бидний бөөний ундааны бүтээгдэхүүн нийлүүлэх салбарын тэргүүлэгч байх хүсэл тэмүүлэл, амлалтыг илэрхийлдэг.",
 		"beverageParagraph2": "Энэхүү ангилал нь хэрэглэгчдийн олон төрлийн амт, хүсэл сонирхолд нийцүүлэн бүтээгдсэн бөгөөд өргөн хүрээний ундааны бөөний худалдааны гол цэг болох зорилготой.",
-		"snackParagraph1": "Wise Trading Group-ийн ундаанууд нь хамгийн их борлуулалттай цуглуулгуудын нэг бөгөөд бидний бөөний ундааны бүтээгдэхүүн нийлүүлэх салбарын тэргүүлэгч байх хүсэл тэмүүлэл, амлалтыг илэрхийлдэг. Энэхүү ангилал нь хэрэглэгчдийн олон төрлийн амт, хүсэл сонирхолд нийцүүлэн бүтээгдсэн бөгөөд өргөн хүрээний ундааны бөөний худалдааны гол цэг болох зорилготой.",
+		"snackParagraph1": "Органика Тараалтын Компани-ийн чихэр, зуушууд нь бидний анхдагч бөөний чихэр, зуушийн нийлүүлэгч байхын төлөөх хүчин чармайлт, амлалтыг харуулсан хамгийн их зарагддаг цуглуулга юм. Энэ ангилал нь олон янзын амт, сонирхолыг хангах зорилгоор зохион бүтээгдсэн бөгөөд чихэр, зуушийн өргөн хүрээний бөөний худалдааны шилдэг газар болдог.",
 
 	
 		"getQuoteTitle": "Үнийн санал авах",
@@ -246,7 +252,16 @@
 		"getQuoteDeliveryAddress": "Хүргэлтийн хаяг",
 		"getQuoteProducts": "Сонирхож буй бүтээгдэхүүнүүд",
 		"getQuoteButton": "Зурвас илгээх",
-		"getQuoteConfirmation": "Баярлалаа! Таны маягт амжилттай илгээгдлээ."
+		"getQuoteConfirmation": "Баярлалаа! Таны маягт амжилттай илгээгдлээ.",
+		"getQuoteSubTitle": "Та бидэнд юу хайж байгаагаа хэлээрэй, бид таны хэрэгцээнд нийцсэн үнийн санал гаргаж өгье.",
+
+		"houseHoldTitle": "Гэр ахуйн",
+		"houseHoldParagraph": "Гэр ахуйн бүтээгдэхүүн удахгүй гарах болно.",
+		"houseHoldCardTitle": "Гэр ахуйн борлуулалтын ",
+		"houseHoldCardParagraph": "Organica Distribution Company-д бид чанар, тогтвортой байдлын талаархи бидний амлалтыг илтгэсэн гэр ахуйн бүтээгдэхүүний анхааралтай сонголтыг санал болгож байна. Манай гэр ахуйн ангилал нь манай хэрэглэгчдийн олон янзын хэрэгцээ, сонирхлыг хангах зорилготой бөгөөд өдөр тутмын амьдралыг сайжруулах үндсэн бүтээгдэхүүний өргөн хүрээг санал болгож байна. Тусгай борлуулалтын нийлүүлэгчийн хувьд бид таны гэрт итгэж болох бүтээгдэхүүнийг хүргэхэд зориулагдсан.",
+
+		"comingSoon": "Удахгүй ирж байна"
+
 		
 		
 

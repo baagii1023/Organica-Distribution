@@ -2,17 +2,14 @@ import React from 'react'
 import Navigation from '../components/Navigation';
 import Swiper from '../components/Swiper';
 import household from "/household.png"
-
 import ContactUs from '../components/ContactUs';
-import WhyUs from '../components/WhyUs';
-import Socials from '../components/Socials';
 import Footer from '../components/Footer';
 import Poster from '../components/Poster';
 import ProductCard from '../components/ProductCard';
-
 import { useContext } from 'react'
 import productData from '../data/translation-products.json';
-import { LanguageContext } from '../context/LanguageContext'; // Import LanguageContext
+import translationData from '../data/translation.json';
+import { LanguageContext } from '../context/LanguageContext'; 
 import { Link } from 'react-router-dom';
 import Social from '../components/Socials';
 
@@ -20,7 +17,7 @@ const Household = () => {
 	const { language } = useContext(LanguageContext); // Use LanguageContext
 	const productText = productData[language] || {};
 	const householdProducts = productText.Household || [];
-
+	const translationText = translationData[language] || {};
 	return (
 		<div>
 			<Navigation />
@@ -30,7 +27,7 @@ const Household = () => {
 				<section className='px-4 relative max-w-[1200px] mx-auto py-[64px] text-center'>
 					<span className='flex items-center justify-center space-x-2'>
 						<img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
-						<h2 className='font-semibold text-2xl sm:text-3xl'>Household</h2>
+						<h2 className='font-semibold text-2xl sm:text-3xl'>{translationText.houseHoldTitle}</h2>
 					</span>
 					<div className='w-full flex flex-wrap gap-4 pt-[64px]'>
 						{householdProducts.length > 0 ? (
@@ -39,11 +36,11 @@ const Household = () => {
 							))
 						) : (
 							<div className="col-span-4 text-xl text-[#888] py-[100px]">
-								Sorry, household products are coming soon.
+								{translationText.houseHoldParagraph}
 							</div>
 						)}
 					</div>
-					<Poster bgImage={household} Heading={'Wholesale Household'} Desc={'The beverages at Wise Trading Group is a best-selling collection, reflecting our dedication and commitment to being premier wholesale drinks suppliers. This category is designed to cater to a diverse assortment of tastes and preferences, making it a prime wholesale destination for a wide range of beverages.'} />
+					<Poster bgImage={household} Heading={translationText.houseHoldCardTitle} Desc={translationText.houseHoldCardParagraph} />
 				</section>
 			</div>
 			<ContactUs />

@@ -7,7 +7,7 @@
 				"Heading": "Peach Green Tea",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste combination of fresh peach and green tea.",
 				"image": "/product-plumgreentea.jpg",
-				"detailImage": "/product-peach-greentea.jpg",
+				"detailImage": "/peach-green-tea-detail.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "15 mg",
@@ -25,7 +25,7 @@
 				"Heading": "Lemon Green Tea",
 				"SubHeading": "Best seller product of Sweet Café brand of Wellgreen. Taste collaboration of sour-and-fresh lemon and green tea.",
 				"image": "/product-lemon.png",
-				"detailImage": "/product-lemon-greentea.jpg",
+				"detailImage": "/lemon-green-tea-detail.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "20 mg",
@@ -42,8 +42,8 @@
 				"BeverageName": "Grape Green Tea 340ml",
 				"Heading": "Grape Green Tea",
 				"SubHeading": "Taste collaboration of green tea and sweet-and-sour Green Grape from Jeju island.",
-				"image": "/product-grape-green-tea.jpg",
-				"detailImage": "/product-grape-green-tea.jpg",
+				"image": "/grape-green-tea-detail.jpg",
+				"detailImage": "/grape-green-tea-detail.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "27 mg",
@@ -61,7 +61,7 @@
 				"Heading": "Apple Mango Green Tea",
 				"SubHeading": "Trendy tropical fruit is collaborated with WELLgreen’s skilled process. 2019 new launching item.",
 				"image": "/product-applemango.jpg",
-				"detailImage": "/product-apple-mango-greentea.jpg",
+				"detailImage": "/mango-apple-detail.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "18 mg",
@@ -79,7 +79,7 @@
 				"Heading": "Plum Green Tea",
 				"SubHeading": "Deeper scent of plum, launched as the first large-sized item.",
 				"image": "/product-plumgreentea.jpg",
-				"detailImage": "/product-plum-greentea.jpg",
+				"detailImage": "/plum-green-tea-detail.jpg",
 				"Nutrition": {
 					"Calories": "70 kcal",
 					"Sodium": "18 mg",
@@ -173,8 +173,8 @@
 				"BeverageName": "Улаан Жимсний Ногоон Цай 340мл",
 				"Heading": "Улаан Жимсний Ногоон Цай",
 				"SubHeading": "Ногоон цай болон Жэжү арал дээрх чихэрлэг, исгэлэн улаан жимснүүдийн амт хосолсон.",
-				"image": "/product-grape-green-tea.jpg",
-				"detailImage": "/product-grape-green-tea.jpg",
+				"image": "/grape-green-tea-detail.jpg",
+				"detailImage": "/grape-green-tea-detail.jpg",
 				"Nutrition": {
 					"Calories": "70 ккал",
 					"Sodium": "27 мг",

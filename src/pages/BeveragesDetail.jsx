@@ -50,9 +50,8 @@ const BeverageDetails = () => {
                   height: '100%',
                 },
               }}
-              className=' w-[500px] h-auto md:basis-[40%] object-contain'
-            />
-          </div>
+              className='w-full md:w-[500px] h-auto md:basis-[40%] object-contain border-4 border-gray-200'/>          
+            </div>
 
           <div className='basis-[60%] flex flex-col justify-center'>
             <h3 className='font-semibold text-3xl'>{product.BeverageName}</h3>
@@ -80,7 +79,7 @@ const BeverageDetails = () => {
             )}
             <p className='mt-4 text-[#707070]'>{productText.Ingredients}</p>
 
-            <a className='bg-[#FF6D00] px-6 py-3 text-white w-fit mt-6' href="/contact">{productText.PriceButton}</a>
+            <a className='bg-[#FF6D00] px-6 py-3 text-white w-fit mt-6' href="/Getquote">{productText.PriceButton}</a>
           </div>
         </div>
 
