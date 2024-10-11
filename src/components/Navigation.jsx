@@ -22,7 +22,7 @@ export default function Navigation() {
 						</nav>
 						<nav className='w-full sm:w-auto flex items-center gap-5'>
 							<a className='hidden sm:block hover:opacity-80 duration-300' href="/#about-us">{translationText.navigationUpper1}</a>
-							<a className='hidden sm:block hover:opacity-80 duration-300' href="/contact">{translationText.navigationUpper2}</a>
+							<a className='hidden sm:block hover:opacity-80 duration-300' href="/Contact">{translationText.navigationUpper2}</a>
 							<div className='w-full sm:w-auto flex justify-between sm:justify-start sm:gap-2'>
 								<a 
 									className='hover:opacity-80 duration-300'
@@ -47,8 +47,8 @@ export default function Navigation() {
 				</a>
 				<nav className='hidden md:flex gap-6 items-center'>
 					<a href="/">{translationText.navigation1}</a>
-					<a href="/Beverage">{translationText.navigation2}</a>
-					<a href="/Food">{translationText.navigation3}</a>
+					<a href="/Beverages">{translationText.navigation2}</a>
+					<a href="/Snacks">{translationText.navigation3}</a>
 					<a href="/Household">{translationText.navigation4}</a>
 					<a className='bg-[#FF6D00] px-6 py-3 text-white' href="/Getquote">{translationText.navigationButton}</a>
 				</nav>
