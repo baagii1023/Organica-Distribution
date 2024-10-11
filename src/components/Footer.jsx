@@ -42,8 +42,8 @@ export default function Footer() {
 					<div className='grow flex flex-col gap-5'>
 						<h3 className='font-semibold text-xl sm:text-2xl'>{footerData.footerLegal.legalTitle}</h3>
 						<ul className='text-[14px] text-[#cdcdcd]'>
-							<li><a className='hover:opacity-80 duration-300' href="/policy">{footerData.footerLegal.privacyPolicy}</a></li>
-							<li><a className='hover:opacity-80 duration-300' href="/contact">{footerData.footerLegal.faq}</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="/Policy">{footerData.footerLegal.privacyPolicy}</a></li>
+							<li><a className='hover:opacity-80 duration-300' href="/Contact">{footerData.footerLegal.faq}</a></li>
 						</ul>
 					</div>
 					<div className='grow flex flex-col gap-5'>
