@@ -14,7 +14,6 @@ import HouseholdDetails from '../pages/HouseholdDetail';
 import Policy from '../pages/Policy';
 import Contact from '../pages/Contact';
 import NotFoundPage from '../pages/NotFoundPage'; 
-import ProductDetail from '../pages/Details';
 import GetQuote from '../pages/Getquote';
 
 function AppRouter() {

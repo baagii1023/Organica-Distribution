@@ -1,13 +1,11 @@
 import React from 'react'
 import Navigation from '../components/Navigation';
 import Swiper from '../components/Swiper';
-import food from '/food.png'
 import foodExtra from '/food-extra.jpeg'
 import ProductCard from '../components/ProductCard';
 import translationData from '../data/translation.json';
 
 import ContactUs from '../components/ContactUs';
-import WhyUs from '../components/WhyUs';
 import Social from '../components/Socials';
 import Footer from '../components/Footer';
 
