@@ -19,15 +19,15 @@
 			"productList": [
 				{
 					"productHeading": "Beverages",
-					"url": "/beverages"
+					"url": "/Beverages"
 				},
 				{
 					"productHeading": "Snacks",
-					"url": "/snacks"
+					"url": "/Snacks"
 				},
 				{
 					"productHeading": "Household",
-					"url": "/household"
+					"url": "/Household"
 				}
 			]
 		},

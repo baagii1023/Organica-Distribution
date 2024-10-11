@@ -18,13 +18,13 @@
 				"productHeading": "Beverages",
 				"productImage": "product-beverage.jpg",
 				"ComingSoon": false,
-				"pagelink": "beverage"
+				"pagelink": "Beverages"
 			},
 			{
 				"productHeading": "Snacks",
 				"productImage": "product-food.png",
 				"ComingSoon": false,
-				"pagelink": "food"
+				"pagelink": "Snacks"
 			},
 			{
 				"productHeading": "Household",

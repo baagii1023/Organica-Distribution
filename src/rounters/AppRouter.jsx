@@ -5,7 +5,7 @@ import { ThemeProvider } from '../context/LanguageContext';
 
 //Route Component
 import Home from '../pages/Home';
-import Beverage from '../pages/Beverages'; 
+import Beverages from '../pages/Beverages'; 
 import Snacks from '../pages/Snacks';
 import House from '../pages/Household';
 import BeverageDetails from '../pages/BeveragesDetail';
@@ -23,13 +23,13 @@ function AppRouter() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home/>} />
-					<Route path="/Beverage" element={<Beverage />} />
-					<Route path="/Food" element={<Snacks />} />
+					<Route path="/Beverages" element={<Beverages />} />
+					<Route path="/Snacks" element={<Snacks />} />
 					<Route path="/Household" element={<House />} />
-					<Route path="/policy" element={<Policy/>} />
-					<Route path="/contact" element={<Contact/>} />
-					<Route path="/Beverage/details/:id" element={<BeverageDetails />} />
-					<Route path="/Food/details/:id" element={<FoodDetails />} />
+					<Route path="/Policy" element={<Policy/>} />
+					<Route path="/Contact" element={<Contact/>} />
+					<Route path="/Beverages/details/:id" element={<BeverageDetails />} />
+					<Route path="/Snacks/details/:id" element={<FoodDetails />} />
 					<Route path="/Household/details/:id" element={<HouseholdDetails />} />
 					<Route path="*" element={<NotFoundPage />} />
 					<Route path="/Getquote" element={<GetQuote />} />
