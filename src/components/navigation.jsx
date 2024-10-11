@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import translationData from '../data/translation.json';
 import { LanguageContext } from '../context/LanguageContext';
 import CompanyLogo from '../assets/logo-svg.png';
-import Hamburger from '../components/Hamburger';
+import Hamburger from './Hamburger';
 
 import en_lang from '/english-lang.svg';
 import mn_lang from '/mongolian-lang.png';
