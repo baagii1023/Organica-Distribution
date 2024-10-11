@@ -36,5 +36,10 @@
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
     "vite": "^5.4.1"
+  },
+  "overrides": {
+    "react-image-magnify": {
+      "react": "^18.3.1"
+    }
   }
 }
