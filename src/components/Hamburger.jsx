@@ -49,7 +49,7 @@ const HamburgerMenu = () => {
                     </li>
                     <li>
                         <a
-                            href="/Beverage"
+                            href="/Beverages"
                             className="font-semibold transition-transform"
                             onClick={handleToggle}
                         >
@@ -58,7 +58,7 @@ const HamburgerMenu = () => {
                     </li>
                     <li>
                         <a
-                            href="/Food"
+                            href="/Snacks"
                             className="font-semibold transition-transform"
                             onClick={handleToggle}
                         >
@@ -76,7 +76,7 @@ const HamburgerMenu = () => {
                     </li>
                     <li>
                         <a
-                            href="/contact"
+                            href="/Contact"
                             className="font-semibold transition-transform"
                             onClick={handleToggle}
                         >
@@ -84,7 +84,7 @@ const HamburgerMenu = () => {
                         </a>
                     </li>
                     <li className="mt-4">
-                        <a className='bg-[#FF6D00] px-6 py-3 text-white text-xl' href="/contact">Get a quote</a>
+                        <a className='bg-[#FF6D00] px-6 py-3 text-white text-xl' href="/Getquote">Get a quote</a>
                     </li>
                 </ul>
             </nav>

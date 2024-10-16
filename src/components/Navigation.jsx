@@ -28,13 +28,13 @@ export default function Navigation() {
 									className='hover:opacity-80 duration-300'
 									onClick={() => toggleLanguage('en')} 
 								>
-									<img className='rounded-sm w-fit h-[20px]' src={en_lang} alt="EN" />
+									<img className='rounded-sm  h-[20px] object-contain' src={en_lang} alt="EN" />
 								</a>
 								<a 
 									className='hover:opacity-80 duration-300'
 									onClick={() => toggleLanguage('mn')} 
 								>
-									<img className='rounded-sm w-fit h-[20px]' src={mn_lang} alt="MN" />
+									<img className='rounded-sm  h-[20px] object-contain' src={mn_lang} alt="MN" />
 								</a>
 							</div>
 						</nav>

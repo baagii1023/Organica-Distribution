@@ -11,7 +11,7 @@ const HomeProducts = () => {
         <div className='w-full bg-[#F5F5F5]'>
             <section id="products" className='relative max-w-[1200px] mx-auto py-[100px] bg-[#F5F5F5]'>
                 <span className='flex items-center justify-center space-x-2'>
-                    <img className='h-[40px] w-fit' src="/green-logo.png" alt="Company Logo" />
+                    <img className='h-[40px] ' src="/green-logo.png" alt="Company Logo" />
                     <h2 className='font-semibold text-2xl sm:text-3xl'>{productTitle}</h2>
                 </span>
                 <div className='w-full flex lg:flex-row flex-col justify-center items-center gap-4 pt-10 '>
