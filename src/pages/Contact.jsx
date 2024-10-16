@@ -38,7 +38,7 @@ export default function Contact() {
             <Swiper />
             <section className='px-4 relative max-w-[1200px] py-[64px] mx-auto'>
                 <span className='flex items-center justify-center space-x-2 mb-10'>
-                    <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
+                    <img className='h-[40px]' src="/green-logo.png" alt="" />
                     <h2 className='font-semibold text-2xl sm:text-3xl'>{translationText.contactUsHeading}</h2>
                 </span>
                 <div className='w-full flex flex-col lg:grid lg:grid-cols-3 gap-4 pt-[64px]'>
@@ -77,7 +77,7 @@ export default function Contact() {
             <Socials />
             <section className='bg-gray-100 pt-24 pb-32'>
                 <span className='flex items-center justify-center space-x-2'>
-                    <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
+                    <img className='h-[40px]' src="/green-logo.png" alt="" />
                     <h2 className='font-semibold text-2xl sm:text-3xl'>{translationText.ContactPageFAQTitle}</h2>
                 </span>
                 <h3 className='text-center mt-4'>{translationText.faqSubHeading}</h3>

@@ -85,7 +85,7 @@ const BeverageDetails = () => {
 
         <div className='w-full mt-24'>
           <span className='flex items-center justify-center space-x-2'>
-            <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
+            <img className='h-[40px]' src="/green-logo.png" alt="" />
             <h2 className='font-semibold text-3xl'>{productText.similarProducts}</h2>
           </span>
           <div className='w-full flex flex-wrap gap-4 py-[64px]'>

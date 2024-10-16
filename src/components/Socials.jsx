@@ -20,7 +20,7 @@ export default function Social() {
 			<img className='w-auto h-[48px] sm:block hidden' src={CompanyLogo} alt="" />
 			<div className='flex flex-col gap-6 items-center sm:items-start w-full sm:w-auto'>
 				<span className='flex items-center space-x-3'>
-					<img className='h-[32px] w-fit' src="/green-logo.png" alt="" />
+					<img className='h-[32px]' src="/green-logo.png" alt="" />
 					<h3 className='font-semibold text-2xl'>{translationText.followUsTitle}</h3>
 				</span>
 				<nav className='flex items-center space-x-2 self-center sm:self-end'>

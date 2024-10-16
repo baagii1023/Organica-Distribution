@@ -23,7 +23,7 @@ const Policy = () => {
             <Swiper />
             <div className='relative max-w-[1200px] mx-auto py-[100px]'>
                 <span className='flex items-center justify-center space-x-2'>
-                    <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
+                    <img className='h-[40px]' src="/green-logo.png" alt="" />
                     <h2 className='font-semibold text-2xl sm:text-3xl'>Privacy Policy</h2>
                 </span>
                 <div className='flex px-4 relative mx-auto max-w-[1200px] flex-col gap-3 pt-[64px]'>

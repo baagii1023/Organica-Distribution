@@ -41,7 +41,7 @@ const WhyUs = () => {
       <div className='w-full absolute bg-black/20 h-full'></div>
       <div className='px-4 relative max-w-[1200px] mx-auto py-[80px]'>
         <span className='flex items-center space-x-3 pb-[64px]'>
-          <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
+          <img className='h-[40px]' src="/green-logo.png" alt="" />
           <h2 className='uppercase font-semibold text-2xl sm:text-3xl text-white'>{translationText.whyUsTitle}</h2>
         </span>
         <div className="w-full flex flex-wrap lg:flex-nowrap gap-10">

@@ -74,7 +74,7 @@ export default function GetQuote() {
             <Swiper />
             <section className='px-4 relative max-w-[1200px] py-[64px] mx-auto'>
                 <span className='flex items-center justify-center space-x-2 '>
-                    <img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
+                    <img className='h-[40px]' src="/green-logo.png" alt="" />
                     <h2 className='font-semibold text-2xl sm:text-3xl'>{translationText.getQuoteTitle || 'Get a Quote'}</h2>
                 </span>
                 <p className='mt-8 mb-16 text-center text-[#888]'>{translationText.getQuoteSubTitle}</p>

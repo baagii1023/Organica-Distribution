@@ -18,7 +18,7 @@ const HomeAbout = () => {
 		<div className='w-full bg-[#F5F5F5]'>
 			<section id="about-us" className='px-4 relative max-w-[1200px] mx-auto py-[100px]'>
 				<span className='flex items-center justify-center space-x-3'>
-					<img className='h-[40px] w-fit' src="/green-logo.png" alt="" />
+					<img className='h-[40px]' src="/green-logo.png" alt="" />
 					<h2 className='upper font-semibold text-2xl sm:text-3xl'>{aboutData.aboutUsTitle || "About Us"}</h2>
 				</span>
 				<div className='w-full flex lg:flex-row flex-col-reverse justify-center items-center gap-8 pt-[80px]'>

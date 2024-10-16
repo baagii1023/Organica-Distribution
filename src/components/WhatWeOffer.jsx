@@ -34,7 +34,7 @@ const WhatWeOffer = () => {
     return (
         <section className='px-4 relative max-w-[1200px] mx-auto flex flex-col py-[100px]'>
             <span className='flex items-center justify-center space-x-3'>
-                <img className='h-[40px] w-fit' src="/green-logo.png" alt="Green Logo" />
+                <img className='h-[40px]' src="/green-logo.png" alt="Green Logo" />
                 <h2 className='font-semibold text-2xl sm:text-3xl'>{whatWeOfferTitle[0]}</h2>
             </span>
 
